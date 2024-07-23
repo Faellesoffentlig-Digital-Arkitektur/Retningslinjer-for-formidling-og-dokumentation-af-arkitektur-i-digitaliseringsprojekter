@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="270mm"
+   height="100mm"
+   id="svg3894"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Illustration af modelsprogs anvendelse på forskellige niveauer2.svg">
+  <defs
+     id="defs3896" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.61399264"
+     inkscape:cx="811.34937"
+     inkscape:cy="312.11401"
+     inkscape:current-layer="layer1"
+     id="namedview3898"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3900">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4018">
+      <rect
+         ry="15.806426"
+         y="38.845177"
+         x="43.325466"
+         height="129.85991"
+         width="294.24673"
+         id="rect3104"
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.125283;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3874"
+         y="95.599106"
+         x="190.45421"
+         style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans"
+           y="95.599106"
+           x="190.45421"
+           id="tspan3876"
+           sodipodi:role="line">&lt;&lt;Forretningsservice&gt;&gt;</tspan><tspan
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans"
+           id="tspan3878"
+           y="123.04907"
+           x="190.45421"
+           sodipodi:role="line">personregistrering</tspan></text>
+      <rect
+         ry="9.4838562"
+         y="52.693768"
+         x="284.20755"
+         height="18.967712"
+         width="39.516064"
+         id="rect3890"
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g4032"
+       transform="translate(-1.5258789e-5,0)">
+      <rect
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.125283;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3988"
+         width="294.24673"
+         height="129.85991"
+         x="722.31738"
+         y="38.845177"
+         ry="15.806426" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="869.44611"
+         y="95.599106"
+         id="text3990"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3992"
+           x="869.44611"
+           y="95.599106"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">&lt;&lt;Forretningsfunktion&gt;&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="869.44611"
+           y="123.04907"
+           id="tspan3994"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">navneregistrering</tspan></text>
+    </g>
+    <rect
+       style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.125283;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3998"
+       width="294.24673"
+       height="129.85991"
+       x="382.82144"
+       y="38.845177"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="529.95007"
+       y="95.599106"
+       id="text4000"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4002"
+         x="529.95007"
+         y="95.599106"
+         style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">&lt;&lt;Forretningsobjekt&gt;&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="529.95007"
+         y="123.04907"
+         id="tspan4004"
+         style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">person</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4094"
+       d="m 382.74074,67.783444 294.38464,0.407171"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       id="g4259"
+       transform="translate(219.5132,112.00077)">
+      <rect
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.125283;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4239"
+         width="294.24673"
+         height="129.85991"
+         x="502.82144"
+         y="100.84518"
+         ry="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="649.95007"
+         y="157.59912"
+         id="text4241"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4243"
+           x="649.95007"
+           y="157.59912"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">&lt;&lt;Forretningsobjekt&gt;&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="649.95007"
+           y="185.04909"
+           id="tspan4245"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">teknisk API</tspan></text>
+    </g>
+    <g
+       id="g4039"
+       transform="translate(0,174)">
+      <rect
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.125283;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4041"
+         width="294.24673"
+         height="129.85991"
+         x="43.325466"
+         y="38.845177"
+         ry="15.806426" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="190.45421"
+         y="95.599106"
+         id="text4043"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4045"
+           x="190.45421"
+           y="95.599106"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">&lt;&lt;Forretningsproces&gt;&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="190.45421"
+           y="123.04907"
+           id="tspan4047"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">navneregistrering</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         d="m 306.82545,50.881425 0,4.8206 -21.6375,0 0,10.72062 21.6375,0 0,4.8206 17.62646,-10.18091 -17.62646,-10.18091 z"
+         id="rect4071"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4076"
+       transform="translate(-1.1516535,173.89968)"
+       style="fill:none">
+      <text
+         xml:space="preserve"
+         style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="190.45421"
+         y="95.599106"
+         id="text4080"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4082"
+           x="190.45421"
+           y="95.599106"
+           style="font-size:21.95997429px;font-weight:normal;fill:none;-inkscape-font-specification:Sans">&lt;&lt;Forretningsservice&gt;&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="190.45421"
+           y="123.04907"
+           id="tspan4084"
+           style="font-size:21.95997429px;font-weight:normal;fill:none;-inkscape-font-specification:Sans">personregistrering</tspan></text>
+    </g>
+    <g
+       id="g4278"
+       transform="translate(339.49623,174)">
+      <rect
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.125283;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4280"
+         width="294.24673"
+         height="129.85991"
+         x="43.325466"
+         y="38.845177"
+         ry="15.806426" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.46998024px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="190.45421"
+         y="95.599106"
+         id="text4282"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4284"
+           x="190.45421"
+           y="95.599106"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">&lt;&lt;Forretningshændelse&gt;&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="190.45421"
+           y="123.04907"
+           id="tspan4286"
+           style="font-size:21.95997429px;font-weight:normal;-inkscape-font-specification:Sans">navn ændret</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#fafeb3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 280.9056,52.273764 c -1.31351,0 -2.58335,0.27136 -3.71875,0.75 3.39176,1.44228 5.75,4.78862 5.75,8.71875 0,3.93044 -2.35781,7.30791 -5.75,8.75 1.1354,0.47864 2.40524,0.75 3.71875,0.75 l 20.53125,0 c 5.25406,0 9.5,-4.24594 9.5,-9.5 0,-5.25406 -4.24594,-9.46875 -9.5,-9.46875 l -20.53125,0 z"
+         id="rect3890-1" />
+      <g
+         id="g4347"
+         transform="translate(170.85222,-197.11874)">
+        <path
+           transform="translate(-339.49623,-174)"
+           d="m 836.10048,431.99637 c 0,5.72436 -4.64052,10.36488 -10.36488,10.36488 -5.72437,0 -10.36489,-4.64052 -10.36489,-10.36488 0,-5.72437 4.64052,-10.36488 10.36489,-10.36488 5.72436,0 10.36488,4.64051 10.36488,10.36488 z"
+           sodipodi:ry="10.364882"
+           sodipodi:rx="10.364882"
+           sodipodi:cy="431.99637"
+           sodipodi:cx="825.7356"
+           id="path4339"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           sodipodi:type="arc" />
+        <path
+           transform="translate(-339.49623,-174)"
+           inkscape:connector-curvature="0"
+           id="path4343"
+           d="m 814.74918,433.01584 c -21.98723,0 -21.98723,0 -21.98723,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       id="path8166"
+       d="m 985.27107,47.979132 -13.26339,4.618873 -0.12575,0 0,0.03893 -0.15098,0.05244 0.15098,0 0,22.4708 13.33696,-4.640053 13.02946,4.650554 0.20753,0 0,-22.439027 0.11314,0 -0.11314,-0.03893 0,-0.09506 -0.27041,0 -12.91878,-4.618874 z"
+       style="fill:none;stroke:#000000;stroke-width:1.26195073"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -996,8 +996,9 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 Fremstillingen er udformet med brug af reolens farvekoder således, at det er nemt at orientere sig.
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Styring
+<br>
+
+**Styring**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Governancemodel | Beskriver de overordnede organisatoriske rammer for at udøve governance. | Skal sikre, at der etableres en ramme for governance, der kan sikre, at målarkitekturen realiseres ved at arkitekturarbejdets produkter udvikles, vedligeholdes og bringes i anvendelse. Kan fx omfatte aktører/fora og beslutningsprocesser i forhold til arkitektur og løsning. Vil helt eller delvist kunne være dækket af projektgrundlag eller PID. | RACI matrice eller Archimate diagram. | AR 1.1 |
@@ -1010,8 +1011,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Arkitekturbeslutningslog | Beskriver beslutninger med væsentlig betydning for løsningens arkitektoniske egenskaber. | Fx valg mellem alternativer, scope, standarder. Bør omfatte rationale og konsekvenser. Dokumenterer teknisk gæld. Vedligeholdes i projektets og løsningens levetid. Koordineres med Ændringsanmodningslog og relevant beslutningsdokumentation fra projektprocesser og relaterede processer (fx EA). Dokumenterer fravigelser fra overordnede arkitekturrammer, som kan samles i produktet Arkitekturcompliance. | Tabel | AR 1.1 |
 | Deployment/stagingplan | Beskriver rammer og tidsplan for deployment og staging. | Understøtter koordering mellem forretning og IT, og mellem udvikling og drift. | Tekstdokument, gerne med tabeller og diagrammer, fx i ArchiMate format | AR 1.1 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Strategi
+<br>
+
+**Strategi**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Vision / målbillede | Beskriver den kommende løsnings hovedegenskaber. | Giver et klart billede af forretningens strategiske vision og målbillede for løsningen. Hovedegenskaber kan fx være udtrykt som eller relateres til strategiske kapabiliteter. Vil helt eller delvist kunne være dækket af afsnit projektgrundlag eller PID. Nedbrydes i strategiske kapabiliteter og videreudvikles til målarkitektur og løsningsarkitektur. | Tekst og visualisering, evt. ArchiMate | AR 1.2<br><br>AR 2.1 |
@@ -1024,8 +1026,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Exitstrategi | Beskriver overordnet hvordan den fremtidige løsning kan forlades. | Forholder sig fx til kontraktudløb, dataportabilitet, integrationer og andre afhængigheder. Forholder sig til de væsentligste egenskaber i løsningsarkitekturen og kontraktuelle bindinger. | Tekst | AR 2.3<br><br>AR 2.4 |
 | Løsningsarkitektur-resumé | Beskriver de vigtigste elementer i den konkrete løsning. (Resumé) | Resumé, der giver et samlet tværgående overblik. Supplerer og bygger på en given samling af arkitekturprodukter. Udarbejdes typisk af eller i samarbejde med leverandører og vedligeholdes løbende efter aftale. Supplerer og bygger på en given samling af arkitekturprodukter. En udgave af TOGAF produktet arkitekturdefinitionsdokument. Ertatter målarkitektur når dennne realiseres. | Diagram og tekst | AR1.1<br><br>AR 2.1<br><br>AR 2.3<br><br>AR 2.4 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Jura
+<br>
+
+**Jura**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Juridiske bindinger | Beskriver juridiske bindinger, som har væsentlig betydning for mandat og begrænsninger for løsningens arkitektur og anvendelse. (Overblik) | Bindinger findes typisk i love, fordringer, direktiver, udbudsbekendtgørelser, kontrakter o.l. | Tekst evt. suppleret med ArchiMate diagram | AR 2.5<br><br>AR 3.1<br><br>AR 3.2 |
@@ -1033,8 +1036,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Databehandleraftale | Skriftlig aftale mellem to virksomheder - eller en person og en virksomhed - der fortæller, hvordan den virksomhed, der behandler dataene, skal behandle dem. | Kaldes også DPA – Data Processing Agreement | Tekst | AR 3.1<br><br>AR 8.1 |
 | Serviceaftale | Skriftlig aftale mellem en tjenesteyder (leverandør) og slutbrugeren (kunde), der beskriver serviceniveauet forventet hos tjenesteudbyderen. | Kaldes også SLA | Tekst | AR 3.1<br><br>AR 8.1 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Sikkerhed
+<br>
+
+**Sikkerhed**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Sikkerheds- strategi / mønstre | Beskriver på overordnet niveau tilgang til sikkerhed, der skal styre løsningen fra start til slut og end to end. | Omfatter metoder til sikring af adgang til data. Fx tofaktor, ”lokal” brugerstyring, føderering. | Tekst | AR 4.1<br><br>AR 4.2 |
@@ -1042,8 +1046,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Sikkerhedsmodel | Beskriver hvordan krav til sikkerhed og fortrolighed påvirker løsningens egenskaber. | Fokus på den tekniske håndtering af brugerrettighedsstyring indenfor og på tværs af sikkerhedsdomæner. Kan omfatte overordnet sikkerhedsklassifikation af data og principper for sporbarhed, hvilke data der gemmes/udveksles, roller ift brugerrettigheder og adgangstyring til applikationer samt anvendt infrastruktur. Kan omfatte styring på tværs af løsninger og sikkerhedsdomæner (føderation), granularitet i rettighedsstyring og roller ift. ansvar. Kan omfatte andre sikkerhedsaspekter. | Tekst, diagrm fx i ArchiMate | AR 4.1<br><br>AR 4.2<br><br>AR 7.1<br><br>AR 8.1 |
 | Sikkerhedskontroller | Beskriver sikkerhedsforanstaltninger i form af procedurer for kontroller. | Dokumentationen skal sikre, at der er veldefinerede sikkerhedsforanstaltninger bygget ind i organisation og processer, teknik og fysiske rammer, og at de er udføres, så deres effektivitet kan vurderes. Kan være: Organisatoriske som fx autorisation af adgang, retningslinjer mod trusler som organiseret kriminalitet, uautoriseret adgang til data. Tekniske som fx autentificering, kryptering mod trusler som modificering af data, spionage etc. Fysiske som fx overvågning, alarm mod trusler som naturkatastrofer, brand mm. | Tekst, liste, tabel/matrice | AR 4.1<br><br>AR 4.2<br><br>AR 8.1 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Opgaver
+<br>
+
+**Opgaver**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Opgave- /servicekatalog | Beskriver de forvaltnings- og forretningsopgaver (eller services), der indgår i projektets løsning. (Overblik) | Dokumentation, der beskriver forretningsservices og modtagere af disse. Termen ”opgaver” anvendes her som samlebegreb for termer, som forretningsservices, forretningstjenester eller (hovedforretnings)funktioner. Oversigten kan relateres til aktører i form af, hvem der udfører og modtager. | Liste, tabel eller ArchiMatediagram | AR 5.1<br><br>AR 5.2 |
@@ -1056,8 +1061,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Servicemodel | Beskriver interne og eksterne services, herunder forretnings krav til data og funktionalitet. | Grundlag for snitfladebeskrivelser. | Tekst | AR 5.1<br><br>AR 5.2<br><br>AR6.1 |
 | Arbejdsgang / -beskrivelse | Beskriver hvordan en opgave skal udføres. | Detaljeret beskrivelse af hvordan en opgave skal udføres i den konkrete løsning. | Tekst evt suppleret med visualisering, fx i form af workflow diagram i BPMN | AR 5.1<br><br>AR 5.2 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Information
+<br>
+
+**Information**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Centrale forretningsobjekter | Beskriver de væsentligste forretningsobjekter, som løsningen skal håndtere. (Overblik) | Anvendes fx til scope projektet og udpege områder for semantisk standardisering samt identificere afhængigheder til andre løsninger. Især vigtig hvor veldefinerede data skal kunne udveksles mellem systemer / komponenter. Også værdifuld som grundlag for sikkerhedsvurdering. | Archimate diagram | AR 2.1<br><br>AR 6.1 |
@@ -1067,8 +1073,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Datasæt | Beskriver de konkrete datasæt, der behandles i løsningen. (Overblik) | Kan omfatte data og dokumenter placeret i forskellige registre og repositorier. Skal bidrage til at skabe overblik over data fx ifbm sikring af data og fortrolighed, ejerskab og ansvar for data, datadeling og identifikation af behov for indsats ifht semantisk og teknisk interoperabilitet. | Archimate diagram | AR 6.1<br><br>AR 6.4 |
 | Dataudvekslingsformat | Beskriver struktur for opstilling af data med henblik på udveksling i maskinlæsbar form. | For hver integration skal der aftales udvekslingsformat. | Fx XML eller JSON skema, eller CSV fil suppleret med tekstbeskrivelse | AR 6.1<br><br>AR 6.2<br><br>AR 7.1 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Applikation
+<br>
+
+**Applikation**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Systemlandskab / kontekstdiagram | Beskriver konteksten for de applikationskomponenter, der er i spil i løsningen. (Overblik) | Et væsentligt input til målarkitektur med fokus på løsningens eksterne snitflader og datadeling. Kan fx også sætte applikationskomponenter i relation til de vigtigste aktører og anvendelser. | Diagram, fx ArchiMate | AR 2.1<br><br>AR 7.1 |
@@ -1080,8 +1087,9 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 | Snitfladebeskrivelser | Beskriver hvad en service leverer og hvordan den tilgås og anvendes. | Servicebeskrivelsen kan med fordel have to dele: 1) En teknologi-uafhængig del, hvor servicen beskrives ud fra hvad den gør. Hvor der er tale om data, bør der være en semantisk beskrivelse. Dette kan også omfatte teknologi-uafhængige dele af en SLA (service level agreement). 2) En teknologi-afhængig del, hvor der findes detaljer om hvordan servicen er/bør blive implementeret. Dette kan omfatte integrationsmønstre, samt de teknologi-afhængige dele af en SLA (service level agreement). | Fx WSDL (SOAP), Open API 3.0 (REST), JSON LD, FTP suppleret med tekstbeskrivelse | 7.1 |
 | Testscenarier | Beskriver hvilke tests der skal udføres og hvordan. | Tekst, fx som del af user story skabelon (acceptkriterier) | Tekst, fx i fast skabelon | AR 1.2<br><br>AR 2.4<br><br>AR 5.1<br><br>AR 7.1<br><br>AR 8.1 |
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |Infrastruktur
+<br>
+
+**Infrastruktur**
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Infrastrukturkoncept og -mønstre | Beskriver tilgang til de grundlæggende teknologiservices. (Overblik) | Valg af teknologier, platforme og infrastrukturansvar, der sætter de grundlæggende tekniske rammer for løsningen. Fx om der bruges cloud computing og fælles infrastrukturservices. Et væsentligt input til målarkitektur og migrationsstrategi. | Tekst, tabel, evt diagram i ArchiMate | AR 8.1 |

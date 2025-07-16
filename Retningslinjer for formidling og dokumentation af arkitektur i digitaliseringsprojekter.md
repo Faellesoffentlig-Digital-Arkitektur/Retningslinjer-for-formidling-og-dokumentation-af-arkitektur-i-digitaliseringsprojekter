@@ -980,7 +980,7 @@ Omfatter teknologi, platform, hosting, integrationsinfrastruktur, brugerstyring,
 
 Dette bilag definerer de udvalgte arkitekturprodukter i den fællesoffentlige digitale arkitektur (FDA). 
 
-![Figur9.svg](assets/22224600afc9ee67ef25a9db572cd0afb0a7b330.svg)
+![Figur9_FDAreol_med_udvalgte_arkitekturprodukter.svg](assets/Figur9_FDAreol_med_udvalgte_arkitekturprodukter.svg)
 
 *Figur 21 FDA-reol med udvalgte arkitekturprodukter*
 

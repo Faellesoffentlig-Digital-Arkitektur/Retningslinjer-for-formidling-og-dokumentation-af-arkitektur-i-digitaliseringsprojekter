@@ -83,7 +83,7 @@ Nærværende retningslinjer er del af et samlet sæt af dokumenter, som skal tje
 
 Nedenstående diagram giver et overblik over de mest relevante dokumenter i sammenhæng med nærværende retningslinjer. Diagrammet viser sammenhæng til tre af hvidbogens arkitekturregler og sammenhæng til side- og underordnede dokumenter, som giver vejledning i, hvordan man arbejder indenfor rammerne af den fællesoffentlige digitale arkitektur.
 
-![Figur1.svg](assets/4332d9afa2355026fe92e3045a08f2fe5d34dd66.svg)
+![Figur1_Sammenhaeng_mellem_arkitekturregler_og_retningslinjer.svg](assets/Figur1_Sammenhaeng_mellem_arkitekturregler_og_retningslinjer.svg)
 
 *Figur 1 Sammenhæng mellem arkitekturregler og retningslinjer*
 
@@ -183,7 +183,7 @@ Tilsvarende er følgende overordnede interesser i forhold til hvad en given løs
 
 Nedenstående figur opsummerer hovedelementer der skal på plads, når offentlige skal samarbejde digitalt i forhold til tværgående processer, datadeling og fælles løsninger.
 
-![Figur2.svg](assets/6254e593ccb2fab00f8fe66793b9ab30024d1a54.svg)
+![Figur2_Fortælling_om_forudsætninger_for_digital_sammenhæng.svg](assets/Figur2_Fortælling_om_forudsætninger_for_digital_sammenhæng.svg)
 
 *Figur 2 Fortælling om forudsætninger for digital sammenhæng*
 
@@ -228,7 +228,7 @@ Et **perspektiv** definerer udgangspunktet, hvorfra en visning er oprettet. En s
 
 En **visning** er repræsentationen af en samling beslægtede anliggender. En visning er det der ses fra et bestemt synspunkt. En arkitekturvisning kan repræsenteres med en repræsentation af (en del af) en model for at vise interessenterne deres særlige interesseområder i arkitekturen. En visning behøver ikke nødvendigvis at være visuel eller grafisk. Ofte anvendes den alternative engelske term _view_.
 
-![Figur3.svg](assets/8cdd70d0c475fcbf76f4c234620634a132cb22b0.svg)
+![Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg](assets/Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg)
 
 *Figur 3 En interessent med et perspektiv der ser en visning der modsvarer interessen*
 
@@ -236,7 +236,7 @@ Figur 3 viser en interessent med et perspektiv der ser en visning der modsvarer 
 
 Det er vigtigt at skelne mellem den faktiske model og visningerne. Modellen afspejler arkitekturens indhold (elementer/byggeblokke) og deres relationer, som beskrevet af arkitekten. En visning indeholder et udsnit af modellen. Visningen skal designes så den er meningsfuld for den specifikke interessent, og dennes specifikke interesser, som visningen er tiltænkt. En eller flere visninger kan indgå i et arkitekturprodukt. Jf. figur 4.
 
-![Figur4.svg](assets/e8860aa144c3e791e1b3e73f61834fc975f7042d.svg)
+![Figur4_visning_bygger_på_model_og_kan_indgaa_i_arkitekturprodukter.svg](assets/Figur4_visning_bygger_på_model_og_kan_indgaa_i_arkitekturprodukter.svg)
 
 *Figur 4 visning bygger på model og kan indgå i arkitekturprodukter*
 
@@ -253,7 +253,7 @@ De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens pr
 
 FDA har således otte grundperspektiver som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-arkitekturperspektiver_. 
 
-![Figur5.svg](assets/f621c5b15853f4651136b74e19527e7e7e75f3af.svg)
+![Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
 *Figur 5 De otte grundlæggende FDA-arkitekturperspektiver*
 
@@ -261,7 +261,7 @@ _Bilag 2: FDA-grundperspektiver_ indeholder en mere detaljeret gennemgang af FDA
 
 Der kan defineres mange andre perspektiver, som kan gå på tværs af disse grundperspektiver. Fx sammenhæng mellem hvilke applikationsservices der understøtter hvilke forretningsservices eller hvilke informationer der udveksles mellem hvilke applikationer. 
 
-![Figur6.svg](assets/3e105e7044e2e258c906f78a2e829a77f2c04715.svg)
+![Figur6_Fire_tværgående_perspektiver_på forretnings_og_it_arkitekturen.svg](assets/Figur6_Fire_tvaergaaende_perspektiver_på_forretnings_og_it_arkitekturen.svg)
 
 *Figur 6 Fire tværgående perspektiver på forretnings- og it-arkitekturen*
 
@@ -283,7 +283,7 @@ Dette kapitel handler om FDA-arkitekturreolen, som anvendes til at placere arkit
 
 Nedenstående figur viser reolens opbygning. Overskriften til de enkelte hylder er udtryk for et bud på en pragmatisk fordeling af de mange forskellige ledelses- og arkitekturprodukter, som udarbejdes og anvendes i virksomheden og dens projekter. Reolen kan i princippet rumme alle slags arkitektur ifbm digitalisering og it, og kan både rumme arkitektur for den enkelte løsning og en samlet virksomhedsarkitektur.
 
-![Figur7.svg](assets/f7665ded29c670b9821404861159d29eff02d515.svg)
+![Figur7_Arkitekturreolen.svg](assets/Figur7_Arkitekturreolen.svg)
 
 *Figur 7 FDA arkitekturreolen*
 
@@ -316,7 +316,7 @@ Særligt projekter med tværoffentlig betydning må generelt set forventes at vu
 
 NB! Det skal understreges, at det ikke er en udtømmende liste. I et projekt kan der være mange andre dokumenter og arkitekturprodukter som også er relevante. Det samme gælder i forhold til enterprise arkitektur fx på virksomheds-/koncern niveau, hvor der er mange andre typer af arkitekturprodukter. Ikke alle arkitekturprodukter, der udarbejdes med henblik på at højne kvaliteten i et projekt, er relevante for at skabe sammenhængende digitalisering på tværs af myndigheder. Nogle produkter er relevante for projektet, mens andre er væsentlig blivende dokumentation, som skal ligge til grund for fremtidig digitalisering, drift og vedligehold. Forskellige arkitekturprodukter tjener således forskellige formål.
 
-![Figur8.svg](assets/64c57eaa12b2190a27180d48ae36be5d5fc8d5ab.svg)
+![Figur8_Nogle_arkitekturprodukter_går_på_tværs_af_grundperspektiverne.svg](assets/Figur8_Nogle_arkitekturprodukter_går_på_tværs_af_grundperspektiverne.svg)
 
 *Figur 8 Nogle arkitekturprodukter går på tværs af grundperspektiverne*
 
@@ -326,7 +326,7 @@ Et arkitekturprodukt kan dække et eller flere perspektiver og omfatte flere vis
 
 Begge overordnede arkitekturleverancer er i nedenstående arkitekturreol repræsenteret ved et arkitekturprodukt - Målarkitektur (resumé) og Løsningsarkitektur (resumé). Disse resuméer er korte overbliksskabende dokumenter (1-5 sider) baseret på detaljerede arkitekturprodukter.
 
-![Figur9.svg](assets/22224600afc9ee67ef25a9db572cd0afb0a7b330.svg)
+![Figur9_FDAreol_med_udvalgte_arkitekturprodukter.svg](assets/Figur9_FDAreol_med_udvalgte_arkitekturprodukter.svg)
 
 *Figur 9 FDA-reol med udvalgte arkitekturprodukter*
 
@@ -354,7 +354,7 @@ I dette afsnit beskrives i oversigtform form de vigtigste arkitekturprodukter i 
 
 Nedenstående figur illustrerer, at der er en udvikling med forskellige arkitekturprodukter og leverancer til forskellig anvendelse.
 
-![Figur10.svg](assets/517d2da6e5387f2f4c2e23cc65583a3c1424f1fa.svg)
+![Figur10_Arkitekturdokumentation_i_forhold_til_projektfaser.svg](assets/Figur10_Arkitekturdokumentation_i_forhold_til_projektfaser.svg)
 
 *Figur 10 Arkitekturdokumentation i forhold til projektfaser*
 
@@ -362,7 +362,7 @@ En første overordnet version af målarkitekturen bør udarbejdes i idé- og for
 
 Nedenstående figur illustrerer en række eksempler på, hvordan der i løbet af et projekt typisk sker en forædling, uddybning og konkretisering af arkitekturdokumentationen. 
 
-![Figur11.svg](assets/37413bda682e3243af423d652e50b3e1ae76be03.svg)
+![Figur11_Illustration_af_hvordan_arkitekturprodukter_udvikles_iterativ.svg](assets/Figur11_Illustration_af_hvordan_arkitekturprodukter_udvikles_iterativ.svg)
 
 *Figur 11 Illustration af hvordan arkitekturprodukter udvikles iterativt*
 
@@ -406,7 +406,7 @@ I denne fase skal man være særligt opmærksom på konfigurationsdokumentation 
 
 Nedenstående figur illustrerer (groft forenklet) fokus i disse hovedfaser i forhold til fokus i reolen. 
 
-![Figur12.svg](assets/685f87401366eef6027017fcce0e3d7bafb790be.svg)
+![Figur12_Fokus_på_arkitekturprodukter_i_forhold_til_projekters_hovedfaser.svg](assets/Figur12_Fokus_på_arkitekturprodukter_i_forhold_til_projekters_hovedfaser.svg)
 
 *Figur 12 Fokus på arkitekturprodukter i forhold til projekters hovedfaser*
 
@@ -418,7 +418,7 @@ Set ud fra arkitektens synspunkt er det indlysende at bruge agile metoder i et l
 
 Kernen i den agile tilgang er beskrivelser af funktionelle behov i form af Epics, Capabilities, Features og Stories. Disse fire artefakter er centrale for design og udviklingsarbejdet. Epics er den overordnede beskrivelse. En vision og et målbillede kan således siges at bestå af en række Epics på det mest overordnede niveau. Epics kan nedbrydes i Capabilities. Her er man stadig typisk på det konceptuelle niveau i arkitekturen. Capabilities kan igen nedbrydes til features, hvor det bliver relevant at arbejde mere logisk og stringent. Med nedbrydningen af features til Stories er man typisk på det konkrete niveau, som er styrende for den fysiske udførelse. Dette er illustreret i nedenstående figur.
 
-![Figur13.svg](assets/74784f6e802905fca3f2c5e674b982855e7b942a.svg)
+![Figur13_Sammenhaeng_mellem_beskrivelsesniveau_i_SAFe_og_FDA_reol.svg](assets/Figur13_Sammenhaeng_mellem_beskrivelsesniveau_i_SAFe_og_FDA_reol.svg)
 
 *Figur 13 Sammenhæng mellem beskrivelsesniveau i SAFe og FDA reol*
 
@@ -430,7 +430,7 @@ I et agilt set-up vil det dog typisk først være når man når frem til at arbe
 
 Dette er illustreret i nedenstående figur
 
-![Figur14.svg](assets/43eb3bdf92ca47a61af6c6d59098277887ac8275.svg)
+![Figur14_SAFe_produkter_kan_daekke_alle_perspektiver_i_FDA_reolen.svg](assets/Figur14_SAFe_produkter_kan_daekke_alle_perspektiver_i_FDA_reolen.svgg)
 
 *Figur 14 SAFe produkter kan dække alle perspektiver i FDA reolen*
 
@@ -440,7 +440,7 @@ I den agile proces er der typisk mange iterationer, hvorfor det er vigtigt at fi
 
 Nedenstående figur illustrerer den løbende konkretisering af de overordnede behov, som er defineret som Epics og som nedbrydes i Capabilities og derefter til features og endelig til de detaljerede User Stories, der anvendes til at definere konkrete krav og opgaver der skal udføres i løsningsudviklingen. I realiseringsfasen kan de definerede user stories aggregeres og konsolideres til forretningsmæssige user stories, der kan give værdi som blivende dokumentation til støtte for revision, drift, vedligehold og videreudvikling. 
 
-![Figur15.svg](assets/4c6730f196206e4b2653bb42143286d018e9a4d2.svg)
+![Figur15_SAFe_produkter_beriges_gennem_projektprocesser_og_kan_give_værdi.svg](assets/Figur15_SAFe_produkter_beriges_gennem_projektprocesser_og_kan_give_værdi.svg)
 
 *Figur 15 SAFe produkter beriges gennem projektprocesser og kan give værdi som blivende dokumentation*
 
@@ -454,7 +454,7 @@ Det er svært at sige noget generelt om prioritering af arkitekturdokumentation,
 
 Lad gerne leverandøren stå for analyse og dokumentation på de løsningsnære aspekter i forhold til data, applikationer og infrastruktur. Særligt detaljeret information om den tekniske løsning bør tilvejebringes, vedligeholdes af leverandøren – og deles med kunden efter behov og aftale. Figur 16 Kundens og leverandørens fokus illustrerer hvor der – groft sagt – typisk lægges et snit i mellem kundens og leverandørens fokus i arkitekturarbejdet sat i forhold til reolen.
 
-![Figur16.svg](assets/5cc59d8a5392eb8b0c081f62b4e7b797af246a44.svg)
+![Figur16_Kundens_og_leverandoerens_fokus.svg](assets/Figur16_Kundens_og_leverandoerens_fokus.svg)
 
 *Figur 16 Kundens og leverandørens fokus*
 
@@ -576,7 +576,7 @@ Nedenstående figur giver et overblik over, hvor de forskellige notationssprog t
 
 Bemærk at der yderst til højre er angivet ”rig visualisering”. Her er der stadig tale om modeller, men ikke baseret på et formaliseret notationssprog. Modeller kan her være ”hvad som helst”. Det er typisk uformelle modeller med kasser, figurer og streger, men det kan også være fx tegneserier, fotos, film og fysiske materialer i 2D eller 3D.
 
-![Figur17.svg](assets/7b1fccfc2340379b24b7b3f13fd52aa69cd02dc3.svg)
+![Figur17_Eksempler_på_modelsprog_mappet_til_FDA_arkitekturreolen.svg](assets/Figur17_Eksempler_på_modelsprog_mappet_til_FDA_arkitekturreolen.svg)
 
 *Figur 17 Eksempler på modelsprog mappet til FDA arkitekturreolen*
 
@@ -647,7 +647,7 @@ Når man beskriver arkitekturen, sker det på flere måder alt afhængigt af, hv
 *Figur 19 Illustration af formidling af byggeblokke på forskelligt detailniveau*
 | Simpel fremstilling, hvor én service anvendes til at illustrere en større, men skjult kompleksitet | En mere udfoldet fremstilling, hvor flere elementer er vist som selvstændige byggeblokke | En gruppering, hvor en række byggeblokke er sammensat til en helhed i form af en gruppe |
 | --- | --- | --- |
-| ![Figur19a.svg](assets/3ceb39270efe83c167985ecb86a17c8f3f521006.svg) |![Figur19b.svg](assets/0ea89da0d01f595456f1dfe8b5e2a0fdfbd47872.svg)  | ![Figur19c.svg](assets/27533833a5bf27ce7e761076c0474a78b649394a.svg) |
+| ![Figur19a_Illustration_af_modelsprogs_anvendelse_på_niveauer.svg](assets/Figur19a_Illustration_af_modelsprogs_anvendelse_på_niveauer.svg) |![Figur19bIllustration_af_modelsprogs_anvendelse_på_forskellige_niveauer2.svg](assets/Figur19bIllustration_af_modelsprogs_anvendelse_på_forskellige_niveauer2.svg)  | ![Figur19c_Illustration_af_modelsprogs_anvendelse_på_forskellige_niveauer3.svg](assets/Figur19c_Illustration_af_modelsprogs_anvendelse_på_forskellige_niveauer3.svg) |
 
 ### Værktøjer og formater
 

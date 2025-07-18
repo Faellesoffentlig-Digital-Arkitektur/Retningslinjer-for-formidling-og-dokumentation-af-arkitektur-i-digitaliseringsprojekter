@@ -604,7 +604,7 @@ Figur 18 illustrerer, hvordan de forskellige modelsprog understøtter forskellig
 
 
 
-![Figur18.svg](assets/574db5e07375169245cbba8a56d40bfeef015bb8.svg)
+![Figur18_Illustration_af_modelsprogs_anvendelse_på_forskellige_niveauer.jpg](assets/Figur18_Illustration_af_modelsprogs_anvendelse_på_forskellige_niveauer.jpg)
 
 *Figur 18 Illustration af modelsprogs anvendelse på forskellige niveauer*
 

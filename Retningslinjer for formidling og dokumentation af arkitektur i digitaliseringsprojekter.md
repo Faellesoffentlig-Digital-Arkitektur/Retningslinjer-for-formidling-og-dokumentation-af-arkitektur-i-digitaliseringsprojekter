@@ -430,7 +430,7 @@ I et agilt set-up vil det dog typisk først være når man når frem til at arbe
 
 Dette er illustreret i nedenstående figur
 
-![Figur14_SAFe_produkter_kan_daekke_alle_perspektiver_i_FDA_reolen.svg](assets/Figur14_SAFe_produkter_kan_daekke_alle_perspektiver_i_FDA_reolen.svgg)
+![Figur14_SAFe_produkter_kan_daekke_alle_perspektiver_i_FDA_reolen.svg](assets/Figur14_SAFe_produkter_kan_daekke_alle_perspektiver_i_FDA_reolen.svg)
 
 *Figur 14 SAFe produkter kan dække alle perspektiver i FDA reolen*
 

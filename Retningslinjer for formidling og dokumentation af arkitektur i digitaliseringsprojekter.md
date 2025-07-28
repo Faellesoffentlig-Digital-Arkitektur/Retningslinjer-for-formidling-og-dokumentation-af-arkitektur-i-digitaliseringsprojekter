@@ -390,7 +390,7 @@ Som udgangspunkt bør de fleste af de udvalgte arkitekturprodukter udarbejdes i 
 
 #### Gennemførelse
 
-Hvis der er tale om anskaffelse og ikke blot egenudvikling starter denne fase med en anskaffelsesfase[3](#fodnote 3), hvor der udarbejdes en kravspecifikation. Denne udarbejdes med relevant detaljeringsgrad, alt afhængig af projektets kontekst. Til dette arbejde er de arkitekturprodukter, der allerede er udarbejdet et centralt input. Disse opdateres og suppleres evt. med yderligere arkitekturprodukter, hvor relevant, så de kan anvendes som bilag til kravspecifikationen. Da det typisk er i denne fase, at der kommer jurister ind over kravspecifikationen, kan der opstå behov for at arbejde med både kravformuleringer og de modsvarende arkitekturprodukter. Dvs. at der her kan være behov for en tæt dialog mellem arkitekter og jurister.
+Hvis der er tale om anskaffelse og ikke blot egenudvikling starter denne fase med en anskaffelsesfase[3](#fodnoter), hvor der udarbejdes en kravspecifikation. Denne udarbejdes med relevant detaljeringsgrad, alt afhængig af projektets kontekst. Til dette arbejde er de arkitekturprodukter, der allerede er udarbejdet et centralt input. Disse opdateres og suppleres evt. med yderligere arkitekturprodukter, hvor relevant, så de kan anvendes som bilag til kravspecifikationen. Da det typisk er i denne fase, at der kommer jurister ind over kravspecifikationen, kan der opstå behov for at arbejde med både kravformuleringer og de modsvarende arkitekturprodukter. Dvs. at der her kan være behov for en tæt dialog mellem arkitekter og jurister.
 
 I denne fase konkretiseres og uddybes arkitekturen til en egentlig løsningsarkitektur. De mange enkelte arkitekturprodukter konsolideres og løsningsoverblikket opdateres løbende.
 

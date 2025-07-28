@@ -87,7 +87,7 @@ Nedenstående diagram giver et overblik over de mest relevante dokumenter i samm
 
 *Figur 1 Sammenhæng mellem arkitekturregler og retningslinjer*
 
-Det understreges at dette er et tids- og kontekst afhængigt ”snapshot”[1](#fodnote 1). På sigt vil disse fx kunne blive suppleret med retningslinjer og vejledninger om relaterede emner, som fx modellering af processer og regler. 
+Det understreges at dette er et tids- og kontekst afhængigt ”snapshot”[1](#fodnoter). På sigt vil disse fx kunne blive suppleret med retningslinjer og vejledninger om relaterede emner, som fx modellering af processer og regler. 
 
 Desuden er der udarbejdet en række mere specifikke dokumenter, der supplerer nærværende retningslinjer. Det drejer sig om:
 

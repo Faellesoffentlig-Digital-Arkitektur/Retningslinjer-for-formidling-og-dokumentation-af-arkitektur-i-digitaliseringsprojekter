@@ -103,7 +103,7 @@ Det til enhver tid gældende sæt af retningslinjer og vejledninger samt suppler
 
 **Arkitektur** er fundamentale begreber og egenskaber af et system i dets miljø legemliggjort i dets elementer, relationer og principper for design og udvikling. Dvs. at arkitektur er beskrivelse af egenskaber ved et system, som kan være udtryk for en løsning.
 
-Et **_system_** defineres her generelt som ”_et system er en kombination af interagerende elementer, der er organiseret for at opnå et eller flere erklærende formål.”_ ligesom i \[ISO/IEC 15288\][2](#fodnote 2). Det bemærkes også at _”Et system er i denne sammenhæng menneskeskabt og består ikke blot af hardware, software og data, men også af mennesker, processer, procedurer, faciliteter og materialer og naturlige genstande”._ Et **it-system** er et system, der består af digitale informationsteknologier.
+Et **_system_** defineres her generelt som ”_et system er en kombination af interagerende elementer, der er organiseret for at opnå et eller flere erklærende formål.”_ ligesom i \[ISO/IEC 15288\][2](#fodnoter). Det bemærkes også at _”Et system er i denne sammenhæng menneskeskabt og består ikke blot af hardware, software og data, men også af mennesker, processer, procedurer, faciliteter og materialer og naturlige genstande”._ Et **it-system** er et system, der består af digitale informationsteknologier.
 
 Med **løsning** forstås et svar på et problem, som adresserer interessenters interesser. En **forretningsmæssig løsning** er de samlede processer, regler, begreber, funktioner og it-systemer mv., der udgør det samlede produktionsapparat på tværs af forretning og it. En **it-løsning** er et it-system, der opfylder et forretningsbehov.
 

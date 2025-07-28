@@ -1109,11 +1109,11 @@ Listen opdateres løbende. Listen vedligeholdes af Digitaliseringsstyrelsen.
 | ArchiMate  | 3.0.1              | [ArchiMate Exchange File Format for ArchiMate 3.0](http://www.opengroup.org/subjectareas/enterprise/archimate/model-exchange-file-format)                                                                                                                                                                                     |
 | UML        | 2.5.1              | [XML Metadata Interchange / XMI 2.5.1](https://www.omg.org/spec/XMI/)                                                                                                                                                                                                                                                         |
 | BPMN       | 2.0                | [Object Management Group tilbyder to XML formater til udveksling af BPMN 2.0](https://www.omg.org/spec/BPMN/2.0/):<br><br>1.  Et format, der bruger XML Schema Definition (XSD)<br>2.  Et format, der bruger XML Metadata Interchange (XMI). Begge giver grundlæggende samme egenskaber, men XSD er angiveligt mest populært. |
-| DMN        | 1.1 | [4](#fodnoter)  [Object management Group tilbyder XML formater til udvekling af DMN 1.1](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                           |
+| DMN        | 1.5 | [Object management Group tilbyder XML formater til udvekling af DMN 1.1](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                           |
 
 ## Fodnoter
 
 1 Dokumentet Standard for beskrivelse af it-systemer forventes publiceret i anden halvdel af 2019.  
 2 ISO/IEC 15288 (Systems and software engineering -- System life cycle processes)  
 3 I en tidligere version af statens it-projektmodel var dette en selvstændig fase mellem analyse- og gennemførelsesfasen.  
-4 Version 1.2 ventes snarligt
+

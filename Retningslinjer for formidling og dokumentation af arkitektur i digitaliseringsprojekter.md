@@ -723,7 +723,7 @@ Tjeklisten kan anvendes flere gange i løbet af et projekt. Brug den initialt ti
 
 Dette bilag beskriver de otte grundlæggende arkitekturperspektiver i den fællesoffentlige digitale arkitektur (FDA).
 
-![Figur5.svg](assets/f621c5b15853f4651136b74e19527e7e7e75f3af.svg)
+![Figur5.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
 *Figur 20 De otte grundlæggende FDA-arkitekturperspektiver*
 

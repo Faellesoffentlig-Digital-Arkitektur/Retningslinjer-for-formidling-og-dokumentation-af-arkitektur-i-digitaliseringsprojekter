@@ -3,4 +3,4 @@ Retningslinjer for formidling og dokumentation af arkitektur i digitaliseringspr
 
 Review 1.1.1 (branch). Dato for review proces: oktober og november 2025.
 
-Læs også om Simplificering af FDA-arkitektur begreber. 
+Læs også om [Simplificering af FDA-arkitektur begreber](/Faellesoffentlig-Digital-Arkitektur/Retningslinjer-for-formidling-og-dokumentation-af-arkitektur-i-digitaliseringsprojekter/blob/minor_reviewFormidlDokArkitekturDigiprojekter_v1.1.1/Simplificering%20af%20FDA-arkitektur%20begreber.md). 

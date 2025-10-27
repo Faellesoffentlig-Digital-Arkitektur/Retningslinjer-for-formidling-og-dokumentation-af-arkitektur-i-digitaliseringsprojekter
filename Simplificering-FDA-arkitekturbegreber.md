@@ -1,5 +1,3 @@
-<style>
-</style>
 
 # Simplificering af FDA-arkitektur begreber
 

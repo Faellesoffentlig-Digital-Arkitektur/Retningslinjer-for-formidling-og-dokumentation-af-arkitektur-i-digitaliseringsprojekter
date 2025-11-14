@@ -33,6 +33,7 @@ Målgruppen for dette dokument er forretnings- og it-arkitekter samt projektlede
 
 Den fælles dokumentationsramme er nem at tage i brug og tilpasse til konkrete behov i et projekt/program og en myndighed/organisation. Retningslinjerne kan anvendes uafhængigt af projekt- og udviklingsmodel. Retningslinjerne er vejledende og kan frit anvendes af alle myndigheder. 
 
+**Særligt for FODS projekter**
 For projekter i regi af den fællesoffentlige digitaliseringsstrategi (FODS), er der aftalt krav om, at projekterne skal følge retningslinjerne med særligt fokus på at understøtte arkitekturstyring og kvalitetssikring gennem review.
 
 Som led i FODS vil der blive etableret tilbud om kompetenceudvikling og rådgivning ift. anvendelse af disse retningslinjer, som stilles til rådighed for alle myndigheder og leverandører på markedsvilkår.
@@ -41,7 +42,7 @@ For statslige it-projekter gælder, at hvor der i forvejen er defineret produkte
 
 #### Værdiskabelse
 
-* Fælles retningslinjer bidrager til en digitalt sammenhængende sektor ved at understøtte hvidbogens principper og den fællesoffentlige rammearkitektur
+* Fælles retningslinjer bidrager til en mere digitalt sammenhængende offentlig sektor ved at understøtte hvidbogens principper og den fællesoffentlige rammearkitektur
 * Arkitekturbeskrivelse skal ses som del af en analyse, der bidrager til at facilitere og fastholde beslutninger og kan bruges som et styringsværktøj relateret til styringsdokumenter som fx et projektgrundlag / PID.
 * Projekter og løsninger kan styres bedre via overblik over de væsentligste arkitekturelementer og -udfordringer – både internt og på tværs
 * Dialog mellem projektledelsen, forretnings- og it-arkitekter og udviklere om struktur og indhold i løsningen bliver nemmere og mere entydig med fælles terminologi
@@ -53,7 +54,7 @@ For statslige it-projekter gælder, at hvor der i forvejen er defineret produkte
 
 #### Tilblivelse og vedligehold
 
-Perspektivet er, at myndighederne og deres leverandører bliver bedre til at kravspecificere og designe løsninger ved at anvende de samme fælles internationale standarder for metode og notation og fælles sprog for arkitekturens indhold. På sigt kan det give en mulighed for systematisk og eventuelt automatisk at vurdere om en given arkitektur eller løsning overholder fælles aftale krav i henhold til den fælles digitale arkitektur.
+Perspektivet er, at myndighederne og deres leverandører bliver bedre til at målsætte, designe og kravspecificere løsninger ved at anvende de samme fælles internationale standarder for metode og notation og fælles sprog for arkitekturens indhold. På sigt kan det give en mulighed for systematisk og eventuelt automatisk at vurdere om en given arkitektur eller løsning overholder fælles aftale krav i henhold til den fælles digitale arkitektur.
 
 Retningslinjerne er forankret i Styregruppen for data og arkitektur i regi af initiativ 8.1 Gode data og effektiv datadeling i regi af den fællesoffentlige digitaliseringsstrategi. De er udarbejdet af Digitaliseringsstyrelsen i samarbejde med en fællesoffentlig arbejdsgruppe bestående af erfarne enterprise og løsningsarkitekter fra deltagende myndigheder. Udkast til retningslinjerne har været genstand for offentlig kommentering.
 

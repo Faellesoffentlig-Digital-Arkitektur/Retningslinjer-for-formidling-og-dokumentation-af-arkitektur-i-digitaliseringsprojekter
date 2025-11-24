@@ -167,7 +167,7 @@ Følgende interessenter er generelt relevante at tænke ind ift. afklaringen af 
 * Arkitekt/udvikler - herunder arkitekter med interesse på vegne af de ansvarlige for strategi og målsætning og et helhedssyn på arkitekturen som fx enterprise arkitekt og løsningsarkitekt. Specialiserede interessenter på kundesiden såsom forretningsarkitekter, dataarkitekter, applikationsarkitekter, udviklere, UX’ere og servicedesignere, testansvarlige samt teknologiarkitekter.
 * Juraansvarlig – herunder jurister knyttet til et givent projekt, men også politikere, lovgivere og lovfortolkere samt rettighedshavere.
 * Sikkerhedsansvarlig – særligt Data Protection Officer (DPO), men også andre roller med ansvar for håndtering af sikkerhed på forskellige områder (data, løsning, infrastruktur, drift), jf. ISO 27000x-serien.
-* Dataejer-/behandler – herunder dataansvarlige, databehandlere og datadistributører.
+* Dataejer/-behandler – herunder dataansvarlige, databehandlere og datadistributører.
 * Leverandør - herunder fx leverandørens projektleder, arkitekter, udviklere, UX’ere, servicedesignere og testansvarlige.
 * Drift - herunder it-systemforvaltere, ansvarlige for drift, vedligehold og videreudvikling, systemoperatører og support.
 * Governance-ansvarlig – herunder standardiseringsorganisationer og fora med ansvar for tværgående governance, fx styregruppe der repræsenterer ejere og anvendere af fælles infrastruktur.
@@ -203,7 +203,7 @@ Det er ligeledes vigtigt at finde den rette balance mellem sammenhængende dokum
 
 Dokumentationen af arkitekturen skal som udgangspunkt understøtte mange forskellige behov for information. Til formidling er der behov for at udarbejde forskellige modeller, visninger og tekster, som kan indgå i forskellige ledelses- og specialistprodukter – fx som bilag til et projektgrundlag eller en kravspecifikation.
 
-Overordnet set har enterprise-arkitekten og løsningsarkitekten ansvar for sikring af dokumentation i et helhedsperspektiv gennem udarbejdelse og vedligehold af samlede modeller over enterprise- og løsningsarkitektur – udarbejdet i formelle, logiske notationssprog. Der er forskellige sprog med forskelligt fokus og primære målgrupper (læs mere i afsnittet _Fælles notationssprog for arkitekturdokumentation_). De formelle modeller kan danne grundlag for visninger formidlet i et format, der er forståeligt af interessenterne. 
+Overordnet set har enterprise-arkitekten, forretnings-, informations- og løsningsarkitekten ansvar for sikring af dokumentation i et helhedsperspektiv gennem udarbejdelse og vedligehold af samlede modeller over enterprise- og løsningsarkitektur – udarbejdet i formelle, logiske notationssprog. Der er forskellige sprog med forskelligt fokus og primære målgrupper (læs mere i afsnittet _Fælles notationssprog for arkitekturdokumentation_). De formelle modeller kan danne grundlag for visninger formidlet i et format, der er forståeligt af interessenterne. 
 
 Dokumentation har bl.a. til formål at understøtte formidling. Det kan fx være formidling til beslutningstagere om målarkitektur og krav til løsningen, til leverandør og udvikler om tekniske detailkrav til løsningen, eller til systemoperatører og support om konfiguration af løsningen. Førstnævnte har brug for information, som giver overblik og er relativt statisk, mens sidstnævnte har brug for detaljeret og opdateret information. 
 
@@ -215,7 +215,7 @@ De primære brugere af dokumentation udarbejdet med formelle notationssprog er a
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | *   Arkitekt / udvikler<br>*   Sikkerhedsaktør - især DPO<br>*   Forretning<br>*   Dataejer/-behandler<br>*   Leverandør – især ansvarlige ift. kravspecifikation<br>*   Drift - især ansvarlige ift. konfiguration af teknisk løsning | *   Bruger<br>*   Ejer<br>*   Governance-aktør<br>*   Sikkerhedsaktør<br>*   Juraansvarlig<br>*   Forretning<br>*   Sikkerhedsaktør |
 
-Ovenstående er en grov forenkling. Valget mellem formel og uformel repræsentation bør altid tage konkret udgangspunkt i modtagers individuelle kapacitet og kompetencer. 
+Ovenstående er en forenkling. Valget mellem formel og uformel repræsentation bør altid tage konkret udgangspunkt i den enkelte modtagers professionelle præferencer kapacitet og kompetencer. 
 
 * Information om arkitektur skal have en form der understøtter, at den kan forstås og anvendes korrekt af modtager.
 * Arkitekturprodukter i form af diagrammer, kataloger og matricer bør suppleres med tekst med henblik på at uddybe og forklare særlige forhold og problemstillinger samt sikre korrekt fortolkning.

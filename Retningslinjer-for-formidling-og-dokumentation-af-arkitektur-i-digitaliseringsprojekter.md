@@ -276,7 +276,7 @@ De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens pr
 * Når der sættes strøm på og it-systemer skal integreres skal der være enighed om hvilke applikationer der skal kunne tale sammen, hvordan de integreres (integrationsmønstre), og hvilke protokoller der anvendes, så data udveksles sikkert og effektivt. (Applikation)
 * Endelig skal det sikres, at både dataudveksling og levering af sammensatte services sker på et robust og sikkert fundament. Derfor skal aktørerne aftale, hvilke infrastrukturkomponenter, der skal i spil og aftale et niveau for hvordan de skal fungere sikkert og effektivt. (Infrastruktur)
 
-FDA har således otte grundperspektiver (FDA-perspektiver) som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-perspektiver_. 
+FDA har således otte FDA-perspektiver, som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-perspektiver_. 
 
 ![Figur5_De_otte_grundlæggende_FDA-perspektiver.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
@@ -1157,6 +1157,7 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 <br>
 
 **Infrastruktur**
+
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Infrastrukturkoncept og -mønstre | Beskriver tilgang til de grundlæggende teknologiservices. (Overblik) | Valg af teknologier, platforme og infrastrukturansvar, der sætter de grundlæggende tekniske rammer for løsningen. Fx om der bruges cloud computing og fælles infrastrukturservices. Et væsentligt input til målarkitektur og migrationsstrategi. | Tekst, tabel, evt diagram i ArchiMate | AR 8.1 |
@@ -1171,16 +1172,20 @@ Listen indgår som led i den fællesoffentlige digitale arkitektur (FDA), der ha
 
 Listen opdateres løbende. Listen vedligeholdes af Digitaliseringsstyrelsen.
 
-| Modelsprog | Version            | Udvekslingsformat                                                                                                                                                                                                                                                                                                             |
-| ---------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ArchiMate  | 3.0.1              | [ArchiMate Exchange File Format for ArchiMate 3.0](http://www.opengroup.org/subjectareas/enterprise/archimate/model-exchange-file-format)                                                                                                                                                                                     |
-| UML        | 2.5.1              | [XML Metadata Interchange / XMI 2.5.1](https://www.omg.org/spec/XMI/)                                                                                                                                                                                                                                                         |
-| BPMN       | 2.0                | [Object Management Group tilbyder to XML formater til udveksling af BPMN 2.0](https://www.omg.org/spec/BPMN/2.0/):<br><br>1.  Et format, der bruger XML Schema Definition (XSD)<br>2.  Et format, der bruger XML Metadata Interchange (XMI). Begge giver grundlæggende samme egenskaber, men XSD er angiveligt mest populært. |
-| DMN        | 1.5 | [Object management Group tilbyder XML formater til udvekling af DMN](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                           |
+| Modelsprog | Version            | Udvekslingsformat                                                                                                                                                                                                                                                                                                                                   |
+| ---------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ArchiMate  | 3.2                | [ArchiMate Exchange File Format for ArchiMate 3.1](http://www.opengroup.org/subjectareas/enterprise/archimate/model-exchange-file-format)                                                                                                                                                                                |
+| UML        | 2.5.1              | [XML Metadata Interchange / XMI 2.5.1](https://www.omg.org/spec/XMI/)                                                                                                                                                                                                                                                                                                                                   |
+| BPMN       | 2.0.2                | [Object Management Group tilbyder to XML formater til udveksling af BPMN 2.0.2](https://www.omg.org/spec/BPMN/):<br><br> For at sikre optimal udnyttelse af BPMN 2.0.2-udvekslingsformater anbefales det, at du orienterer dig i den officielle specifikation. Object Management Group stiller flere udvekslingsformater til rådighed, og ved at gennemgå specifikationen kan du vælge det format, der bedst understøtter dine behov i forbindelse med udveksling af BPMN-data. <br>[Link til specifikationen](https://www.omg.org/spec/BPMN/2.0.2/PDF).|
+| DMN        | 1.5                | [Link til Object management Group tilbyder XML formater der til udvekling af DMN](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                                                                                                                                                   |
+
 
 ## Fodnoter
 
-1 Dokumentet Standard for beskrivelse af it-systemer forventes publiceret i anden halvdel af 2019.  
-2 ISO/IEC 15288 (Systems and software engineering -- System life cycle processes)  
-3 I en tidligere version af statens it-projektmodel var dette en selvstændig fase mellem analyse- og gennemførelsesfasen.  
+[1]() Dokumentet Standard for beskrivelse af it-systemer er publiceret i december 2019, og patch opdateret i januar 2021. 
+* [Intro: It-System | FDA](https://arkitektur.digst.dk/specifikationer/it-system)
+* [Standard for beskrivelse af it-systemer - Basisprofil](https://digst.github.io/IT-System-AP/SYS-AP/docs/)
+ 
+[2]() ISO/IEC 15288 (Systems and software engineering -- System life cycle processes)  
+[3]() I en tidligere version af statens it-projektmodel var dette en selvstændig fase mellem analyse- og gennemførelsesfasen.  
 

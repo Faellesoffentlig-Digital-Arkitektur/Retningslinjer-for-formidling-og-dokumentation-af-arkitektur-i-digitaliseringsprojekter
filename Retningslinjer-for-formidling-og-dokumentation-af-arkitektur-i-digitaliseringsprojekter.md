@@ -700,7 +700,7 @@ Som hovedprincip anbefales det, at dele og udveksle arkitekturprodukter som mini
 
 ## Navngivning
 
-Det er hensigtsmæssigt, at arkitekturprodukter gives et meningsfyldt og anvendelsesneutralt navn, for så vidt det er intentionen, at de skal kunne læses, anvendes og genbruges af andre, og det vil lette formidling, fremsøgning og anvendelse.
+For at sikre, at arkitekturprodukter kan forstås, deles og genbruges på tværs af projekter og målgrupper, er det vigtigt at give dem et klart og anvendelsesneutralt navn. Et meningsfuldt navn understøtter både formidling, fremsøgning og praktisk anvendelse.
 
 Arkitekturprodukter bør forsynes med meningsfyldte navne, der refererer til et eller flere af disse: 
 
@@ -717,20 +717,56 @@ For at vise sammenhæng i flere arkitekturprodukter kan der fx anvendes præfix 
 
 ## Konfigurations- og versionsstyring
 
-Det er grundlæggende et lokalt ansvar at holde styr på konfiguration og versionering i forhold til arkitekturprodukter og arkitekturmodeller. Det kræver stor organisatorisk modenhed at styre versionering på tværs af domæner, og er derfor meget svært. Det bør tilstræbes, at der indenfor et domæne (organisation / fagområde) så vidt muligt er en ensartet governance og metodik omkring versionsstyring.
 
-Det anbefales, at alle arkitekturprodukter så vidt muligt forsynes med versionsnummer og dato for seneste opdatering. Dette er væsentligt både for den interne konfigurationsstyring og ikke mindst for andre brugere af et arkitekturprodukt.
+### **Formål**
 
-Ved at arkitekturprodukter forsynes med oplysninger om versionering og seneste opdateringsdato, bliver det lettere for brugeren at vurdere, om produktet eller elementer herfra kan anvendes til et bestemt formål. Brugeren kan blandt andet let afgøre, hvilken version af et specifikt arkitekturprodukt, der er den nyeste, og hvornår der sidst er sket ændringer i produktet.
+Konfigurations- og versionsstyring skal sikre, at arkitekturprodukter og -modeller er entydige, opdaterede og lette at genfinde og genbruge på tværs af organisationer og projekter. I takt med at arkitekturarbejdet bliver mere komplekst og distribueret, øges behovet for moden værktøjsunderstøttelse til håndtering af ændringer og historik. 
 
-Det anbefales at arkitekturproduktets seneste opdateringsdato og versionsnummer så vidt muligt tager udgangspunkt i følgende metode (som her er inspireret fra tilsvarende regler for begrebs- og datamodellering):
+Mange organisationer anvender fortsat simple dokumenthåndteringsløsninger, hvor versionering sker manuelt via filnavne og metadata. Det giver en grundlæggende sporbarhed, men understøtter ikke avanceret historik, parallel redigering eller effektiv styring af ændringer. Mere modne løsninger, såsom Git-baserede repositories, branches, pull requests og automatisk versionshistorik, muliggør præcis ændringskontrol, bedre samarbejde og klar dokumentation af udviklingen over tid.
 
-* Dato opbygges med formatet yyyy.mm.dd. Angiv 'seneste opdateringsdato' = fx 2017-10-25 \[[https://www.w3.org/TR/xmlschema-2/#dateTime](https://www.w3.org/TR/xmlschema-2/#dateTime)\],
-* Versionsnummer opbygges med brug af udfaldsrum med en major-version, minor-version og revision adskilt med punktum, fx:1.0.1 \[[https://semver.org/](https://semver.org/)\]
+Selv hvor Git eller lignende teknologier ikke er direkte anvendelige for alle typer arkitekturprodukter, kan principperne herfra, fx eksplicit historik, semantisk versionering og tydelig ansvarlighed, med fordel inspirere governance og arbejdsprocesser. En konsekvent og gennemsigtig versioneringspraksis øger både kvaliteten og genbrugsværdien af arkitekturprodukter.
 
-Hvor det er relevant og værktøjet understøtter det, er det godt at opmærke arkitekturprodukter og modeller med tidligere og nyere versioner. Angiv fx ”Denne version”, ”Seneste version” (kan være den samme) og ”Tidligere version”.
+### **Ansvar og organisering**
 
-For identifikation og versionering af de enkelte elementer i modeller henvises til detaljerede regler og vejledninger, hvor de findes, såsom de fællesoffentlige regler for begrebs- og datamodellering. 
+Versionering og konfigurationsstyring af arkitekturprodukter og -modeller er som udgangspunkt et lokalt ansvar i det enkelte domæne eller fagområde. Tværgående versionsstyring kræver høj organisatorisk modenhed og ensartet governance og kan være komplekst at etablere.
+
+For at skabe tydelighed anbefales følgende opdeling:
+* Lokalt ansvar: Domæner, organisationer og fagområder har ansvar for versionering og konfigurationsstyring af egne arkitekturprodukter.
+* Tværgående styring: Bør etableres, hvor organisatorisk modenhed, fælles governance og ensartet metodik kan understøtte det.
+
+
+### **Metode for versionsstyring**
+
+Det anbefales at arkitekturproduktets seneste opdateringsdato og versionsnummer så vidt muligt tager udgangspunkt i følgende metode (som her er inspireret fra tilsvarende regler for begrebs- og datamodellering). 
+
+***Dato format***
+
+* Dato opbygges med formatet yyyy-mm-dd. 
+* Angiv fx 'seneste opdateringsdato' = 2017-10-25
+
+[Læs mere om W3C dateTime format](https://www.w3.org/TR/xmlschema-2/#dateTime).
+
+***Versionsnummer - SemVer***
+
+Versionsnummer opbygges med brug af udfaldsrum major-version, minor-version og patch-version adskilt med punktum, fx:1.0.1  
+* Major: Grundlæggende ændringer eller brud
+* Minor: Nye funktioner eller udvidelser
+* Patch: Mindre rettelser
+
+Semantisk versionering giver klarhed omkring ændringers omfang og betydning. [Læs mere om semver](https://semver.org/).
+
+***Eksempel på versionsmarkering til arkitekturprodukter***
+
+Hvor det er relevant kan man enten manuelt eller det er værktøjet understøtter, er det godt at opmærke arkitekturprodukter og modeller med følgende metadata:
+
+ 1. Versionsnummer
+ 2. Dato for seneste opdatering
+ 3. Ejer/ansvarlig (valgfrit, men anbefales; fx med angivelse af organisation/organisationsenhed)
+ 4. Status (fx ’gældende’, ’forældet’, ’drøftes’) — hvis understøttet af værktøjet
+ 5. Forrige version og dato (valgfrit, men anbefales)
+
+Disse oplysninger gør det muligt for brugere at vurdere produktets aktualitet, relevans og genbrugspotentiale. Dette forbedrer overblikket over historik og udvikling.
+
 
 ## Bilag 1: Tjekliste vedrørende arkitekturdokumentation
 

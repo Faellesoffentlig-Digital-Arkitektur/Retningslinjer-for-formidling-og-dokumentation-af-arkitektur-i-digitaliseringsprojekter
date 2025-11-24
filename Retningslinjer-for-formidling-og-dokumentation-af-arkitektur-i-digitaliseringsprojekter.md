@@ -786,13 +786,13 @@ Tjeklisten kan anvendes flere gange i løbet af et projekt. Brug den initialt ti
 | 6.  | Genbrug løsninger og løsningsbyggeblokke:<br><br>*   Hav øje for om der i FDA regi eller i andet relevant domæne peges på konkrete løsningsbyggeblokke, som kan eller skal anvendes.<br>*   Identificer kandidater til konkrete løsningsbyggeblokke, som projektet kan genbruge og indarbejd dem i projektets arkitektur. De kan både være danske og internationale, fx fra EU.<br>*   Afsøg tilsvarende indenfor egen organisation og relevant(e) domæne(r) hvad angår løsninger, standarder, infrastrukturkomponenter mv.<br>*   Sørg også for at orientere jer i andre projekters pipeline, om der er løsningsbyggeblokke, der potentielt kan genbruges helt eller delvis af projektet.<br>*   Dokumentér valg - og fravalg. Det gælder både i forhold til muligheder for at genbruge eksisterende løsningsbyggeblokke eller at bidrage med genbrugelige løsningsbyggeblokke.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |      |
 | 7.  | Del projektets arkitekturdokumentation:<br><br>*   Tag stilling til hvordan ”det nye” bliver en del af den fremtidige helhed, dvs. hvordan kan projektets produkter fx indgå i FDA eller andet domænes fælles arkitektur og portefølje af løsningsbyggeblokke.<br>*   Sørg for at kommunikere eventuelle bidrag fra projektet til den fællesoffentlige rammearkitektur.<br>*   Sørg for at udstille relevant dokumentation på FDA hjemmesiden eller på anden relevant hjemmeside.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |      |
 
-## Bilag 2: FDA-grundperspektiver
+## Bilag 2: FDA-perspektiver
 
-Dette bilag beskriver de otte grundlæggende arkitekturperspektiver i den fællesoffentlige digitale arkitektur (FDA).
+Dette bilag beskriver de otte grundlæggende arkitekturperspektiver (FDA-perspektiver) i den fællesoffentlige digitale arkitektur (FDA).
 
 ![Figur5.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
-*Figur 20 De otte grundlæggende FDA-arkitekturperspektiver*
+*Figur 20 De otte grundlæggende FDA-perspektiver*
 
 For hvert perspektiv beskrives kort: 
 
@@ -852,10 +852,10 @@ Omfatter visioner, målbilleder, strategiske kapabiliteter, som skal realiseres.
 
 ##### Interessenter
 
+* Forretning - især forretningsledelse.
 * Ejer - især systemejer.
 * Arkitekt/udvikler - især enterprise-arkitekt samt forretningsarkitekt og løsningsarkitekt.
 * Governance-aktør - særligt aktører med ansvar for fælles byggeblokke i form af standarder, komponenter og infrastruktur.
-* Forretning - især forretningsledelse.
 * Leverandør - leverandør af teknisk løsning og konsulenter samt leverandør af teknisk infrastruktur.
 
 ##### Interesser
@@ -880,11 +880,11 @@ Omfatter lovgivning og kontrakter som er juridisk rammesættende for løsningens
 
 ##### Interessenter
 
+* Forretning - især ift. effektiv opgaveløsning.
 * Ejer - især systemejer.
 * Arkitekt/udvikler - især enterprise-arkitekt, løsningsarkitekt, applikationsarkitekt og teknisk arkitekt.
 * Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel samt ansvarlig for monitorering og cybersikkerhed.
 * Juraansvarlig - jurister og andre, der udarbejder og anvender kravspecifikationer.
-* Forretning - især ift. effektiv opgaveløsning.
 * Bruger - især som datasubjekt.
 * Dataejer/-behandler - især ift. roller og ansvar.
 * Leverandør - især leverandør af teknisk løsning.  Drift - især driftsansvarlig og systemoperatører.
@@ -910,11 +910,11 @@ Omfatter håndtering af trusler og sikkerhedsrisici. Krav til håndtering af sik
 
 ##### Interessenter
 
+* Forretning - især ift. krav til sikkerhed i opgaveudførsel.
+* Bruger - især som datasubjekt og ift. rettigheder.
 * Ejer - især systemejer.
 * Arkitekt/udvikler - især enterprise-arkitekt og løsningsarkitekt.
 * Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel samt ansvarlig for monitorering og cybersikkerhed.
-* Forretning - især ift. krav til sikkerhed i opgaveudførsel.
-* Bruger - især som datasubjekt og ift. rettigheder.
 * Leverandør - leverandør af teknisk løsning og af teknisk infrastruktur.
 * Drift - især driftsansvarlig og systemoperatører.
 
@@ -939,11 +939,11 @@ Omfatter aktørers og rollers håndtering af forretningsinformation i processer 
 
 ##### Interessenter
 
+* Forretning - ledelse, eksperter og medarbejdere.
 * Ejer - især opgaveansvarlig og systemejer.
 * Arkitekt/udvikler- især forretningsarkitekt, løsningsarkitekt og enterprise-arkitekt.
 * Governance-aktør - særligt aktører med ansvar for tværgående servicelevering gennem fx portaler (fx Digitaliseringsstyrelsen, Erhvervsstyrelsen, Sundhedsdatastyrelsen, EU).
 * Sikkerhedsaktør - især ansvarlig for implementering af sikkerhed i organisationen og dens forretningsprocesser.
-* Forretning - ledelse, eksperter og medarbejdere.
 * Bruger - alle der skal løse opgaver via it-løsning.
 * Leverandør - af teknisk løsning, leverandør af teknisk infrastruktur.
 
@@ -970,13 +970,13 @@ Omfatter begreber, terminologi, data og repræsentationer af data. Sikring af en
 
 ##### Interessenter
 
+* Forretning - især ift. datas forståelighed, egenskaber og kvalitet ift. opgaveløsning.
+* Bruger - især ift. semantik og forståelse (borger, virksomhed, sagsbehandler) og tryghed ved data (datasubjekt).
+* Dataejer/-behandler – især dataafgrænsning, roller og ansvar.
 * Ejer - især systemejer både som eventuel dataejer og som databehandler.
 * Arkitekt/udvikler - især informationsarkitekt og applikationsarkitekt ift. udvikling af informationsarkitekturen.
 * Governance-aktør - ejere af fælles byggeblokke i form af specifikationer (fx Digitaliseringsstyrelsen, EU med SEMIC, W3C og OASIS).
 * Sikkerhedsaktør - især DPO ift. klassifikation af data med henblik på håndtering af persondata og følsomme data.
-* Forretning - især ift. datas forståelighed, egenskaber og kvalitet ift. opgaveløsning.
-* Bruger - især ift. semantik og forståelse (borger, virksomhed, sagsbehandler) og tryghed ved data (datasubjekt).
-* Dataejer/-behandler – især dataafgrænsning, roller og ansvar.
 * Leverandør - især krav til datamodel og krav til eksterne snitflader og datastandarder.
 
 ##### Interesser
@@ -998,12 +998,12 @@ Omfatter applikationers funktioner og brugergrænseflader. Applikationers teknis
 
 ##### Interessenter
 
-* Ejer - især systemejer ift. funktionalitet, kompleksitet, robusthed og fleksibilitet i koden i applikationer, services, snitflader og integrationer.
-* Arkitekt/udvikler - især løsningsarkitekt, applikationsarkitekt og udviklere (programmører) samt UX-ansvarlige.
-* Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel.
 * Forretning - effektiv understøttelse af opgaveløsning.
 * Bruger - især ift. brugergrænseflade (UX og tilgængelighed).
 * Dataejer/-behandler - effektiv og sikker datadeling.
+* Ejer - især systemejer ift. funktionalitet, kompleksitet, robusthed og fleksibilitet i koden i applikationer, services, snitflader og integrationer.
+* Arkitekt/udvikler - især løsningsarkitekt, applikationsarkitekt og udviklere (programmører) samt UX-ansvarlige.
+* Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel.
 * Leverandør - af teknisk løsning, særligt softwareleverandører og leverandører med ansvar for integrationer.
 * Drift - især driftsansvarlig og systemoperatører.
 * Governance-aktør - ejere af fælles byggeblokke i form af tekniske specifikationer og open source komponenter (fx Digitaliseringsstyrelsen, EU med CEF Digital, W3C og IHE).

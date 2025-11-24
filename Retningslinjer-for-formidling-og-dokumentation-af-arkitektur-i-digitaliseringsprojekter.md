@@ -397,19 +397,19 @@ Nedenstående figur illustrerer en række eksempler på, hvordan der i løbet af
 
 *Figur 11 Illustration af hvordan arkitekturprodukter udvikles iterativt*
 
-De blå pile viser hvordan et produkt er grundlag for et andet gennem berigelse med flere detaljer, fx fra begrebsmodel til logisk informationsmodel, til logisk datamodel til fysisk datamodel, eller gennem sammenstilling af flere elementer, fx aktør + proces eller proces + begreb.
+De blå-grønne pile viser hvordan et produkt er grundlag for et andet gennem berigelse med flere detaljer, fx fra begrebsmodel til logisk informationsmodel, til logisk datamodel til fysisk datamodel, eller gennem sammenstilling af flere elementer, fx aktør + proces eller proces + begreb.
 
-#### Idé
+#### Idé - projektfase
 
 I denne fase er fokus i forhold til arkitekturen at skabe et projektgrundlag der tydeliggør vision og mål samt scope forud for det videre forløb. Målarkitekturen er her kun beskrevet meget overordnet og typisk på konceptuelt niveau. 
 
 Til et projektgrundlag og et scopereview bør der som minimum være arkitekturprodukter i form af en vision/målbillede gerne suppleret med et systemkontekstdiagram, der giver en overordnet beskrivelse af den påtænkte tekniske løsning og det miljø, den skal indgå i. Det vil sige at der både skal være en overordnet beskrivelse af det it-system der skal (videre)udvikles og af de vigtigste integrationer til andre it-systemer. De fleste af de udvalgte arkitekturprodukter i kolonnen konceptuel kan påbegyndes og bidrage til beskrivelsen af målarkitekturen.
 
-#### Analyse
+#### Analyse - projektfase
 
 Her er fokus på at afklare, uddybe og beskrive målarkitekturen, som grundlag for udbud og leverandørens udarbejdelse af løsningsarkitekturen. 
 
-I denne fase sker der en uddybning og modning i form af den overordnede målarkitektur, på logisk niveau. Alle de udvalgte arkitekturprodukter bør overvejes i denne fase. Målarkitekturen udfoldes, men er stadig ikke konkretiseret fuldt ud. Løsningsoverblikket i kolonnen Fysisk kan omfatte de dele af den fremtidige arkitektur der allerede findes / er kendt.
+I denne fase sker der en uddybning og modning i form af den overordnede målarkitektur, på logisk niveau. Alle de udvalgte arkitekturprodukter bør overvejes i denne fase. Målarkitekturen udfoldes, men er stadig ikke konkretiseret fuldt ud. Løsningsoverblikket i kolonnen Fysisk kan omfatte de dele af den fremtidige arkitektur der allerede findes eller er kendt.
 
 Den bør så vidt muligt dokumenteres i en sammenhængende arkitekturmodel (i Archimate) suppleret med detaljerede modeller for fx processer (fx i BPMN), begreber og data (i UML/RDF) og use case (fx i UML) og som endelig udmøntes i en kravspecifikation. Detaljeringsgraden af såvel arkitekturmodeller som kravspecifikation afhænger af den valgte udviklingsmetode.
 
@@ -417,9 +417,9 @@ Afhængigt at projektet kan der være behov for at dykke særligt langt ned i en
 
 Det er i den sammenhæng væsentligt at understrege, at (mål)arkitekturen bør bringes i direkte forbindelse med business case og risikoanalyse. Det vil bidrage til at højne realismen og kvaliteten i alle tre produkter. Arkitekturen er især vigtig i forhold til at bidrage til overblik over elementer i løsningen, deres logiske sammenhæng og kan bidrage til nøjagtighed i estimering af økonomi og risici. Ligesom business casen og risikoanalysen bør (mål)arkitekturen løbende opdateres – og dette skal naturligvis ske på tværs af de tre produkter. Arkitektur bør i overbliksformat være ”allestedsnærværende” og ”tilgængeligt” som bilag til drøftelser og beslutninger. Ved rettelser / udspecificering af arkitekturen skal denne kunne give grundlag for underbygget opdatering af business case og risikoanalyse.
 
-Som udgangspunkt bør de fleste af de udvalgte arkitekturprodukter udarbejdes i denne fase. Og mange af disse bør opdateres i senere faser. Udvalgte produkter der skal anvendes i drift og videreudvikling skal eventuelt vedligeholdes løbende.
+Som udgangspunkt bør de fleste af de udvalgte arkitekturprodukter udarbejdes i denne fase. Og mange af disse bør opdateres i senere faser. Udvalgte produkter der skal anvendes i drift og videreudvikling vedligeholdes løbende.
 
-#### Gennemførelse
+#### Gennemførelse - projektfase
 
 Hvis der er tale om anskaffelse og ikke blot egenudvikling starter denne fase med en anskaffelsesfase[3](#fodnoter), hvor der udarbejdes en kravspecifikation. Denne udarbejdes med relevant detaljeringsgrad, alt afhængig af projektets kontekst. Til dette arbejde er de arkitekturprodukter, der allerede er udarbejdet et centralt input. Disse opdateres og suppleres evt. med yderligere arkitekturprodukter, hvor relevant, så de kan anvendes som bilag til kravspecifikationen. Da det typisk er i denne fase, at der kommer jurister ind over kravspecifikationen, kan der opstå behov for at arbejde med både kravformuleringer og de modsvarende arkitekturprodukter. Dvs. at der her kan være behov for en tæt dialog mellem arkitekter og jurister.
 
@@ -429,7 +429,7 @@ I denne fase er leverandøren en vigtig deltager i dokumentationsarbejdet. Igen 
 
 Desuden vil der typisk være en lang række løsningsnære arkitekturprodukter, som bør udarbejdes. I denne fase vil der typisk blive behov for at udarbejde dokumentation, der rækker ud over de udvalgte produkter. Fx løsningsnær dokumentation til brug for konfiguration, test og drift. 
 
-#### Realisering
+#### Realisering - projektfase
 
 I denne fase er der primært tale om anvendelse og vedligehold af de blivende produkter i forbindelse med drift, vedligehold og videreudvikling.
 
@@ -445,7 +445,7 @@ Nedenstående figur illustrerer (groft forenklet) fokus i disse hovedfaser i for
 
 Der er mange der spørger om hvordan man arbejder med arkitektur i forbindelse med agile udviklingsmetoder som Scrum og Scaled Agile (SAFE). 
 
-Set ud fra arkitektens synspunkt er det indlysende at bruge agile metoder i et løsningsprojekt, fordi agile værktøjer som eksempelvis Scrum netop lægger op til at skabe bro mellem teknik og forretning gennem en tæt dialog – hvilket er it-arkitektens fornemste opgave. Når man kører Scrum er man – i fællesskab i Scrum-teamet - tvunget til at forklare, hvad behovet er, hvordan man vil løse det, udvikle det og bagefter forklare, hvorfor man har gjort det på den måde, og hvad man har lært. Men koblingen til det bredere enterprise-perspektiv og de klassiske arkitekturrammeværker og metoder kan være en udfordring. Dette emne er stadig ret umodent.
+Set ud fra arkitektens synspunkt er det indlysende at bruge agile metoder i et løsningsprojekt, fordi agile værktøjer som eksempelvis Scrum netop lægger op til at skabe bro mellem teknik og forretning gennem en tæt dialog – hvilket er it-arkitektens fornemste opgave. Når man kører Scrum er man – i fællesskab i Scrum-teamet - tvunget til at forklare, hvad behovet er, hvordan man vil løse det, udvikle det og bagefter forklare, hvorfor man har gjort det på den måde, og hvad man har lært. Men koblingen til det bredere enterprise-perspektiv og de klassiske arkitekturrammeværker og metoder kan være en udfordring.
 
 Kernen i den agile tilgang er beskrivelser af funktionelle behov i form af Epics, Capabilities, Features og Stories. Disse fire artefakter er centrale for design og udviklingsarbejdet. Epics er den overordnede beskrivelse. En vision og et målbillede kan således siges at bestå af en række Epics på det mest overordnede niveau. Epics kan nedbrydes i Capabilities. Her er man stadig typisk på det konceptuelle niveau i arkitekturen. Capabilities kan igen nedbrydes til features, hvor det bliver relevant at arbejde mere logisk og stringent. Med nedbrydningen af features til Stories er man typisk på det konkrete niveau, som er styrende for den fysiske udførelse. Dette er illustreret i nedenstående figur.
 
@@ -493,7 +493,7 @@ I forhold til vægtens mellem at dokumentere den nuværende arkitektur i forhold
 
 #### Governance for arkitekturprodukter
 
-Dette afsnit beskriver forskellige forhold omkring udvikling, vedligehold og anvendelse af arkitekturdokumentation.
+Dette afsnit beskriver nogle overordnede forhold ved udvikling, vedligehold og anvendelse af arkitekturdokumentation.
 
 På udvalgte områder er det væsentligt, at der anvendes ensartede metoder. Disse uddybes i FDA retningslinjer og vejledninger, der præciserer god praksis i forhold til hvilke elementer, relationer og øvrige informationer der bør indgå i produkterne. 
 
@@ -510,9 +510,9 @@ Som eksempler på vejledninger kan nævnes _Introduktion til FDA rammearkitektur
 
 De fleste arkitekturprodukter udvikles, forfines, detaljeres og vedligeholdes løbende i det enkelte projekt, og hvor det er relevant på tværs af projekter. Derfor er det vigtigt dels at afklare forventninger til kvaliteten af et arkitekturprodukt på et givent tidspunkt dels at afklare hvilke arkitekturprodukter der primært ”bor” i det enkelte projekt og hvilke der bor andetsteds, og eventuelt på tværs af flere projekter. Fx kan der være datamodeller, som skal anvendes i et projekts løsning, men som ejes andetsteds.
 
-Det er også vigtigt at være opmærksom på, at det er god praksis at starte med at bygge et enkelt grundlag for arkitekturmodellen og for forskellige visninger, ved at opbygge områder i arkitekturen som samlinger eller grupper. Fx en samling af mål, principper, processer, forretningsobjekter eller applikationer. Når man har styr på de enkelte samlinger kan man udvikle mere sammenhængende visning på tværs af disse. Det kan fx være i form forretningsservices der anvender hvilke applikationer eller hvilke forretningsobjekter der udveksles via hvilke snitflader mellem applikationer. Man kan også lave såkaldte fodspor (”footprints”), som viser den røde tråd fra fx et mål eller princip til forretnings- og applikationsservices.
+Være opmærksom på, at det er god praksis at starte med at bygge et enkelt grundlag for arkitekturmodellen og for forskellige visninger, ved at opbygge områder i arkitekturen som samlinger eller grupper. Fx en samling af mål, principper, processer, forretningsobjekter eller applikationer. Når man har styr på de enkelte samlinger kan man udvikle mere sammenhængende visning på tværs af disse. Det kan fx være i form forretningsservices der anvender hvilke applikationer eller hvilke forretningsobjekter der udveksles via hvilke snitflader mellem applikationer. Man kan også lave såkaldte fodspor (”footprints”), som viser den røde tråd fra fx et mål eller princip til forretnings- og applikationsservices.
 
-* Dokumentationen udarbejdes, så der er sammenhæng og konsistens mellem arkitektprodukter, fx således at procesmodeller bruger begreber og attributter fra begrebs- og datamodellen. På den måde kan man bedre holde styr på, hvor ændringer ét sted vil kunne have konsekvenser.
+* Dokumentationen udarbejdes, så der er sammenhæng og konsistens mellem arkitektprodukter, fx således at procesmodeller bruger begreber og attributter fra begrebs-, informations- og logiske datamodeller. På den måde kan man bedre holde styr på, hvor ændringer ét sted vil kunne have konsekvenser.
 
 Du kan læse mere om udvikling af arkitekturdokumentation i _Vejledning om arkitekturmetode_.
 

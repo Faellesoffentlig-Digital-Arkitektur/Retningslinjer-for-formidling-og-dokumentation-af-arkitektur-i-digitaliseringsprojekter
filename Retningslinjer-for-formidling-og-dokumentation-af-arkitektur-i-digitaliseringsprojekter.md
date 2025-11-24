@@ -591,7 +591,7 @@ Følgende notationssprog er identificeret som kandidater til fremtidige fælleso
 
 At de er kandidater betyder, at der endnu ikke er taget en formel beslutning om at vælge dem. Der er derfor heller ikke taget stilling til om der fx skal udarbejdes fælles regler for deres anvendelse, jf. fx Regler for begrebs- og datamodellering.
 
-ArchiMate er som modelsprog interessant særligt fordi, det kan dække alle grundperspektiver i arkitekturen. ArchiMate kan fx bruges til at skabe den røde tråd fra strategi over processer til applikationer. ArchiMate er således godt til at understøtte en sporbarhed og løbende at sikre en integritet i forholdet mellem arkitekturmodellen og den konkrete løsning. ArchiMate har således et stort potentiale i forhold til styring af såvel den enkelte løsning som en samlet portefølje.
+ArchiMate er som modelsprog interessant, da det kan dække alle FDA-perspektiver i arkitekturen. ArchiMate kan fx bruges til at skabe en rød tråd fra strategi over processer til applikationer. ArchiMate kan således understøtte sporbarhed og løbende sikre integritet i forholdet mellem arkitekturmodellen og den konkrete løsning. ArchiMate har således et potentiale i forhold til styring af såvel den enkelte løsning som en samlet portefølje.
 
 ArchiMate henvender sig især til enterprise- og løsningsarkitekter, BPMN og DMN især til forretningsarkitekter og UML især til dataarkitekter og til applikations- og teknologiarkitekter og udviklere. 
 
@@ -599,7 +599,7 @@ Brug Archimate på konceptuelt og logisk niveau til overblik og de områder der 
 
 Forskellige roller skal forstå og eventuelt mestre forskellige sprog og værktøjer:
 
-* Brug ArchiMate på konceptuelt niveau til arkitekter, men giv ledelsen alternative visninger, der er ”rige” og letforståelige.
+* Brug ArchiMate på konceptuelt eller logisk niveau til arkitekter, men giv ledelsen alternative visninger, der er ”rige” og letforståelige.
 * Projektlederen skal forstå ArchiMate på overordnet niveau og tilsvarende de specialiserede modelsprog, hvor det er relevant, typisk særligt i forhold til processer og applikationslandskab.
 * Specialister som fx forretning-, informations- og applikationsarkitekter som skal kunne forstå og anvende de specialiserede modelsprog korrekt i forhold til de opgaver og arkitekturprodukter, som de arbejder med.
 
@@ -615,7 +615,7 @@ Bemærk at der yderst til højre er angivet ”rig visualisering”. Her er der 
 
 I FDA regi udarbejdes supplerende retningslinjer for modeller.
 
-I første omgang er der udarbejdet regler for beskrivelse af begreber og logiske datamodeller i UML og en vejledning i brug af modelsproget ArchiMate til udarbejdelse af en række af de andre arkitekturprodukter. På sigt kan der eventuelt og efter behov udvikles yderligere vejledning, skabeloner og eksempler til de nævnte arkitekturprodukter.
+I første omgang er der udarbejdet regler for beskrivelse af begreber, informations- og logiske datamodeller i UML og en vejledning i brug af modelsproget ArchiMate til udarbejdelse af en række af de andre arkitekturprodukter. På sigt kan der eventuelt og efter behov udvikles yderligere vejledning, skabeloner og eksempler til de nævnte arkitekturprodukter.
 
 ### Modelleringsniveau
 
@@ -661,7 +661,7 @@ Vælg en tilgang, der svarer til behov og mulighed for vedligeholdelse af refere
 
 I arkitekturarbejdet er der et særligt begreb, som er centralt: Byggeblokke (forkortes BB). En byggeblok er en fælles term for et aspekt i arkitekturen, som kan afgrænses som et element, som (potentielt) kan genbruges, når man designer arkitektur/løsninger. 
 
-FDA anvender begrebet på baggrund af standarden The Open Group Architecture Framework (TOGAF) og lægger sig desuden op ad den tilgang, som er udtrykt i The European Interoperability Reference Architecture (EIRA). FDA anvender ligesom EIRA byggeblokbegrebet i en bred betydning og der findes byggeblokke inden for alle de otte grundperspektiver. Fx er et juridisk bindende instrument som en lov en væsentlig byggeblok i et juridisk perspektiv i forbindelse med digitalisering. Her kan fx lov om digital post ses som en løsningsbyggeblok, der sikrer fælles juridiske rammer for anvendelse af digital post for alle myndigheder, borgere og virksomheder.
+FDA anvender begrebet på baggrund af standarden The Open Group Architecture Framework (TOGAF) og lægger sig desuden op ad den tilgang, som er udtrykt i The European Interoperability Reference Architecture (EIRA). FDA anvender ligesom EIRA byggeblokbegrebet i en bred betydning og der findes byggeblokke inden for alle de otte FDA-perspektiver. Fx er et juridisk bindende instrument som en lov en væsentlig byggeblok i et juridisk perspektiv i forbindelse med digitalisering. Her kan fx lov om digital post ses som en løsningsbyggeblok, der sikrer fælles juridiske rammer for anvendelse af digital post for alle myndigheder, borgere og virksomheder.
 
 Som led i FDA opbygges et fællesoffentligt katalog over byggeblokke – dvs. de mest væsentlige og genbrugelige dele af arkitekturen. Kataloget udstilles dels som Archimate model dels som en taksonomi i regneark-format.
 
@@ -684,17 +684,17 @@ Når man beskriver arkitekturen, sker det på flere måder alt afhængigt af, hv
 
 Når man skal modellere kræver det et egnet værktøj. De forskellige modelsprog stiller forskellige krav til værktøjernes egenskaber. Nogle værktøjer understøtter flere modelsprog, mens andre er specialiserede. 
 
-Nærværende retningslinjer kræver ikke anvendelse af særlige værktøjer. En myndighed, leverandør eller projekt må derfor vælge det værktøj, der understøtter det konkrete behov. Man skal dog sikre sig, at det valgte værktøj understøtter de rette versioner af modelsprog og udvekslingsformater. 
+Nærværende retningslinjer stiller ikke krav om anvendelse af bestemte værktøjer. En myndighed, leverandør eller projekt kan vælge det værktøj, der understøtter det konkrete behov. Det er dog vigtigt at sikre sig, at det valgte værktøj understøtter de rette versioner af modelsprog og udvekslingsformater. 
 
 Bilag 4 _Liste over modelsprog og udvekslingsformater_ beskriver anbefalede versioner af modelsprog og udvekslingsformater.
 
-Hvis man udveksler mellem to ens værktøjer, kan man godt udveksle med proprietært format, men når man skal dele på tværs af værtøjer, herunder publicere i fællesoffentlige kataloger, bør det ske med brug af et FDA-anbefalet åbent udvekslingsformat.
+Hvis man udveksler mellem to ens værktøjer, kan man godt udveksle med et proprietært format. Når man derimod skal dele på tværs af værtøjer, herunder publicere i fællesoffentlige kataloger, bør udvekslingen ske med brug af et FDA-anbefalet åbent udvekslingsformat.
 
 Sekretariatet for FDA vil efter behov understøtte udvalgte modelsprog i enkelte værktøjer. Det kan være med skabeloner, kompetenceudvikling og lign.
 
 ### Udstilling, deling og genbrug af arkitekturmodeller
 
-I forbindelse med udveksling og deling af arkitekturprodukter kan der naturligvis være behov for og værdi i at dele fx modeller og diagrammer i originalt format. 
+I forbindelse med udveksling og deling af arkitekturprodukter kan der være behov for og værdi i at dele fx modeller og diagrammer i originalt format. 
 
 Som hovedprincip anbefales det, at dele og udveksle arkitekturprodukter som minimum i pdf. Det giver en garanti for at afsender og modtager kan læse og se det samme. Modeller udført i samme modelsprog og udvekslet i fælles format kan stadig opføre sig forskelligt i forskellige værktøjer.
 

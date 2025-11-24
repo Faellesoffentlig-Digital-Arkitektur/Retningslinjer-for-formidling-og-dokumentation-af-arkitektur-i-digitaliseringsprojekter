@@ -132,22 +132,22 @@ Fra projekter spørges typisk: Hvilke arkitekturprodukter skal vi lave? Hvorfor 
 
 Projekterne bør tage udgangspunkt i følgende principper som pejlemærker:
 
-? Hvad skal vi lave og hvorfor?
+Hvad skal vi lave og hvorfor?
 
 * **Den nødvendige og tilstrækkelige dokumentation udarbejdes.**   
   Det betyder, at projektet - med udgangspunkt i projektmodel og -type - skal tage højde for behov ift. relevante processer og interessenter, herunder særligt behov ift. styring (styregruppe), analyse og konceptudvikling (nøgleaktører og arkitekter), projekt- og arkitekturreview (statens it-projektråd, review-panel), anskaffelse og udvikling (systemejer, leverandør) samt overlevering til drift, support og videreudvikling.
 
-? Hvornår og i hvilken kvalitet?
+Hvornår og i hvilken kvalitet?
 
 * **Dokumentation udarbejdes til rette tid og formål.**  
   Det betyder, at der løbende som led i projektets aktiviteter udarbejdes dokumentation, der understøtter projektet. Prioriter gerne ud fra de behov interessenterne har på et givet tidspunkt, ud fra de informationer, der er til stede på dette tidspunkt og at dokumentationen har en form og format, som modsvarer behovet.
 
-? Hvordan skal vi gøre - er der metodefrihed?
+Hvordan skal vi gøre - er der metodefrihed?
 
 * **Der er metodefrihed indenfor fælles rammer.**  
   Det betyder, at retningslinjerne giver pejlemærker for, hvad projekterne bør tage stilling til og tænke ind i planlægningen, men som udgangspunkt ikke begrænser anvendelse af standarder og almindelig god praksis. Hvor der undtagelsesvist laves begrænsende regler, er det af hensyn til at understøtte det tværgående samarbejde, herunder deling og genbrug af arkitekturdokumentation. Metodefriheden stopper der hvor vi skal udveksle information.
 
-? Hvordan skal de anvendes og vedligeholdes?
+Hvordan skal de anvendes og vedligeholdes?
 
 * **Arkitekturprodukter skal anvendes hvor relevant og vedligeholdes efter aftale.**  
   Det betyder, at projektets arkitekturprodukter skal bringes i anvendelse i relevante sammenhænge. Først og fremmest internt i projektet, hvor et arkitekturprodukt kan betragtes som en stafet der fx går fra arkitekt til udvikler, og som dermed bidrager til et klart grundlag for arbejdet med løsningen. Desuden skal relevante dele af projektets arkitekturprodukter kommunikeres og deles med andre interessenter uden for projektet, fx dokumentation af data, services og snitflader. Nogle arkitekturprodukter kommer fra eller skal blive del af en overordnet rammesættende (enterprise) arkitektur. Der skal være klare rammer for ansvaret for vedligehold af de blivende arkitekturprodukter.

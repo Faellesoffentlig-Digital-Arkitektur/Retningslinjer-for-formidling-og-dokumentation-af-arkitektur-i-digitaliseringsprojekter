@@ -286,9 +286,9 @@ _Bilag 2: FDA-perspektiver_ indeholder en mere detaljeret gennemgang af FDA-pers
 
 Der kan defineres mange andre perspektiver, som kan gå på tværs af disse perspektiver. Fx sammenhæng mellem hvilke applikationsservices der understøtter hvilke forretningsservices eller hvilke informationer der udveksles mellem hvilke applikationer. 
 
-![Figur6_Fire_tværgående_perspektiver_på forretnings_og_it_arkitekturen.svg](assets/Figur6_Fire_tvaergaaende_perspektiver_på_forretnings_og_it_arkitekturen.svg)
+![Figur6_Fire_tværgående_FDA-perspektiver_på forretnings_og_it_arkitekturen.svg](assets/Figur6_Fire_tvaergaaende_perspektiver_på_forretnings_og_it_arkitekturen.svg)
 
-*Figur 6 Fire tværgående perspektiver på forretnings- og it-arkitekturen*
+*Figur 6 Fire tværgående FDA-perspektiver på forretnings- og it-arkitekturen*
 
 De fire øverste perspektiver Styring, Strategi, Jura og Sikkerhed går i høj grad på tværs af de fire nederste perspektiver. Fx skal styring forholde sig til alle aspekter af løsningen fra strategi til infrastruktur og lovgivning kan sætte rammer for opgaver og brug af data og tekniske løsninger. 
 
@@ -296,15 +296,15 @@ De fire horisontale lag kan endvidere deles op i domæner, fx ved brug af FORM-o
 
 De otte grundlæggende arkitekturperspektiver som defineres i FDA modsvarer tilsvarende i internationale arkitekturrammeværker som fx TOGAF og The European Interoperability Framework (EIF). Der er varianter i terminologi, snit og struktur, men i hovedtræk kan alle de gængse rammeværker mappes til hinanden - og FDA kan ligeledes mappes til disse. FDA-perspektivet ”Opgaver” svarer fx i store træk til ”Forretning” i TOGAF og ”Organisation” i EIF. 
 
-FDA skal ikke ses som en konkurrent til rammeværker som TOGAF, EIF og tilsvarende, men som et supplement. FDA definerer derfor heller ikke sin egen metamodel, men alene de otte grundperspektiver, som anvendes til at definere en arkitekturreol, som kan understøtte samarbejde og videndeling op tværs af den offentlige sektor – og på tværs af rammeværker.
+FDA skal ikke ses som en konkurrent til rammeværker som TOGAF, EIF og tilsvarende, men som et supplement. FDA definerer derfor heller ikke sin egen metamodel, men alene de otte FDA-perspektiver, som anvendes til at definere en arkitekturreol, som kan understøtte samarbejde og videndeling op tværs af den offentlige sektor – og på tværs af rammeværker.
 
 ## Arkitekturreol
 
-Dette kapitel handler om FDA-arkitekturreolen, som anvendes til at placere arkitekturprodukter på ”hylder”, så de er nemme at finde og dele. Vertikalt er reolen delt op efter de otte grundperspektiver. Horisontalt er den delt i tre niveauer, der beskriver graden af konkretisering og detaljer: 
+Dette kapitel handler om FDA-arkitekturreolen, som anvendes til at placere arkitekturprodukter på ”hylder”, så de er nemme at finde og dele. Vertikalt er reolen delt op efter de otte FDA-perspektiver. Horisontalt er den delt i tre niveauer, der beskriver graden af konkretisering og detaljer: 
 
 * Konceptuel - har fokus på overblik og rummer færrest detaljer. Henvender sig især til beslutningstagere samt interessenters/integrationsparters arkitekter og nye arkitekter på løsningen. Beskrivelser er typisk nemme at afkode uden særlige forudsætninger.
-* Logisk - har fokus på sammenhænge og konsistens og rummer de vigtigste detaljer. Beskrivelserne er typisk med klare definitioner og relationer mellem de forskellige elementer, der indgår i arkitekturen. Henvender sig især til arkitekter, projektledere og eksperter inden for de enkelte perspektiver.
-* Fysisk - har fokus på, hvordan løsningens forskellige elementer realiseres og rummer alle nødvendige detaljer for udvikling, implementering og drift. Henvender sig især til dem, der skal udføre opgaver i forretningen, udvikle løsningen samt løse opgaver i drift og support.
+* Logisk - har fokus på sammenhænge og konsistens og rummer de væsentligeste detaljer. Beskrivelserne er typisk med klare definitioner og relationer mellem de forskellige elementer, der indgår i arkitekturen. Henvender sig især til arkitekter, projektledere og eksperter inden for de enkelte perspektiver.
+* Fysisk - har fokus på, hvordan løsningens forskellige elementer realiseres og rummer alle nødvendige detaljer for udvikling, implementering og drift. Henvender sig især til dem, der skal udføre opgaver i forretningen, udvikle løsningen samt løse opgaver i drift, vedligehold og support.
 
 Nedenstående figur viser reolens opbygning. Overskriften til de enkelte hylder er udtryk for et bud på en pragmatisk fordeling af de mange forskellige ledelses- og arkitekturprodukter, som udarbejdes og anvendes i virksomheden og dens projekter. Reolen kan i princippet rumme alle slags arkitektur ifbm digitalisering og it, og kan både rumme arkitektur for den enkelte løsning og en samlet virksomhedsarkitektur.
 
@@ -312,7 +312,7 @@ Nedenstående figur viser reolens opbygning. Overskriften til de enkelte hylder 
 
 *Figur 7 FDA arkitekturreolen*
 
-FDA arkitekturreolens struktur anvendes som en klassifikation til at opmærke arkitekturprodukter, når de skal udstilles og deles, så det bliver nemt at fremsøge dem.
+FDA arkitekturreolens struktur anvendes som en klassifikation til at opmærke arkitekturprodukter, når de skal udstilles og deles, så det bliver nemmere at fremsøge dem.
 
 ## Arkitekturleverancer
 

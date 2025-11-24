@@ -230,7 +230,7 @@ En god måde at forstå forskellen på er, at se det som et spørgsmål og et sv
 * **Perspektivet** svarer til spørgsmålet – det afspejler interessentens synsvinkel og fokus.
 * **Visningen** svarer til svaret – den viser den del af arkitekturen, der belyser netop dette fokusområde.
 
-** Perspektiv – udgangspunktet for forståelsen**
+**Perspektiv – udgangspunktet for forståelsen**
 
 Et **perspektiv** angiver, _hvorfra_ man ser på arkitekturen. Det beskriver den synsvinkel eller kontekst, som interessenten anlægger.
 Når arkitekten eller projektlederen arbejder med perspektiver, handler det om at forstå interessenternes ståsted: Hvad er vigtigt for dem? Hvilke beslutninger skal de træffe? Hvilke risici eller afhængigheder ser de som væsentlige?

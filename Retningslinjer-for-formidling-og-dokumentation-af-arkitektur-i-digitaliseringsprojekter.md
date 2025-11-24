@@ -222,19 +222,42 @@ Ovenstående er en forenkling. Valget mellem formel og uformel repræsentation b
 
 ## Arkitekturperspektiver og -visninger
 
-I dette kapitel defineres en række grundlæggende perspektiver på og visninger af arkitekturen, der understøtter interessenternes behov for information. Det sker ligeledes med udgangspunkt i TOGAF og standarden ISO/IEC/IEEE 42010 “Systems and software engineering — Architecture description”.
+Når der arbejdes med arkitektur, skal det sikres, at de relevante interessenter får den information, de har brug for i en form, der giver mening for dem. Dette kapitel beskriver, hvordan vi kan bruge **perspektiver** og **visninger** til at strukturere og kommunikere arkitekturen ud fra interessenternes behov.
 
-Man kan sige, at en interesse kan udtrykkes som et spørgsmål fra et bestemt perspektiv og en visning er et svar.
+Tilgangen tager udgangspunkt i TOGAF og standarden ISO/IEC/IEEE 42010 “Systems and software engineering — Architecture description”.
 
-Et **perspektiv** definerer udgangspunktet, hvorfra en visning er oprettet. En synsvinkel er en specifikation af de principper, der er blevet anvendt til at konstruere og anvende en visning. En visning er det man ser; et perspektiv er hvor man ser fra – det udsigtspunkt eller synsvinkel, der afgør hvad du ser. Man kan også anvende alternative TOGAF termer som _synsvinkel / viewpoint_.
+En god måde at forstå forskellen på er, at se det som et spørgsmål og et svar:
+* **Perspektivet** svarer til spørgsmålet – det afspejler interessentens synsvinkel og fokus.
+* **Visningen** svarer til svaret – den viser den del af arkitekturen, der belyser netop dette fokusområde.
 
-En **visning** er repræsentationen af en samling beslægtede anliggender. En visning er det der ses fra et bestemt synspunkt. En arkitekturvisning kan repræsenteres med en repræsentation af (en del af) en model for at vise interessenterne deres særlige interesseområder i arkitekturen. En visning behøver ikke nødvendigvis at være visuel eller grafisk. Ofte anvendes den alternative engelske term _view_.
+** Perspektiv – udgangspunktet for forståelsen**
+
+Et **perspektiv** angiver, _hvorfra_ man ser på arkitekturen. Det beskriver den synsvinkel eller kontekst, som interessenten anlægger.
+Når arkitekten eller projektlederen arbejder med perspektiver, handler det om at forstå interessenternes ståsted: Hvad er vigtigt for dem? Hvilke beslutninger skal de træffe? Hvilke risici eller afhængigheder ser de som væsentlige?
+
+I nogle sammenhænge bruges begrebet **synsvinkel** (_viewpoint_) i stedet for perspektiv. I TOGAF betyder det det samme: en definition af de principper og metoder, der anvendes til at skabe og anvende en visning.
+
+  Tip: Start altid med at afklare interessenternes perspektiver, før du laver modeller eller diagrammer. Det sikrer, at visningerne bliver målrettede og relevante.
+
+**Visning**
+
+En **visning** repræsenterer det, man ser fra et givent perspektiv. Det kan være en model, et diagram, en beskrivelse eller et andet artefakt, der belyser specifikke forhold i arkitekturen.
+En visning kan fokusere på fx:
+
+* Forretningsprocesser og arbejdsfunktioner
+* Applikationslandskabet
+* Datastrukturer eller informationsflow
+* Teknisk infrastruktur
+
+En visning behøver ikke være visuel. En struktureret tekst, et katalog eller en relationsbeskrivelse kan også fungere som en visning, hvis det opfylder interessentens informationsbehov. Den engelske term _view_ anvendes ofte som synonym.
+
+  Tip: Brug visninger aktivt i dialogen med interessenter. En visning skal skabe fælles forståelse – ikke bare dokumentation.
 
 ![Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg](assets/Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg)
 
 *Figur 3 En interessent med et perspektiv der ser en visning der modsvarer interessen*
 
-Figur 3 viser en interessent med et perspektiv der ser en visning der modsvarer interessenviser en spørgende interessent, der ser på en visning af arkitekturen ud fra et perspektiv med fokus på det der interesserer ham – her er det den forretningsmæssige opgaveløsning med fokus på processer og arbejdsfunktioner. 
+Figur 3 illustrerer en interessent, der gennem sit perspektiv betragter en arkitekturvisning med fokus på de aspekter, der har relevans for vedkommende, her fx den forretningsmæssige opgaveløsning med fokus på processer og arbejdsfunktioner.
 
 Det er vigtigt at skelne mellem den faktiske model og visningerne. Modellen afspejler arkitekturens indhold (elementer/byggeblokke) og deres relationer, som beskrevet af arkitekten. En visning indeholder et udsnit af modellen. Visningen skal designes så den er meningsfuld for den specifikke interessent, og dennes specifikke interesser, som visningen er tiltænkt. En eller flere visninger kan indgå i et arkitekturprodukt. Jf. figur 4.
 

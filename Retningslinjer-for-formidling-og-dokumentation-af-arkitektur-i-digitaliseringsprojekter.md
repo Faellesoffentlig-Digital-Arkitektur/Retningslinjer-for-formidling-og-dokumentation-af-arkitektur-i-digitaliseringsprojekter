@@ -265,7 +265,7 @@ Det er vigtigt at skelne mellem den faktiske model og visningerne. Modellen afsp
 
 *Figur 4 visning bygger på model og kan indgå i arkitekturprodukter*
 
-De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens principper, som hver især sætter rammerne for centrale problemstillinger, der skal tages højde for i digitaliseringsprojekters arkitekturarbejde. De otte perspektiver danner tilsammen en helhedstilgang til digitalisering, som kan beskrive en samlet fortælling om arkitekturen, her i forenklet form:
+De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens principper, som hver især sætter rammerne for centrale problemstillinger, der skal tages højde for i digitaliseringsprojekters arkitekturarbejde. De otte FDA-perspektiver danner tilsammen en helhedstilgang til digitalisering, som kan beskrive en samlet fortælling om arkitekturen, her i forenklet form:
 
 * De offentlige parter -staten, kommunerne og regionerne - vil udvikle sammenhængende digitale services sammen. De må derfor sætte fælles rammer op for at styre hvordan de kan realisere dette, herunder aftale konkrete initiativer og projekter. (Styring)
 * Parterne formulerer en fælles strategi med vision og mål, en plan for realisering inklusiv en fælles rammearkitektur og en plan for at bevæge sig fra den eksisterende situation (as is arkitektur) til målbilledet (to be eller mål-arkitektur). (Strategi)
@@ -276,15 +276,15 @@ De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens pr
 * Når der sættes strøm på og it-systemer skal integreres skal der være enighed om hvilke applikationer der skal kunne tale sammen, hvordan de integreres (integrationsmønstre), og hvilke protokoller der anvendes, så data udveksles sikkert og effektivt. (Applikation)
 * Endelig skal det sikres, at både dataudveksling og levering af sammensatte services sker på et robust og sikkert fundament. Derfor skal aktørerne aftale, hvilke infrastrukturkomponenter, der skal i spil og aftale et niveau for hvordan de skal fungere sikkert og effektivt. (Infrastruktur)
 
-FDA har således otte grundperspektiver som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-arkitekturperspektiver_. 
+FDA har således otte grundperspektiver (FDA-perspektiver) som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-perspektiver_. 
 
-![Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
+![Figur5_De_otte_grundlæggende_FDA-perspektiver.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
 *Figur 5 De otte grundlæggende FDA-arkitekturperspektiver*
 
-_Bilag 2: FDA-grundperspektiver_ indeholder en mere detaljeret gennemgang af FDA grundperspektiverne, hvor de relateres til relevante principper, arkitekturregler, interessenter og interesser samt arkitekturprodukter.
+_Bilag 2: FDA-perspektiver_ indeholder en mere detaljeret gennemgang af FDA-perspektiverne, hvor de relateres til relevante principper, arkitekturregler, interessenter og interesser samt arkitekturprodukter.
 
-Der kan defineres mange andre perspektiver, som kan gå på tværs af disse grundperspektiver. Fx sammenhæng mellem hvilke applikationsservices der understøtter hvilke forretningsservices eller hvilke informationer der udveksles mellem hvilke applikationer. 
+Der kan defineres mange andre perspektiver, som kan gå på tværs af disse perspektiver. Fx sammenhæng mellem hvilke applikationsservices der understøtter hvilke forretningsservices eller hvilke informationer der udveksles mellem hvilke applikationer. 
 
 ![Figur6_Fire_tværgående_perspektiver_på forretnings_og_it_arkitekturen.svg](assets/Figur6_Fire_tvaergaaende_perspektiver_på_forretnings_og_it_arkitekturen.svg)
 

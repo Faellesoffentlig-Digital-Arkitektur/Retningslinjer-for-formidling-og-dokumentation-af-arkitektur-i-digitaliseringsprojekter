@@ -34,6 +34,7 @@ Målgruppen for dette dokument er forretnings- og it-arkitekter samt projektlede
 Den fælles dokumentationsramme kan tages i brug og tilpasse til konkrete behov i et projekt/program og en myndighed/organisation. Retningslinjerne kan anvendes uafhængigt af projekt- og udviklingsmodel. Retningslinjerne er vejledende og kan frit anvendes af alle myndigheder. 
 
 **Særligt for FODS projekter**
+
 For projekter i regi af den fællesoffentlige digitaliseringsstrategi (FODS), er der aftalt krav om, at projekterne skal følge retningslinjerne med særligt fokus på at understøtte arkitekturstyring og kvalitetssikring gennem review.
 
 Som led i FODS vil der blive etableret tilbud om kompetenceudvikling og rådgivning ift. anvendelse af disse retningslinjer, som stilles til rådighed for alle myndigheder og leverandører på markedsvilkår.

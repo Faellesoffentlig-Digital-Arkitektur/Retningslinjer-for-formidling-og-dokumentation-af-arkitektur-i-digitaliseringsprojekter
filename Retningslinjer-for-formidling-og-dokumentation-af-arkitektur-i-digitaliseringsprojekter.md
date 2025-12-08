@@ -365,7 +365,7 @@ Bilag 3 _Liste over udvalgte arkitekturprodukter_ beskriver i kort form de udval
 
 Nærværende retningslinjerne har ikke til formål, generelt at definere disse produkter i detaljer. For enkelte produkter er der dog nærmere regler og retningslinjer i regi af FDA, jf. følgende afsnit om modellering.
 
-Det anbefales at tage udgangspunkt i god praksis i eksisterende rammeværker som fx Open Groups arkitekturprodukter (kaldet artefakter). Dvs. at man for en mere detaljeret vejledning bør tage udgangspunkt i TOGAF eller tilsvarende rammeværk. TOGAF definerer eksempelvis en detaljeret [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html), som er grundlag for definition af [arkitekturprodukter](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap03.html) og [arkitekturleverancer](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap04.html). Disse omfatter struktureret information i form af kataloger, matricer og diagrammer.  Se Bilag 6 Tabeloversigt af ændringer mellem TOGAF 10 og 9. 
+Det anbefales at tage udgangspunkt i god praksis i eksisterende rammeværker som fx Open Groups arkitekturprodukter (kaldet artefakter). Dvs. at man for en mere detaljeret vejledning bør tage udgangspunkt i TOGAF eller tilsvarende rammeværk. TOGAF definerer eksempelvis en detaljeret [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html), som er grundlag for definition af [arkitekturprodukter](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap03.html) og [arkitekturleverancer](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap04.html). Disse omfatter struktureret information i form af kataloger, matricer og diagrammer.  Se Bilag 5 Tabeloversigt af ændringer mellem TOGAF 10 og 9. 
 
 De udvalgte produkter er nærmere beskrevet i oversigtlig form i bilag 3 _Liste over anbefalede arkitekturprodukter_, hvor de bl.a. relateres til TOGAF og udvalgte modelsprog.
 
@@ -1178,6 +1178,17 @@ Listen opdateres løbende. Listen vedligeholdes af Digitaliseringsstyrelsen.
 | UML        | 2.5.1              | [XML Metadata Interchange / XMI 2.5.1](https://www.omg.org/spec/XMI/)                                                                                                                                                                                                                                                                                                                                   |
 | BPMN       | 2.0.2                | [Object Management Group tilbyder to XML formater til udveksling af BPMN 2.0.2](https://www.omg.org/spec/BPMN/):<br><br> For at sikre optimal udnyttelse af BPMN 2.0.2-udvekslingsformater anbefales det, at du orienterer dig i den officielle specifikation. Object Management Group stiller flere udvekslingsformater til rådighed, og ved at gennemgå specifikationen kan du vælge det format, der bedst understøtter dine behov i forbindelse med udveksling af BPMN-data. <br>[Link til specifikationen](https://www.omg.org/spec/BPMN/2.0.2/PDF).|
 | DMN        | 1.5                | [Link til Object management Group tilbyder XML formater der til udvekling af DMN](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                                                                                                                                                   |
+
+
+## Bilag 5: Tabeloversigt af ændringer mellem TOGAF 10 og 9.
+
+TOGAF definerer eksempelvis en detaljeret indholds-metamodel, som er grundlag for definition af arkitekturprodukter og arkitekturleverancer. 
+
+| | TOGAF 10  | TOGAF 9 |
+| | ---		|---		|
+| Content metamodel| [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html) | [indholds-metamodel](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap34.html) |
+| Architectural Artifacts | [arkitekturprodukter](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap03.html) | [arkitekturprodukter](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap31.html) |
+| Architecture Deliverables | [arkitekturleverancer](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap04.html) | [arkitekturleverancer](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap36.html) |
 
 
 ## Fodnoter

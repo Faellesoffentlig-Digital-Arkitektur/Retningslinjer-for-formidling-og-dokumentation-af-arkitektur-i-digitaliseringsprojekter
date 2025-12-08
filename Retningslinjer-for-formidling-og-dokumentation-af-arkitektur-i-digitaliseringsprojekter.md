@@ -371,11 +371,30 @@ De udvalgte produkter er nærmere beskrevet i oversigtlig form i bilag 3 _Liste 
 
 ## Arbejdet med arkitekturprodukter
 
+Arbejdet med arkitekturprodukter skal understøtte et fælles sprog og en ensartet praksis på tværs af digitaliseringsprojekter. Formålet er at skabe klare beslutningsgrundlag, reducere risiko og sikre sammenhæng mellem løsning, forretning og tværgående offentlige principper. For at opnå dette anbefales det at basere arbejdet på et veldefineret rammeværk, der tilbyder struktur, fleksibilitet og genkendelighed — uanset projektets metode eller organisering. 
+
+TOGAF® udgør det primære metodiske fundament i retningslinjerne. TOGAF® 10 markerer et væsentligt fremskridt i forhold til TOGAF 9, både i struktur, indhold og anvendelsesmuligheder. Hvor TOGAF 9 ofte blev oplevet som omfattende og relativt statisk, er TOGAF 10 udviklet til at være modulær, fleksibel og bedre tilpasset moderne digitale og agile organisationers behov. Denne udvikling gør det lettere at udvælge netop de artefakter og fremgangsmåder, der skaber værdi i den konkrete projektsammenhæng.
+
+Den modulære tilgang betyder, at arkitekturprodukterne kan udarbejdes iterativt og i det detaljeringsniveau, der giver mest værdi på hvert tidspunkt i projektets livscyklus. Produkterne kan opdateres løbende i takt med ny viden, ændrede forudsætninger eller justerede målsætninger. Det understøtter samarbejdet mellem forretning, udvikling og leverandører og sikrer, at dokumentationen forbliver relevant og anvendelig.
+
+Udvælgelsen af arkitekturprodukter bør derfor altid tage udgangspunkt i projektets formål, risiko og kompleksitet. Det handler ikke om at producere flest mulige dokumenter, men om at skabe den nødvendige transparens og retning. I nogle projekter vil et fåtal af artefakter være tilstrækkeligt, mens andre kræver en mere omfattende arkitekturopbygning for at sikre fremdrift og kvalitet.
+
+I den praktiske anvendelse anbefales det at:
+
+- fokusere på formålet med hvert arkitekturprodukt frem for selve formatet
+- arbejde iterativt og tilpasse indholdet efter projektets modenhed
+- prioritere artefakter, der reducerer risiko og styrker beslutninger
+- sikre løbende dialog om arkitekturens konsekvenser på tværs af aktører
+
+Denne tilgang gør arkitekturarbejdet mere værdiskabende og mindre dokumentationstungt — og understøtter samtidig projekter uafhængigt af leverancemodel, projektmetode og udviklingsmodel.
+
+<!--
 Dette kapitel giver en overordnet introduktion til hvordan arkitektur kan gribes an i forhold til projektmodeller og agile metoder samt hvordan man kan arbejde med prioritering og governance i forhold til arkitekturprodukter. 
 
 De produkter, som er beskrevet ovenfor udarbejdes af forskelle aktører og i forskelligt regi og forskellige faser. Fx er der en række arkitekturprodukter, som er rammesættende for flere projekter. Det kan fx være forretningsmål, arkitekturprincipper og sikkerhedsstrateg. Disse udarbejdes typisk af ledelsen assisteret af en tværgående funktion, fx en EA eller sikkerhedsfunktion. Andre produkter udarbejdes af/til projektledelsen. Det er fx interessentanalyse, gevinstmodel og ændringsanmodningslog. Og så er der en række specialistprodukter, som udarbejdes primært af arkitekter i samarbejde med forskellige grupperinger af projektets interessenter.
 
 Nogle produkter kan således være udarbejdet før projektet og fungere som (rammesættende) input. Andre udarbejdes tidligt i projektet og er rammesættende for de øvrige produkter. Og så er der alle de produkter, der udarbejdes efterhånden som projektet skrider frem og der skabes klarhed over behov og løsningsmuligheder. Dette kan ske efter forskellige metoder – mere eller mindre vandfald eller agilt og eventuelt med brug af formaliserede metoder som fx Scrum og et rammeværk som fx TOGAF – der sagtens kan anvendes i kombination. Det er op til projektet at vælge og tilpasse egnede metoder. 
+-->
 
 FDA-dokumentet _Vejledning om arkitekturmetode_ giver – som et eksempel og til inspiration - en introduktion til anvendelse af TOGAF’s arkitekturudviklingsmetode i forhold til FDA.
 

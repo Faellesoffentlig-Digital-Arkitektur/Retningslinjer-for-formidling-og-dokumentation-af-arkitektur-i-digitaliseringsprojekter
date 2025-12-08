@@ -1184,8 +1184,8 @@ Listen opdateres løbende. Listen vedligeholdes af Digitaliseringsstyrelsen.
 
 TOGAF definerer eksempelvis en detaljeret indholds-metamodel, som er grundlag for definition af arkitekturprodukter og arkitekturleverancer. 
 
-| | TOGAF 10  | TOGAF 9 |
-| | ---		|---		|
+|     | TOGAF 10  | TOGAF 9 |
+| --- | ---		|---		|
 | Content metamodel| [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html) | [indholds-metamodel](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap34.html) |
 | Architectural Artifacts | [arkitekturprodukter](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap03.html) | [arkitekturprodukter](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap31.html) |
 | Architecture Deliverables | [arkitekturleverancer](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap04.html) | [arkitekturleverancer](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap36.html) |

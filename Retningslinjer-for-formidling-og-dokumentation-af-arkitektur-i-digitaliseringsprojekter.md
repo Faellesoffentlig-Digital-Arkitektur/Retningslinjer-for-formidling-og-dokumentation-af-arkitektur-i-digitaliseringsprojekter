@@ -31,7 +31,7 @@ Målgruppen for dette dokument er forretnings- og it-arkitekter samt projektlede
 
 ### Anvendelse
 
-Den fælles dokumentationsramme kan tages i brug og tilpasse til konkrete behov i et projekt/program og en myndighed/organisation. Retningslinjerne kan anvendes uafhængigt af projekt- og udviklingsmodel. Retningslinjerne er vejledende og kan frit anvendes af alle myndigheder. 
+Den fælles dokumentationsramme kan tages i brug og tilpasses til konkrete behov i et projekt/program og i en myndighed/organisation. Retningslinjerne kan anvendes uafhængigt af projekt- og udviklingsmodel. Retningslinjerne er vejledende og kan frit anvendes af alle myndigheder. 
 
 **Særligt for FODS projekter**
 
@@ -132,7 +132,7 @@ Fra projekter spørges typisk: Hvilke arkitekturprodukter skal vi lave? Hvorfor 
 
 Projekterne bør tage udgangspunkt i følgende principper som pejlemærker:
 
-Hvad skal vi lave og hvorfor?
+Hvad skal vi udarbejde og hvorfor?
 
 * **Den nødvendige og tilstrækkelige dokumentation udarbejdes.**   
   Det betyder, at projektet - med udgangspunkt i projektmodel og -type - skal tage højde for behov ift. relevante processer og interessenter, herunder særligt behov ift. styring (styregruppe), analyse og konceptudvikling (nøgleaktører og arkitekter), projekt- og arkitekturreview (statens it-projektråd, review-panel), anskaffelse og udvikling (systemejer, leverandør) samt overlevering til drift, support og videreudvikling.
@@ -222,7 +222,7 @@ Ovenstående er en forenkling. Valget mellem formel og uformel repræsentation b
 
 ## Arkitekturperspektiver og -visninger
 
-Når der arbejdes med arkitektur, skal det sikres, at de relevante interessenter får den information, de har brug for i en form, der giver mening for dem. Dette kapitel beskriver, hvordan vi kan bruge **perspektiver** og **visninger** til at strukturere og kommunikere arkitekturen ud fra interessenternes behov.
+Når der arbejdes med arkitektur, skal det sikres, at de relevante interessenter får den information de har brug for, i en form, der giver mening for dem. Dette kapitel beskriver, hvordan **perspektiver** og **visninger** anvendes til at strukturere og kommunikere arkitekturen ud fra interessenternes behov.
 
 Tilgangen tager udgangspunkt i TOGAF og standarden ISO/IEC/IEEE 42010 “Systems and software engineering — Architecture description”.
 
@@ -235,14 +235,14 @@ En god måde at forstå forskellen på er, at se det som et spørgsmål og et sv
 Et **perspektiv** angiver, _hvorfra_ man ser på arkitekturen. Det beskriver den synsvinkel eller kontekst, som interessenten anlægger.
 Når arkitekten eller projektlederen arbejder med perspektiver, handler det om at forstå interessenternes ståsted: Hvad er vigtigt for dem? Hvilke beslutninger skal de træffe? Hvilke risici eller afhængigheder ser de som væsentlige?
 
-I nogle sammenhænge bruges begrebet **synsvinkel** (_viewpoint_) i stedet for perspektiv. I TOGAF betyder det det samme: en definition af de principper og metoder, der anvendes til at skabe og anvende en visning.
+I nogle sammenhænge bruges begrebet **synsvinkel** (_viewpoint_) i stedet for perspektiv. I TOGAF betyder det: "en definition af de principper og metoder, der anvendes til at skabe og anvende en visning".
 
-  Tip: Start altid med at afklare interessenternes perspektiver, før du laver modeller eller diagrammer. Det sikrer, at visningerne bliver målrettede og relevante.
+  Tip: Start altid med at afklare interessenternes perspektiver, før modeller eller diagrammer udarbejdes. Det sikrer, at visningerne bliver målrettede og relevante.
 
 **Visning**
 
 En **visning** repræsenterer det, man ser fra et givent perspektiv. Det kan være en model, et diagram, en beskrivelse eller et andet artefakt, der belyser specifikke forhold i arkitekturen.
-En visning kan fokusere på fx:
+En visning kan fx fokusere på:
 
 * Forretningsprocesser og arbejdsfunktioner
 * Applikationslandskabet
@@ -251,13 +251,13 @@ En visning kan fokusere på fx:
 
 En visning behøver ikke være visuel. En struktureret tekst, et katalog eller en relationsbeskrivelse kan også fungere som en visning, hvis det opfylder interessentens informationsbehov. Den engelske term _view_ anvendes ofte som synonym.
 
-  Tip: Brug visninger aktivt i dialogen med interessenter. En visning skal skabe fælles forståelse – ikke bare dokumentation.
+  Tip: Brug visninger aktivt i dialogen med interessenter. En visning skal skabe fælles forståelse – ikke kun anvendes til dokumentation.
 
 ![Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg](assets/Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg)
 
 *Figur 3 En interessent med et perspektiv der ser en visning der modsvarer interessen*
 
-Figur 3 illustrerer en interessent, der gennem sit perspektiv betragter en arkitekturvisning med fokus på de aspekter, der har relevans for vedkommende, her fx den forretningsmæssige opgaveløsning med fokus på processer og arbejdsfunktioner.
+Figur 3 illustrerer en interessent, der gennem sit perspektiv betragter en arkitekturvisning med fokus på de aspekter, der har relevans for vedkommende. Her fx den forretningsmæssige opgaveløsning med fokus på processer og arbejdsfunktioner.
 
 Det er vigtigt at skelne mellem den faktiske model og visningerne. Modellen afspejler arkitekturens indhold (elementer/byggeblokke) og deres relationer, som beskrevet af arkitekten. En visning indeholder et udsnit af modellen. Visningen skal designes så den er meningsfuld for den specifikke interessent, og dennes specifikke interesser, som visningen er tiltænkt. En eller flere visninger kan indgå i et arkitekturprodukt. Jf. figur 4.
 
@@ -327,13 +327,13 @@ Målarkitekturen udarbejdes tidligt i projektet som grundlag for analyse, udbud 
 
 Løsningsarkitekturen udarbejdes i samarbejde med leverandøren og kan nemt fylde 50, 100 eller flere hundrede sider. Omfanget skal være tilstrækkeligt til tydeligt at vise, hvordan de forretningsmæssige behov løses digitalt. 
 
-Den udarbejdes typisk iterativt i løbet af projektet og løsningens levetid. Takt, omfang og arbejdsdeling afhænger af det enkelte projekts kompleksitet og udviklingsmetode. I starten er beskrivelsen relativt abstrakt (logisk); tilslut er den meget konkret (fysisk) og detaljeret. Den er så vidt muligt dokumenteret i en sammenhængende arkitekturmodel. Den vil forekomme i forskellige hovedversioner i løsningens livstid: Fx som resultat af analysefasen til brug ifbm kravspecifikation til udbud, som løsningsforslag fra leverandøren, opdateret løsningsdokumentation ved overdragelse til drift, og løbende opdateret ifbm vedligehold og videreudvikling. Udvikles typisk i en arbejdsdeling mellem kunden og leverandøren. Løsningsarkitekturens primære målgrupper er projektleder, arkitekt, udvikler og leverandør – samt ikke mindst ansvarlige for drift, vedligehold og videreudvikling.
+Den udarbejdes typisk iterativt i løbet af projektet og løsningens levetid. 
+Timing, omfang og arbejdsdeling afhænger af det enkelte projekts kompleksitet og udviklingsmetode. I starten er beskrivelsen relativt abstrakt (logisk); men til slut er den meget konkret (fysisk) og detaljeret. Den er så vidt muligt dokumenteret i en sammenhængende arkitekturmodel. Den vil forekomme i forskellige hovedversioner i løsningens livstid: Fx som resultat af analysefasen til brug ifbm kravspecifikation til udbud, som løsningsforslag fra leverandøren, som opdateret løsningsdokumentation ved overdragelse til drift, og løbende opdateret ifbm vedligehold og videreudvikling. Udvikles typisk i en arbejdsdeling mellem kunden og leverandøren. Løsningsarkitekturens primære målgrupper er projektleder, arkitekt, udvikler og leverandør – samt ikke mindst ansvarlige for drift, vedligehold og videreudvikling.
 
 **Grundlag for målarkitektur**
+For at udarbejde en målarkitektur er der en række forhold, som det er relevant at kortlægge som grundlag for denne og som derfor kan betragtes som tidlige arkitekturprodukter. Indenfor FDA-perspektiverne styring og strategi drejer, det sig især om følgende; forretningsmål, vision/målbillede, kapabiliteter, udfordringer og principper. 
 
-For at lave en målarkitektur er der en række forhold, som det er relevant at kortlægge som grundlag for denne og som derfor kan betragtes som tidlige arkitekturprodukter. Indenfor FDA-perspektiverne styring og strategi drejer det sig især om følgende mål, gevinster, vision/målbillede, kapabiliteter, udfordringer og principper. 
-
-De er det strategiske udgangspunkt for at definere den overordnede målarkitektur og eventuelle trin på vejen til realisering i form af en migrationsstrategi. Men samtidig skal der typisk arbejdes med en række arkitekturprodukter der beskriver forretnings- og it-arkitektur inden for FDA-perspektiverne: Opgaver, Information, Applikation og Infrastruktur. I første omgang med fokus på et overordnet billede af de opgaver, der indgår i form af forretningsservices, processer, organisation, roller og forretningsobjekter/data, og den tekniske understøttelse i form af applikationskomponenter, -services og -snitflader samt de underliggende infrastrukturelle teknologiservices. Endelig skal der tages højde for de overordnede juriske rammer i form af love og aftaler, der giver såvel mandat som bindinger for løsningen. Og sidst men ikke mindst er det vigtigt, at tænke sikkerhed og privatliv ind fra starten med henblik på bl.a. robust drift, tillid og gennemsigtighed, herunder understøttelse af databeskyttelsesloven.
+Disse forhold er det strategiske udgangspunkt for at definere den overordnede målarkitektur og de eventuelle trin på vejen til realisering i form af en migrationsstrategi. Men samtidig skal der typisk arbejdes med en række arkitekturprodukter der beskriver forretnings- og it-arkitektur inden for FDA-perspektiverne: Opgaver, Information, Applikation og Infrastruktur. I første omgang med fokus på et overordnet billede af de opgaver, der indgår i form af forretningsservices, processer, organisation, roller og forretningsobjekter/data, og den tekniske understøttelse i form af applikationskomponenter, -services og -snitflader samt de underliggende infrastrukturelle teknologiservices. Endelig skal der tages højde for de overordnede juriske rammer i form af love og aftaler, der giver såvel mandat som bindinger for løsningen. Og sidst men ikke mindst er det vigtigt, at tænke sikkerhed og privatliv ind fra starten med henblik på bl.a. robust drift, tillid og gennemsigtighed, herunder understøttelse af databeskyttelsesloven.
 
 ## Arkitekturprodukter
 
@@ -529,7 +529,7 @@ Som eksempler på vejledninger kan nævnes _Introduktion til FDA rammearkitektur
 
 De fleste arkitekturprodukter udvikles, forfines, detaljeres og vedligeholdes løbende i det enkelte projekt, og hvor det er relevant på tværs af projekter. Derfor er det vigtigt dels at afklare forventninger til kvaliteten af et arkitekturprodukt på et givent tidspunkt dels at afklare hvilke arkitekturprodukter der primært ”bor” i det enkelte projekt og hvilke der bor andetsteds, og eventuelt på tværs af flere projekter. Fx kan der være datamodeller, som skal anvendes i et projekts løsning, men som ejes andetsteds.
 
-Være opmærksom på, at det er god praksis at starte med at bygge et enkelt grundlag for arkitekturmodellen og for forskellige visninger, ved at opbygge områder i arkitekturen som samlinger eller grupper. Fx en samling af mål, principper, processer, forretningsobjekter eller applikationer. Når man har styr på de enkelte samlinger kan man udvikle mere sammenhængende visning på tværs af disse. Det kan fx være i form forretningsservices der anvender hvilke applikationer eller hvilke forretningsobjekter der udveksles via hvilke snitflader mellem applikationer. Man kan også lave såkaldte fodspor (”footprints”), som viser den røde tråd fra fx et mål eller princip til forretnings- og applikationsservices.
+Det er god praksis at starte med at bygge et enkelt grundlag for arkitekturmodellen og for forskellige visninger, ved at opbygge områder i arkitekturen som samlinger eller grupper. Fx en samling af mål, principper, processer, forretningsobjekter eller applikationer. Når man har styr på de enkelte samlinger kan man udvikle mere sammenhængende visning på tværs af disse. Det kan fx være i form forretningsservices der anvender hvilke applikationer eller hvilke forretningsobjekter der udveksles via hvilke snitflader mellem applikationer. Man kan også lave såkaldte fodspor (”footprints”), som viser den røde tråd fra fx et mål eller princip til forretnings- og applikationsservices.
 
 * Dokumentationen udarbejdes, så der er sammenhæng og konsistens mellem arkitektprodukter, fx således at procesmodeller bruger begreber og attributter fra begrebs-, informations- og logiske datamodeller. På den måde kan man bedre holde styr på, hvor ændringer ét sted vil kunne have konsekvenser.
 
@@ -618,7 +618,7 @@ Brug Archimate på konceptuelt og logisk niveau til overblik og de områder der 
 
 Forskellige roller skal forstå og eventuelt mestre forskellige sprog og værktøjer:
 
-* Brug ArchiMate på konceptuelt eller logisk niveau til arkitekter, men giv ledelsen alternative visninger, der er ”rige” og letforståelige.
+* Brug ArchiMate på konceptuelt eller logisk niveau til arkitekter, men giv ledelsen alternative visninger, der er overskuelige, letforståelige og beslutningsrelevante.
 * Projektlederen skal forstå ArchiMate på overordnet niveau og tilsvarende de specialiserede modelsprog, hvor det er relevant, typisk særligt i forhold til processer og applikationslandskab.
 * Specialister som fx forretning-, informations- og applikationsarkitekter som skal kunne forstå og anvende de specialiserede modelsprog korrekt i forhold til de opgaver og arkitekturprodukter, som de arbejder med.
 

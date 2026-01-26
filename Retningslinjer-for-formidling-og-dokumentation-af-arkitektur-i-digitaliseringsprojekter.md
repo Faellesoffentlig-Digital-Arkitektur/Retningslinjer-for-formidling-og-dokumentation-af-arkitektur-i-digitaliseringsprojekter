@@ -213,9 +213,9 @@ De primære brugere af dokumentation udarbejdet med formelle notationssprog er a
 
 | Behov for logisk struktureret dokumentation i form af diagrammer i formelle notationssprog                                                                                                                                             | Behov for formidlet dokumentation i form af tekst, billeder, video, mundtligt                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| *   Arkitekt / udvikler<br>*   Sikkerhedsaktør - især DPO<br>*   Forretning<br>*   Dataejer/-behandler<br>*   Leverandør – især ansvarlige ift. kravspecifikation<br>*   Drift - især ansvarlige ift. konfiguration af teknisk løsning | *   Bruger<br>*   Ejer<br>*   Governance-aktør<br>*   Sikkerhedsaktør<br>*   Juraansvarlig<br>*   Forretning<br>*   Sikkerhedsaktør |
+| *   Arkitekt <br>*   Udvikler<br>*   Sikkerhedsaktør - især DPO<br>*   Forretning<br>*   Dataejer/-behandler<br>*   Leverandør – især ansvarlige ift. kravspecifikation<br>*   Drift - især ansvarlige ift. konfiguration af teknisk løsning | *   Bruger<br>*   Ejer<br>*   Governance-aktør<br>*   Sikkerhedsaktør<br>*   Juraansvarlig<br>*   Forretning<br>    |
 
-Ovenstående er en forenkling. Valget mellem formel og uformel repræsentation bør altid tage konkret udgangspunkt i den enkelte modtagers professionelle præferencer kapacitet og kompetencer. 
+Ovenstående er en grov forenkling. Valget mellem formel og uformel repræsentation bør altid tage konkret udgangspunkt i den enkelte modtagers professionelle præferencer og kompetencer. 
 
 * Information om arkitektur skal have en form der understøtter, at den kan forstås og anvendes korrekt af modtager.
 * Arkitekturprodukter i form af diagrammer, kataloger og matricer bør suppleres med tekst med henblik på at uddybe og forklare særlige forhold og problemstillinger samt sikre korrekt fortolkning.

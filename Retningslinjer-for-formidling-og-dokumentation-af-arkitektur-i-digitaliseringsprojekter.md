@@ -1203,6 +1203,12 @@ Listen opdateres løbende. Listen vedligeholdes af Digitaliseringsstyrelsen.
 
 TOGAF definerer eksempelvis en detaljeret indholds-metamodel, som er grundlag for definition af arkitekturprodukter og arkitekturleverancer. 
 
+*Bemærk om adgang til The Open Group*
+
+Nogle af de henviste materialer findes på The Open Groups hjemmeside og kræver, at du er registreret bruger. Registrering er gratis.
+
+Med en konto får du adgang til omfattende og veldokumenteret reference­materiale, herunder TOGAF-standarder og tilhørende understøttende dokumentation, som kan anvendes direkte i arkitekturarbejdet.
+
 |     | TOGAF 10  | TOGAF 9 |
 | --- | ---		|---		|
 | Content metamodel| [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html) | [indholds-metamodel](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap34.html) |

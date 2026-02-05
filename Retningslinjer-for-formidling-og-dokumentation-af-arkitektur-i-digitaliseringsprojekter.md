@@ -57,7 +57,7 @@ For statslige it-projekter gælder, at hvor der i forvejen er defineret produkte
 
 Perspektivet er, at myndighederne og deres leverandører bliver bedre til at målsætte, designe og kravspecificere løsninger ved at anvende de samme fælles internationale standarder for metode og notation og fælles sprog for arkitekturens indhold. På sigt kan det give en mulighed for systematisk og eventuelt automatisk at vurdere om en given arkitektur eller løsning overholder fælles aftale krav i henhold til den fælles digitale arkitektur.
 
-Retningslinjerne er forankret i Styregruppen for data og arkitektur i regi af initiativ 8.1 Gode data og effektiv datadeling i regi af den fællesoffentlige digitaliseringsstrategi. De er udarbejdet af Digitaliseringsstyrelsen i samarbejde med en fællesoffentlig arbejdsgruppe bestående af erfarne enterprise og løsningsarkitekter fra deltagende myndigheder. Udkast til retningslinjerne har været genstand for offentlig kommentering.
+Retningslinjerne er forankret i FDA. De er udarbejdet af Digitaliseringsstyrelsen i samarbejde med en fællesoffentlig arbejdsgruppe bestående af erfarne enterprise og løsningsarkitekter fra deltagende myndigheder. Udkast til retningslinjerne har været genstand for offentlig kommentering.
 
 Retningslinjerne er baseret på erfaringer med hvilken dokumentation, der giver mest værdi. Erfaringer er bl.a. baseret på flere års brug af OIO EA og er bl.a. hentet ind via arkitektarbejdsgruppen og fra myndigheder og leverandører, der har bidraget med kommentarer i forbindelse med udarbejdelsen af disse retningslinjer. 
 

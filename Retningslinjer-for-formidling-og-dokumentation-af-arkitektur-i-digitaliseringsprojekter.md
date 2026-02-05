@@ -1080,8 +1080,6 @@ For hvert arkitekturprodukt beskrives kort: 
 
 Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal opfattes som eksempler. Det enkelte projekt skal tage udgangspunkt i de konkrete styringsrammer for projektet og i interessenters konkrete spørgsmål og behov for beskrivelse, når de udvælger hvilke produkter der skal udarbejdes og hvornår. 
 
-Fremstillingen er udformet med brug af reolens farvekoder således, at det er nemt at orientere sig.
-
 <br>
 
 **Styring**

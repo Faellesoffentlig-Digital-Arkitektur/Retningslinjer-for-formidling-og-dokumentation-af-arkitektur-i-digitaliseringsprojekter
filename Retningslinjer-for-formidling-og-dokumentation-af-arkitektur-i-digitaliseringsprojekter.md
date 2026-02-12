@@ -232,7 +232,7 @@ En **visning** er repræsentationen af en samling beslægtede anliggender. En vi
 
 *Figur 3 En interessent med et perspektiv der ser en visning der modsvarer interessen*
 
-Figur 3 viser en interessent med et perspektiv der ser en visning der modsvarer interessenviser en spørgende interessent, der ser på en visning af arkitekturen ud fra et perspektiv med fokus på det der interesserer ham – her er det den forretningsmæssige opgaveløsning med fokus på processer og arbejdsfunktioner. 
+Figur 3 viser en spørgende interessent, der ser på en visning af arkitekturen ud fra et perspektiv med fokus på det der interesserer ham – her er det den forretningsmæssige opgaveløsning med fokus på processer og arbejdsfunktioner. 
 
 Det er vigtigt at skelne mellem den faktiske model og visningerne. Modellen afspejler arkitekturens indhold (elementer/byggeblokke) og deres relationer, som beskrevet af arkitekten. En visning indeholder et udsnit af modellen. Visningen skal designes så den er meningsfuld for den specifikke interessent, og dennes specifikke interesser, som visningen er tiltænkt. En eller flere visninger kan indgå i et arkitekturprodukt. Jf. figur 4.
 
@@ -574,7 +574,7 @@ Forskellige roller skal forstå og eventuelt mestre forskellige sprog og værkt�
 
 Nedenstående figur giver et overblik over, hvor de forskellige notationssprog typisk vil finde anvendelse ift. arkitekturreolen. Bemærk, at der i nogle af reolens hylder er flere notationssprog. Dette skyldes, at der er forskellige typer af arkitekturbeskrivelser, der kan være relevante. Fx ArchiMate til overblik over processer og forretningsobjekter. Til den detaljerede modellering anvendes fx UML til modellering af begreber, information og data, BPMN til modellering af arbejdsprocesser og DMN til modellering af forretningsregler. Hård parentes \[\] angiver kandidater.
 
-Bemærk at der yderst til højre er angivet ”rig visualisering”. Her er der stadig tale om modeller, men ikke baseret på et formaliseret notationssprog. Modeller kan her være ”hvad som helst”. Det er typisk uformelle modeller med kasser, figurer og streger, men det kan også være fx tegneserier, fotos, film og fysiske materialer i 2D eller 3D.
+Bemærk at der i figuren er angivet ”rig visualisering”. Her er der stadig tale om modeller, men ikke baseret på et formaliseret notationssprog. Modeller kan her være ”hvad som helst”. Det er typisk uformelle modeller med kasser, figurer og streger, men det kan også være fx tegneserier, fotos, film og fysiske materialer i 2D eller 3D.
 
 ![Figur17_Eksempler_på_modelsprog_mappet_til_FDA_arkitekturreolen.svg](assets/Figur17_Eksempler_på_modelsprog_mappet_til_FDA_arkitekturreolen.svg)
 
@@ -665,7 +665,7 @@ Sekretariatet for FDA vil efter behov understøtte udvalgte modelsprog i enkelte
 
 I forbindelse med udveksling og deling af arkitekturprodukter kan der naturligvis være behov for og værdi i at dele fx modeller og diagrammer i originalt format. 
 
-Som hovedprincip anbefales det, at dele og udveksle arkitekturprodukter som minimum i pdf. Det giver en garanti for at afsender og modtager kan læse og se det samme. Modeller udført i samme modelsprog og udvekslet i fælles format kan stadig opføre sig forskelligt i forskellige værktøjer.
+Som hovedprincip anbefales det at dele og udveksle arkitekturprodukter som minimum i pdf. Det giver en garanti for at afsender og modtager kan læse og se det samme. Modeller udført i samme modelsprog og udvekslet i fælles format kan stadig opføre sig forskelligt i forskellige værktøjer.
 
 ## Navngivning
 

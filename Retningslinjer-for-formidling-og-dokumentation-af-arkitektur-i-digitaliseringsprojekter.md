@@ -31,7 +31,9 @@ Målgruppen for dette dokument er forretnings- og it-arkitekter samt projektlede
 
 ### Anvendelse
 
-Den fælles dokumentationsramme er nem at tage i brug og tilpasse til konkrete behov i et projekt/program og en myndighed/organisation. Retningslinjerne kan anvendes uafhængigt af projekt- og udviklingsmodel. Retningslinjerne er vejledende og kan frit anvendes af alle myndigheder. 
+Den fælles dokumentationsramme kan tages i brug og tilpasses til konkrete behov i et projekt/program og i en myndighed/organisation. Retningslinjerne kan anvendes uafhængigt af projekt- og udviklingsmodel. Retningslinjerne er vejledende og kan frit anvendes af alle myndigheder. 
+
+**Særligt for FODS projekter**
 
 For projekter i regi af den fællesoffentlige digitaliseringsstrategi (FODS), er der aftalt krav om, at projekterne skal følge retningslinjerne med særligt fokus på at understøtte arkitekturstyring og kvalitetssikring gennem review.
 
@@ -41,7 +43,7 @@ For statslige it-projekter gælder, at hvor der i forvejen er defineret produkte
 
 #### Værdiskabelse
 
-* Fælles retningslinjer bidrager til en digitalt sammenhængende sektor ved at understøtte hvidbogens principper og den fællesoffentlige rammearkitektur
+* Fælles retningslinjer bidrager til en mere digitalt sammenhængende offentlig sektor ved at understøtte hvidbogens principper og den fællesoffentlige rammearkitektur
 * Arkitekturbeskrivelse skal ses som del af en analyse, der bidrager til at facilitere og fastholde beslutninger og kan bruges som et styringsværktøj relateret til styringsdokumenter som fx et projektgrundlag / PID.
 * Projekter og løsninger kan styres bedre via overblik over de væsentligste arkitekturelementer og -udfordringer – både internt og på tværs
 * Dialog mellem projektledelsen, forretnings- og it-arkitekter og udviklere om struktur og indhold i løsningen bliver nemmere og mere entydig med fælles terminologi
@@ -53,9 +55,9 @@ For statslige it-projekter gælder, at hvor der i forvejen er defineret produkte
 
 #### Tilblivelse og vedligehold
 
-Perspektivet er, at myndighederne og deres leverandører bliver bedre til at kravspecificere og designe løsninger ved at anvende de samme fælles internationale standarder for metode og notation og fælles sprog for arkitekturens indhold. På sigt kan det give en mulighed for systematisk og eventuelt automatisk at vurdere om en given arkitektur eller løsning overholder fælles aftale krav i henhold til den fælles digitale arkitektur.
+Perspektivet er, at myndighederne og deres leverandører bliver bedre til at målsætte, designe og kravspecificere løsninger ved at anvende de samme fælles internationale standarder for metode og notation og fælles sprog for arkitekturens indhold. På sigt kan det give en mulighed for systematisk og eventuelt automatisk at vurdere om en given arkitektur eller løsning overholder fælles aftale krav i henhold til den fælles digitale arkitektur.
 
-Retningslinjerne er forankret i Styregruppen for data og arkitektur i regi af initiativ 8.1 Gode data og effektiv datadeling i regi af den fællesoffentlige digitaliseringsstrategi. De er udarbejdet af Digitaliseringsstyrelsen i samarbejde med en fællesoffentlig arbejdsgruppe bestående af erfarne enterprise og løsningsarkitekter fra deltagende myndigheder. Udkast til retningslinjerne har været genstand for offentlig kommentering.
+Retningslinjerne er forankret i FDA. De er udarbejdet af Digitaliseringsstyrelsen i samarbejde med en fællesoffentlig arbejdsgruppe bestående af erfarne enterprise og løsningsarkitekter fra deltagende myndigheder. Udkast til retningslinjerne har været genstand for offentlig kommentering.
 
 Retningslinjerne er baseret på erfaringer med hvilken dokumentation, der giver mest værdi. Erfaringer er bl.a. baseret på flere års brug af OIO EA og er bl.a. hentet ind via arkitektarbejdsgruppen og fra myndigheder og leverandører, der har bidraget med kommentarer i forbindelse med udarbejdelsen af disse retningslinjer. 
 
@@ -130,22 +132,22 @@ Fra projekter spørges typisk: Hvilke arkitekturprodukter skal vi lave? Hvorfor 
 
 Projekterne bør tage udgangspunkt i følgende principper som pejlemærker:
 
-? Hvad skal vi lave og hvorfor?
+Hvad skal vi udarbejde og hvorfor?
 
 * **Den nødvendige og tilstrækkelige dokumentation udarbejdes.**   
   Det betyder, at projektet - med udgangspunkt i projektmodel og -type - skal tage højde for behov ift. relevante processer og interessenter, herunder særligt behov ift. styring (styregruppe), analyse og konceptudvikling (nøgleaktører og arkitekter), projekt- og arkitekturreview (statens it-projektråd, review-panel), anskaffelse og udvikling (systemejer, leverandør) samt overlevering til drift, support og videreudvikling.
 
-? Hvornår og i hvilken kvalitet?
+Hvornår og i hvilken kvalitet?
 
 * **Dokumentation udarbejdes til rette tid og formål.**  
   Det betyder, at der løbende som led i projektets aktiviteter udarbejdes dokumentation, der understøtter projektet. Prioriter gerne ud fra de behov interessenterne har på et givet tidspunkt, ud fra de informationer, der er til stede på dette tidspunkt og at dokumentationen har en form og format, som modsvarer behovet.
 
-? Hvordan skal vi gøre - er der metodefrihed?
+Hvordan skal vi gøre - er der metodefrihed?
 
 * **Der er metodefrihed indenfor fælles rammer.**  
   Det betyder, at retningslinjerne giver pejlemærker for, hvad projekterne bør tage stilling til og tænke ind i planlægningen, men som udgangspunkt ikke begrænser anvendelse af standarder og almindelig god praksis. Hvor der undtagelsesvist laves begrænsende regler, er det af hensyn til at understøtte det tværgående samarbejde, herunder deling og genbrug af arkitekturdokumentation. Metodefriheden stopper der hvor vi skal udveksle information.
 
-? Hvordan skal de anvendes og vedligeholdes?
+Hvordan skal de anvendes og vedligeholdes?
 
 * **Arkitekturprodukter skal anvendes hvor relevant og vedligeholdes efter aftale.**  
   Det betyder, at projektets arkitekturprodukter skal bringes i anvendelse i relevante sammenhænge. Først og fremmest internt i projektet, hvor et arkitekturprodukt kan betragtes som en stafet der fx går fra arkitekt til udvikler, og som dermed bidrager til et klart grundlag for arbejdet med løsningen. Desuden skal relevante dele af projektets arkitekturprodukter kommunikeres og deles med andre interessenter uden for projektet, fx dokumentation af data, services og snitflader. Nogle arkitekturprodukter kommer fra eller skal blive del af en overordnet rammesættende (enterprise) arkitektur. Der skal være klare rammer for ansvaret for vedligehold af de blivende arkitekturprodukter.
@@ -165,7 +167,7 @@ Følgende interessenter er generelt relevante at tænke ind ift. afklaringen af 
 * Arkitekt/udvikler - herunder arkitekter med interesse på vegne af de ansvarlige for strategi og målsætning og et helhedssyn på arkitekturen som fx enterprise arkitekt og løsningsarkitekt. Specialiserede interessenter på kundesiden såsom forretningsarkitekter, dataarkitekter, applikationsarkitekter, udviklere, UX’ere og servicedesignere, testansvarlige samt teknologiarkitekter.
 * Juraansvarlig – herunder jurister knyttet til et givent projekt, men også politikere, lovgivere og lovfortolkere samt rettighedshavere.
 * Sikkerhedsansvarlig – særligt Data Protection Officer (DPO), men også andre roller med ansvar for håndtering af sikkerhed på forskellige områder (data, løsning, infrastruktur, drift), jf. ISO 27000x-serien.
-* Dataejer-/behandler – herunder dataansvarlige, databehandlere og datadistributører.
+* Dataejer/-behandler – herunder dataansvarlige, databehandlere og datadistributører.
 * Leverandør - herunder fx leverandørens projektleder, arkitekter, udviklere, UX’ere, servicedesignere og testansvarlige.
 * Drift - herunder it-systemforvaltere, ansvarlige for drift, vedligehold og videreudvikling, systemoperatører og support.
 * Governance-ansvarlig – herunder standardiseringsorganisationer og fora med ansvar for tværgående governance, fx styregruppe der repræsenterer ejere og anvendere af fælles infrastruktur.
@@ -201,7 +203,7 @@ Det er ligeledes vigtigt at finde den rette balance mellem sammenhængende dokum
 
 Dokumentationen af arkitekturen skal som udgangspunkt understøtte mange forskellige behov for information. Til formidling er der behov for at udarbejde forskellige modeller, visninger og tekster, som kan indgå i forskellige ledelses- og specialistprodukter – fx som bilag til et projektgrundlag eller en kravspecifikation.
 
-Overordnet set har enterprise-arkitekten og løsningsarkitekten ansvar for sikring af dokumentation i et helhedsperspektiv gennem udarbejdelse og vedligehold af samlede modeller over enterprise- og løsningsarkitektur – udarbejdet i formelle, logiske notationssprog. Der er forskellige sprog med forskelligt fokus og primære målgrupper (læs mere i afsnittet _Fælles notationssprog for arkitekturdokumentation_). De formelle modeller kan danne grundlag for visninger formidlet i et format, der er forståeligt af interessenterne. 
+Overordnet set har enterprise-arkitekten, forretnings-, informations- og løsningsarkitekten ansvar for sikring af dokumentation i et helhedsperspektiv gennem udarbejdelse og vedligehold af samlede modeller over enterprise- og løsningsarkitektur – udarbejdet i formelle, logiske notationssprog. Der er forskellige sprog med forskelligt fokus og primære målgrupper (læs mere i afsnittet _Fælles notationssprog for arkitekturdokumentation_). De formelle modeller kan danne grundlag for visninger formidlet i et format, der er forståeligt af interessenterne. 
 
 Dokumentation har bl.a. til formål at understøtte formidling. Det kan fx være formidling til beslutningstagere om målarkitektur og krav til løsningen, til leverandør og udvikler om tekniske detailkrav til løsningen, eller til systemoperatører og support om konfiguration af løsningen. Førstnævnte har brug for information, som giver overblik og er relativt statisk, mens sidstnævnte har brug for detaljeret og opdateret information. 
 
@@ -211,22 +213,45 @@ De primære brugere af dokumentation udarbejdet med formelle notationssprog er a
 
 | Behov for logisk struktureret dokumentation i form af diagrammer i formelle notationssprog                                                                                                                                             | Behov for formidlet dokumentation i form af tekst, billeder, video, mundtligt                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| *   Arkitekt / udvikler<br>*   Sikkerhedsaktør - især DPO<br>*   Forretning<br>*   Dataejer/-behandler<br>*   Leverandør – især ansvarlige ift. kravspecifikation<br>*   Drift - især ansvarlige ift. konfiguration af teknisk løsning | *   Bruger<br>*   Ejer<br>*   Governance-aktør<br>*   Sikkerhedsaktør<br>*   Juraansvarlig<br>*   Forretning<br>*   Sikkerhedsaktør |
+| *   Arkitekt <br>*   Udvikler<br>*   Sikkerhedsaktør - især DPO<br>*   Forretning<br>*   Dataejer/-behandler<br>*   Leverandør – især ansvarlige ift. kravspecifikation<br>*   Drift - især ansvarlige ift. konfiguration af teknisk løsning | *   Bruger<br>*   Ejer<br>*   Governance-aktør<br>*   Sikkerhedsaktør<br>*   Juraansvarlig<br>*   Forretning<br>    |
 
-Ovenstående er en grov forenkling. Valget mellem formel og uformel repræsentation bør altid tage konkret udgangspunkt i modtagers individuelle kapacitet og kompetencer. 
+Ovenstående er en grov forenkling. Valget mellem formel og uformel repræsentation bør altid tage konkret udgangspunkt i den enkelte modtagers professionelle præferencer og kompetencer. 
 
 * Information om arkitektur skal have en form der understøtter, at den kan forstås og anvendes korrekt af modtager.
 * Arkitekturprodukter i form af diagrammer, kataloger og matricer bør suppleres med tekst med henblik på at uddybe og forklare særlige forhold og problemstillinger samt sikre korrekt fortolkning.
 
 ## Arkitekturperspektiver og -visninger
 
-I dette kapitel defineres en række grundlæggende perspektiver på og visninger af arkitekturen, der understøtter interessenternes behov for information. Det sker ligeledes med udgangspunkt i TOGAF og standarden ISO/IEC/IEEE 42010 “Systems and software engineering — Architecture description”.
+Når der arbejdes med arkitektur, skal det sikres, at de relevante interessenter får den information de har brug for, i en form, der giver mening for dem. Dette kapitel beskriver, hvordan **perspektiver** og **visninger** anvendes til at strukturere og kommunikere arkitekturen ud fra interessenternes behov.
 
-Man kan sige, at en interesse kan udtrykkes som et spørgsmål fra et bestemt perspektiv og en visning er et svar.
+Tilgangen tager udgangspunkt i TOGAF og standarden ISO/IEC/IEEE 42010 “Systems and software engineering — Architecture description”.
 
-Et **perspektiv** definerer udgangspunktet, hvorfra en visning er oprettet. En synsvinkel er en specifikation af de principper, der er blevet anvendt til at konstruere og anvende en visning. En visning er det man ser; et perspektiv er hvor man ser fra – det udsigtspunkt eller synsvinkel, der afgør hvad du ser. Man kan også anvende alternative TOGAF termer som _synsvinkel / viewpoint_.
+En god måde at forstå forskellen på er, at se det som et spørgsmål og et svar:
+* **Perspektivet** svarer til spørgsmålet – det afspejler interessentens synsvinkel og fokus.
+* **Visningen** svarer til svaret – den viser den del af arkitekturen, der belyser netop dette fokusområde.
 
-En **visning** er repræsentationen af en samling beslægtede anliggender. En visning er det der ses fra et bestemt synspunkt. En arkitekturvisning kan repræsenteres med en repræsentation af (en del af) en model for at vise interessenterne deres særlige interesseområder i arkitekturen. En visning behøver ikke nødvendigvis at være visuel eller grafisk. Ofte anvendes den alternative engelske term _view_.
+**Perspektiv – udgangspunktet for forståelsen**
+
+Et **perspektiv** angiver, _hvorfra_ man ser på arkitekturen. Det beskriver den synsvinkel eller kontekst, som interessenten anlægger.
+Når arkitekten eller projektlederen arbejder med perspektiver, handler det om at forstå interessenternes ståsted: Hvad er vigtigt for dem? Hvilke beslutninger skal de træffe? Hvilke risici eller afhængigheder ser de som væsentlige?
+
+I nogle sammenhænge bruges begrebet **synsvinkel** (_viewpoint_) i stedet for perspektiv. I TOGAF betyder det: "en definition af de principper og metoder, der anvendes til at skabe og anvende en visning".
+
+  Tip: Start altid med at afklare interessenternes perspektiver, før modeller eller diagrammer udarbejdes. Det sikrer, at visningerne bliver målrettede og relevante.
+
+**Visning**
+
+En **visning** repræsenterer det, man ser fra et givent perspektiv. Det kan være en model, et diagram, en beskrivelse eller et andet artefakt, der belyser specifikke forhold i arkitekturen.
+En visning kan fx fokusere på:
+
+* Forretningsprocesser og arbejdsfunktioner
+* Applikationslandskabet
+* Datastrukturer eller informationsflow
+* Teknisk infrastruktur
+
+En visning behøver ikke være visuel. En struktureret tekst, et katalog eller en relationsbeskrivelse kan også fungere som en visning, hvis det opfylder interessentens informationsbehov. Den engelske term _view_ anvendes ofte som synonym.
+
+  Tip: Brug visninger aktivt i dialogen med interessenter. En visning skal skabe fælles forståelse – ikke kun anvendes til dokumentation.
 
 ![Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg](assets/Figur3_Et_interessant_perspektiv_der_ser_en_visning_der_modsvarer_interessen.svg)
 
@@ -240,7 +265,7 @@ Det er vigtigt at skelne mellem den faktiske model og visningerne. Modellen afsp
 
 *Figur 4 visning bygger på model og kan indgå i arkitekturprodukter*
 
-De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens principper, som hver især sætter rammerne for centrale problemstillinger, der skal tages højde for i digitaliseringsprojekters arkitekturarbejde. De otte perspektiver danner tilsammen en helhedstilgang til digitalisering, som kan beskrive en samlet fortælling om arkitekturen, her i forenklet form:
+De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens principper, som hver især sætter rammerne for centrale problemstillinger, der skal tages højde for i digitaliseringsprojekters arkitekturarbejde. De otte FDA-perspektiver danner tilsammen en helhedstilgang til digitalisering, som kan beskrive en samlet fortælling om arkitekturen, her i forenklet form:
 
 * De offentlige parter -staten, kommunerne og regionerne - vil udvikle sammenhængende digitale services sammen. De må derfor sætte fælles rammer op for at styre hvordan de kan realisere dette, herunder aftale konkrete initiativer og projekter. (Styring)
 * Parterne formulerer en fælles strategi med vision og mål, en plan for realisering inklusiv en fælles rammearkitektur og en plan for at bevæge sig fra den eksisterende situation (as is arkitektur) til målbilledet (to be eller mål-arkitektur). (Strategi)
@@ -251,19 +276,19 @@ De grundlæggende FDA-perspektiver er defineret med udgangspunkt i hvidbogens pr
 * Når der sættes strøm på og it-systemer skal integreres skal der være enighed om hvilke applikationer der skal kunne tale sammen, hvordan de integreres (integrationsmønstre), og hvilke protokoller der anvendes, så data udveksles sikkert og effektivt. (Applikation)
 * Endelig skal det sikres, at både dataudveksling og levering af sammensatte services sker på et robust og sikkert fundament. Derfor skal aktørerne aftale, hvilke infrastrukturkomponenter, der skal i spil og aftale et niveau for hvordan de skal fungere sikkert og effektivt. (Infrastruktur)
 
-FDA har således otte grundperspektiver som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-arkitekturperspektiver_. 
+FDA har således otte FDA-perspektiver, som dækker en helhedsorienteret arkitektur: Styring, Strategi, Jura, Sikkerhed, Opgaver, Information, Applikation og Infrastruktur. Jf. _Figur 5 De otte grundlæggende FDA-perspektiver_. 
 
-![Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
+![Figur5_De_otte_grundlæggende_FDA-perspektiver.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
 *Figur 5 De otte grundlæggende FDA-arkitekturperspektiver*
 
-_Bilag 2: FDA-grundperspektiver_ indeholder en mere detaljeret gennemgang af FDA grundperspektiverne, hvor de relateres til relevante principper, arkitekturregler, interessenter og interesser samt arkitekturprodukter.
+_Bilag 2: FDA-perspektiver_ indeholder en mere detaljeret gennemgang af FDA-perspektiverne, hvor de relateres til relevante principper, arkitekturregler, interessenter og interesser samt arkitekturprodukter.
 
-Der kan defineres mange andre perspektiver, som kan gå på tværs af disse grundperspektiver. Fx sammenhæng mellem hvilke applikationsservices der understøtter hvilke forretningsservices eller hvilke informationer der udveksles mellem hvilke applikationer. 
+Der kan defineres mange andre perspektiver, som kan gå på tværs af disse perspektiver. Fx sammenhæng mellem hvilke applikationsservices der understøtter hvilke forretningsservices eller hvilke informationer der udveksles mellem hvilke applikationer. 
 
-![Figur6_Fire_tværgående_perspektiver_på forretnings_og_it_arkitekturen.svg](assets/Figur6_Fire_tvaergaaende_perspektiver_på_forretnings_og_it_arkitekturen.svg)
+![Figur6_Fire_tværgående_FDA-perspektiver_på forretnings_og_it_arkitekturen.svg](assets/Figur6_Fire_tvaergaaende_perspektiver_på_forretnings_og_it_arkitekturen.svg)
 
-*Figur 6 Fire tværgående perspektiver på forretnings- og it-arkitekturen*
+*Figur 6 Fire tværgående FDA-perspektiver på forretnings- og it-arkitekturen*
 
 De fire øverste perspektiver Styring, Strategi, Jura og Sikkerhed går i høj grad på tværs af de fire nederste perspektiver. Fx skal styring forholde sig til alle aspekter af løsningen fra strategi til infrastruktur og lovgivning kan sætte rammer for opgaver og brug af data og tekniske løsninger. 
 
@@ -271,15 +296,15 @@ De fire horisontale lag kan endvidere deles op i domæner, fx ved brug af FORM-o
 
 De otte grundlæggende arkitekturperspektiver som defineres i FDA modsvarer tilsvarende i internationale arkitekturrammeværker som fx TOGAF og The European Interoperability Framework (EIF). Der er varianter i terminologi, snit og struktur, men i hovedtræk kan alle de gængse rammeværker mappes til hinanden - og FDA kan ligeledes mappes til disse. FDA-perspektivet ”Opgaver” svarer fx i store træk til ”Forretning” i TOGAF og ”Organisation” i EIF. 
 
-FDA skal ikke ses som en konkurrent til rammeværker som TOGAF, EIF og tilsvarende, men som et supplement. FDA definerer derfor heller ikke sin egen metamodel, men alene de otte grundperspektiver, som anvendes til at definere en arkitekturreol, som kan understøtte samarbejde og videndeling op tværs af den offentlige sektor – og på tværs af rammeværker.
+FDA skal ikke ses som en konkurrent til rammeværker som TOGAF, EIF og tilsvarende, men som et supplement. FDA definerer derfor heller ikke sin egen metamodel, men alene de otte FDA-perspektiver, som anvendes til at definere en arkitekturreol, som kan understøtte samarbejde og videndeling op tværs af den offentlige sektor – og på tværs af rammeværker.
 
 ## Arkitekturreol
 
-Dette kapitel handler om FDA-arkitekturreolen, som anvendes til at placere arkitekturprodukter på ”hylder”, så de er nemme at finde og dele. Vertikalt er reolen delt op efter de otte grundperspektiver. Horisontalt er den delt i tre niveauer, der beskriver graden af konkretisering og detaljer: 
+Dette kapitel handler om FDA-arkitekturreolen, som anvendes til at placere arkitekturprodukter på ”hylder”, så de er nemme at finde og dele. Vertikalt er reolen delt op efter de otte FDA-perspektiver. Horisontalt er den delt i tre niveauer, der beskriver graden af konkretisering og detaljer: 
 
 * Konceptuel - har fokus på overblik og rummer færrest detaljer. Henvender sig især til beslutningstagere samt interessenters/integrationsparters arkitekter og nye arkitekter på løsningen. Beskrivelser er typisk nemme at afkode uden særlige forudsætninger.
-* Logisk - har fokus på sammenhænge og konsistens og rummer de vigtigste detaljer. Beskrivelserne er typisk med klare definitioner og relationer mellem de forskellige elementer, der indgår i arkitekturen. Henvender sig især til arkitekter, projektledere og eksperter inden for de enkelte perspektiver.
-* Fysisk - har fokus på, hvordan løsningens forskellige elementer realiseres og rummer alle nødvendige detaljer for udvikling, implementering og drift. Henvender sig især til dem, der skal udføre opgaver i forretningen, udvikle løsningen samt løse opgaver i drift og support.
+* Logisk - har fokus på sammenhænge og konsistens og rummer de væsentligeste detaljer. Beskrivelserne er typisk med klare definitioner og relationer mellem de forskellige elementer, der indgår i arkitekturen. Henvender sig især til arkitekter, projektledere og eksperter inden for de enkelte perspektiver.
+* Fysisk - har fokus på, hvordan løsningens forskellige elementer realiseres og rummer alle nødvendige detaljer for udvikling, implementering og drift. Henvender sig især til dem, der skal udføre opgaver i forretningen, udvikle løsningen samt løse opgaver i drift, vedligehold og support.
 
 Nedenstående figur viser reolens opbygning. Overskriften til de enkelte hylder er udtryk for et bud på en pragmatisk fordeling af de mange forskellige ledelses- og arkitekturprodukter, som udarbejdes og anvendes i virksomheden og dens projekter. Reolen kan i princippet rumme alle slags arkitektur ifbm digitalisering og it, og kan både rumme arkitektur for den enkelte løsning og en samlet virksomhedsarkitektur.
 
@@ -287,7 +312,7 @@ Nedenstående figur viser reolens opbygning. Overskriften til de enkelte hylder 
 
 *Figur 7 FDA arkitekturreolen*
 
-FDA arkitekturreolens struktur anvendes som en klassifikation til at opmærke arkitekturprodukter, når de skal udstilles og deles, så det bliver nemt at fremsøge dem.
+FDA arkitekturreolens struktur anvendes som en klassifikation til at opmærke arkitekturprodukter, når de skal udstilles og deles, så det bliver nemmere at fremsøge dem.
 
 ## Arkitekturleverancer
 
@@ -295,14 +320,20 @@ I dette kapitel beskrives kort to overordnede arkitekturleverancer i et digitali
 
 Digitaliseringsprojekter har overordnet set to primære arkitekturleverancer:
 
-* **Målarkitekturen**, der beskriver de overordnede mål og principper for den løsning, der skal udarbejdes, og lægger rammerne for fastlæggelsen af løsningsarkitekturen.
-* **Løsningsarkitekturen**, der beskriver det detaljerede design af løsningen, der skal udvikles/er under udvikling/er udviklet.
+* **Målarkitekturen**, der beskriver de overordnede forretningsmål og principper for den løsning, der skal udarbejdes, og lægger rammerne for fastlæggelsen af løsningsarkitekturen.
+* **Løsningsarkitekturen**, der beskriver det detaljerede design af løsningen, der skal udvikles, er under udvikling eller er udviklet.
 
-Målarkitekturen udarbejdes relativt tidligt i projektet som grundlag for analyse, udbud og gennemførelse. Den udarbejdes af kunden. Den har ledelse og projektledelse som primære målgrupper. 
+Målarkitekturen udarbejdes tidligt i projektet som grundlag for analyse, udbud og gennemførelse. Den udarbejdes af kunden. Den har ledelse og projektledelse som primære målgrupper. 
 
-Løsningsarkitekturen udarbejdes i samarbejde med leverandøren og kan nemt fylde 50, 100 eller flere hundrede sider. Den udarbejdes typisk iterativt i løbet af projektet og løsningens levetid. Takt, omfang og arbejdsdeling afhænger af det enkelte projekts kompleksitet og udviklingsmetode. I starten er beskrivelsen relativt abstrakt (logisk); tilslut er den meget konkret (fysisk) og detaljeret. Den er så vidt muligt dokumenteret i en sammenhængende arkitekturmodel. Den vil forekomme i forskellige hovedversioner i løsningens livstid: Fx som resultat af analysefasen til brug ifbm kravspecifikation til udbud, som løsningsforslag fra leverandøren, opdateret løsningsdokumentation ved overdragelse til drift, og løbende opdateret ifbm vedligehold og videreudvikling. Udvikles typisk i en arbejdsdeling mellem kunden og leverandøren. Løsningsarkitekturens primære målgrupper er projektleder, arkitekt, udvikler og leverandør – samt ikke mindst ansvarlige for drift, vedligehold og videreudvikling.
+Løsningsarkitekturen udarbejdes i samarbejde med leverandøren og kan nemt fylde 50, 100 eller flere hundrede sider. Omfanget skal være tilstrækkeligt til tydeligt at vise, hvordan de forretningsmæssige behov løses digitalt. 
 
-For at lave en målarkitektur er der en række forhold, som det er relevant at kortlægge som grundlag for denne og som derfor kan betragtes som tidlige arkitekturprodukter. Indenfor grundperspektiverne styring og strategi drejer det sig især om følgende mål, gevinster, vision/målbillede, kapabiliteter, udfordringer og principper. De er det strategiske udgangspunkt for at definere den overordnede målarkitektur og eventuelle trin på vejen til realisering i form af en migrationsstrategi. Men samtidig skal der typisk arbejdes med en række arkitekturprodukter der beskriver forretnings- og it-arkitektur inden for grundperspektiverne Opgaver, Information, Applikation og Infrastruktur. I første omgang med fokus på et overordnet billede af de opgaver, der indgår i form af forretningsservices, processer, organisation, roller og forretningsobjekter/data, og den tekniske understøttelse i form af applikationskomponenter, -services og -snitflader samt de underliggende infrastrukturelle teknologiservices. Endelig skal der tages højde for de overordnede juriske rammer i form af love og aftaler, der giver såvel mandat som bindinger for løsningen. Og sidst men ikke mindst er det vigtigt, at tænke sikkerhed og privatliv ind fra starten med henblik på bl.a. robust drift, tillid og gennemsigtighed, herunder understøttelse af databeskyttelsesloven.
+Den udarbejdes typisk iterativt i løbet af projektet og løsningens levetid. 
+Timing, omfang og arbejdsdeling afhænger af det enkelte projekts kompleksitet og udviklingsmetode. I starten er beskrivelsen relativt abstrakt (logisk); men til slut er den meget konkret (fysisk) og detaljeret. Den er så vidt muligt dokumenteret i en sammenhængende arkitekturmodel. Den vil forekomme i forskellige hovedversioner i løsningens livstid: Fx som resultat af analysefasen til brug ifbm kravspecifikation til udbud, som løsningsforslag fra leverandøren, som opdateret løsningsdokumentation ved overdragelse til drift, og løbende opdateret ifbm vedligehold og videreudvikling. Udvikles typisk i en arbejdsdeling mellem kunden og leverandøren. Løsningsarkitekturens primære målgrupper er projektleder, arkitekt, udvikler og leverandør – samt ikke mindst ansvarlige for drift, vedligehold og videreudvikling.
+
+**Grundlag for målarkitektur**
+For at udarbejde en målarkitektur er der en række forhold, som det er relevant at kortlægge som grundlag for denne og som derfor kan betragtes som tidlige arkitekturprodukter. Indenfor FDA-perspektiverne styring og strategi drejer, det sig især om følgende; forretningsmål, vision/målbillede, kapabiliteter, udfordringer og principper. 
+
+Disse forhold er det strategiske udgangspunkt for at definere den overordnede målarkitektur og de eventuelle trin på vejen til realisering i form af en migrationsstrategi. Men samtidig skal der typisk arbejdes med en række arkitekturprodukter der beskriver forretnings- og it-arkitektur inden for FDA-perspektiverne: Opgaver, Information, Applikation og Infrastruktur. I første omgang med fokus på et overordnet billede af de opgaver, der indgår i form af forretningsservices, processer, organisation, roller og forretningsobjekter/data, og den tekniske understøttelse i form af applikationskomponenter, -services og -snitflader samt de underliggende infrastrukturelle teknologiservices. Endelig skal der tages højde for de overordnede juriske rammer i form af love og aftaler, der giver såvel mandat som bindinger for løsningen. Og sidst men ikke mindst er det vigtigt, at tænke sikkerhed og privatliv ind fra starten med henblik på bl.a. robust drift, tillid og gennemsigtighed, herunder understøttelse af databeskyttelsesloven.
 
 ## Arkitekturprodukter
 
@@ -314,15 +345,15 @@ I dette kapitel beskrives en række arkitekturprodukter, som offentlige digitali
 
 Særligt projekter med tværoffentlig betydning må generelt set forventes at vurdere, om de er relevante i forhold til projektets karakter.
 
-NB! Det skal understreges, at det ikke er en udtømmende liste. I et projekt kan der være mange andre dokumenter og arkitekturprodukter som også er relevante. Det samme gælder i forhold til enterprise arkitektur fx på virksomheds-/koncern niveau, hvor der er mange andre typer af arkitekturprodukter. Ikke alle arkitekturprodukter, der udarbejdes med henblik på at højne kvaliteten i et projekt, er relevante for at skabe sammenhængende digitalisering på tværs af myndigheder. Nogle produkter er relevante for projektet, mens andre er væsentlig blivende dokumentation, som skal ligge til grund for fremtidig digitalisering, drift og vedligehold. Forskellige arkitekturprodukter tjener således forskellige formål.
+Bemærk, at det ikke er en udtømmende liste. I et projekt kan der være andre dokumentationsbehov og arkitekturprodukter som også er relevante. Det samme gælder i forhold til enterprise arkitektur fx på virksomheds-/koncern niveau, hvor der er mange andre typer af arkitekturprodukter. Ikke alle arkitekturprodukter, der udarbejdes med henblik på at højne kvaliteten i et projekt, er relevante for at skabe sammenhængende digitalisering på tværs af myndigheder. Nogle produkter er relevante for projektet, mens andre er væsentlig blivende dokumentation, som skal ligge til grund for fremtidig digitalisering, drift, support og vedligehold. Forskellige arkitekturprodukter tjener således forskellige formål.
 
-![Figur8_Nogle_arkitekturprodukter_går_på_tværs_af_grundperspektiverne.svg](assets/Figur8_Nogle_arkitekturprodukter_går_på_tværs_af_grundperspektiverne.svg)
+![Figur8_Nogle_arkitekturprodukter_går_på_tværs_af_FDA-perspektiverne.](assets/Figur8_Nogle_arkitekturprodukter_går_på_tværs_af_grundperspektiverne.svg)
 
-*Figur 8 Nogle arkitekturprodukter går på tværs af grundperspektiverne*
+*Figur 8 Nogle arkitekturprodukter går på tværs af FDA-perspektiverne*
 
-Det skal også bemærkes, at et digitaliserings- eller anskaffelsesprojekts egen kontekst og proces sætter rammer for arkitekturen og denne er derfor taget med i form af en række proces- og ledelsesdokumenter, der fx hører under en projektmodel, fx interessentanalyse og forretningsmål, eller hører under porteføljestyring og sikkerhedshåndtering på virksomhedsniveau, fx arkitekturprincipper og sikkerhedsstrategi/mønster. 
+Det skal også bemærkes, at et digitaliserings- eller anskaffelsesprojekts egen forretningskontekst og proces sætter rammer for arkitekturen og denne er derfor taget med i form af en række proces- og ledelsesdokumenter, der fx hører under en projektmodel, fx interessentanalyse og forretningsmål, eller hører under porteføljestyring og sikkerhedshåndtering på virksomhedsniveau, fx arkitekturprincipper og sikkerhedsstrategi/mønster. 
 
-Et arkitekturprodukt kan dække et eller flere perspektiver og omfatte flere visninger. I denne sammenhæng er de enkelte produkter for overblikkets skyld placeret ind på én enkelt hylde. Figur 8 viser at nogle arkitekturprodukter går på tværs af grundperspektiverne Opgaver, Information, Applikation og Infrastruktur. Det gælder fx målarkitektur og sikkerhedsmodel, der repræsenterer forskellige helhedsbilleder på de væsentligste egenskaber ved arkitekturen. En række arkitekturprodukter indenfor de tværgående grundperspektiver kan dog først dannes og udfoldes i takt med, at der udvikles arkitekturprodukter inden for de øvrige grundperspektiver. I praksis udarbejdes de fleste arkitekturprodukter rent procesmæssigt typisk med forskellige grader af iterationer og parallelitet. En række af produkterne udarbejdes som et udgangspunkt/grundlag for andre. Produkterne i de fire tværgående grundperspektiver er rammesættende i forhold til produkterne i de øvrige grundperspektiver.
+Et arkitekturprodukt kan dække et eller flere perspektiver og omfatte flere visninger. I denne sammenhæng er de enkelte produkter for overblikkets skyld placeret ind på én enkelt hylde. Figur 8 viser at nogle arkitekturprodukter går på tværs af FDA-perspektiverne: Opgaver, Information, Applikation og Infrastruktur. Det gælder fx målarkitektur og sikkerhedsmodel, der repræsenterer forskellige helhedsbilleder på de væsentligste egenskaber ved arkitekturen. En række arkitekturprodukter indenfor de tværgående FDA-perspektiver kan dog først dannes og udfoldes i takt med, at der udvikles arkitekturprodukter inden for de øvrige FDA-perspektiver. I praksis udarbejdes de fleste arkitekturprodukter rent procesmæssigt typisk med forskellige grader af iterationer og parallelitet. En række af produkterne udarbejdes som et udgangspunkt/grundlag for andre. Produkterne i de fire tværgående FDA-perspektiver er rammesættende i forhold til produkterne i de øvrige FDA-perspektiver.
 
 Begge overordnede arkitekturleverancer er i nedenstående arkitekturreol repræsenteret ved et arkitekturprodukt - Målarkitektur (resumé) og Løsningsarkitektur (resumé). Disse resuméer er korte overbliksskabende dokumenter (1-5 sider) baseret på detaljerede arkitekturprodukter.
 
@@ -334,17 +365,36 @@ Bilag 3 _Liste over udvalgte arkitekturprodukter_ beskriver i kort form de udval
 
 Nærværende retningslinjerne har ikke til formål, generelt at definere disse produkter i detaljer. For enkelte produkter er der dog nærmere regler og retningslinjer i regi af FDA, jf. følgende afsnit om modellering.
 
-Det anbefales at tage udgangspunkt i god praksis i eksisterende rammeværker som fx Open Groups arkitekturprodukter (kaldet artefakter). Dvs. at man for en mere detaljeret vejledning bør tage udgangspunkt i TOGAF eller tilsvarende rammeværk. TOGAF definerer eksempelvis en detaljeret [indholds-metamodel](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap34.html), som er grundlag for definition af [arkitekturprodukter](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap31.html) og [arkitekturleverancer](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap36.html)[.](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap36.html) Disse omfatter struktureret information i form af kataloger, matricer og diagrammer. 
+Det anbefales at tage udgangspunkt i god praksis i eksisterende rammeværker som fx Open Groups arkitekturprodukter (kaldet artefakter). Dvs. at man for en mere detaljeret vejledning bør tage udgangspunkt i TOGAF eller tilsvarende rammeværk. TOGAF definerer eksempelvis en detaljeret [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html), som er grundlag for definition af [arkitekturprodukter](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap03.html) og [arkitekturleverancer](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap04.html). Disse omfatter struktureret information i form af kataloger, matricer og diagrammer.  Se Bilag 5 Tabeloversigt af ændringer mellem TOGAF 10 og 9. 
 
 De udvalgte produkter er nærmere beskrevet i oversigtlig form i bilag 3 _Liste over anbefalede arkitekturprodukter_, hvor de bl.a. relateres til TOGAF og udvalgte modelsprog.
 
 ## Arbejdet med arkitekturprodukter
 
+Arbejdet med arkitekturprodukter skal understøtte et fælles sprog og en ensartet praksis på tværs af digitaliseringsprojekter. Formålet er at skabe klare beslutningsgrundlag, reducere risiko og sikre sammenhæng mellem løsning, forretning og tværgående offentlige principper. For at opnå dette anbefales det at basere arbejdet på et veldefineret rammeværk, der tilbyder struktur, fleksibilitet og genkendelighed — uanset projektets metode eller organisering. 
+
+TOGAF® udgør det primære metodiske fundament i retningslinjerne. TOGAF® 10 markerer et væsentligt fremskridt i forhold til TOGAF 9, både i struktur, indhold og anvendelsesmuligheder. Hvor TOGAF 9 ofte blev oplevet som omfattende og relativt statisk, er TOGAF 10 udviklet til at være modulær, fleksibel og bedre tilpasset moderne digitale og agile organisationers behov. Denne udvikling gør det lettere at udvælge netop de artefakter og fremgangsmåder, der skaber værdi i den konkrete projektsammenhæng.
+
+Den modulære tilgang betyder, at arkitekturprodukterne kan udarbejdes iterativt og i det detaljeringsniveau, der giver mest værdi på hvert tidspunkt i projektets livscyklus. Produkterne kan opdateres løbende i takt med ny viden, ændrede forudsætninger eller justerede målsætninger. Det understøtter samarbejdet mellem forretning, udvikling og leverandører og sikrer, at dokumentationen forbliver relevant og anvendelig.
+
+Udvælgelsen af arkitekturprodukter bør derfor altid tage udgangspunkt i projektets formål, risiko og kompleksitet. Det handler ikke om at producere flest mulige dokumenter, men om at skabe den nødvendige transparens og retning. I nogle projekter vil et fåtal af artefakter være tilstrækkeligt, mens andre kræver en mere omfattende arkitekturopbygning for at sikre fremdrift og kvalitet.
+
+I den praktiske anvendelse anbefales det at:
+
+- fokusere på formålet med hvert arkitekturprodukt frem for selve formatet
+- arbejde iterativt og tilpasse indholdet efter projektets modenhed
+- prioritere artefakter, der reducerer risiko og styrker beslutninger
+- sikre løbende dialog om arkitekturens konsekvenser på tværs af aktører
+
+Denne tilgang gør arkitekturarbejdet mere værdiskabende og mindre dokumentationstungt — og understøtter samtidig projekter uafhængigt af leverancemodel, projektmetode og udviklingsmodel.
+
+<!--
 Dette kapitel giver en overordnet introduktion til hvordan arkitektur kan gribes an i forhold til projektmodeller og agile metoder samt hvordan man kan arbejde med prioritering og governance i forhold til arkitekturprodukter. 
 
 De produkter, som er beskrevet ovenfor udarbejdes af forskelle aktører og i forskelligt regi og forskellige faser. Fx er der en række arkitekturprodukter, som er rammesættende for flere projekter. Det kan fx være forretningsmål, arkitekturprincipper og sikkerhedsstrateg. Disse udarbejdes typisk af ledelsen assisteret af en tværgående funktion, fx en EA eller sikkerhedsfunktion. Andre produkter udarbejdes af/til projektledelsen. Det er fx interessentanalyse, gevinstmodel og ændringsanmodningslog. Og så er der en række specialistprodukter, som udarbejdes primært af arkitekter i samarbejde med forskellige grupperinger af projektets interessenter.
 
 Nogle produkter kan således være udarbejdet før projektet og fungere som (rammesættende) input. Andre udarbejdes tidligt i projektet og er rammesættende for de øvrige produkter. Og så er der alle de produkter, der udarbejdes efterhånden som projektet skrider frem og der skabes klarhed over behov og løsningsmuligheder. Dette kan ske efter forskellige metoder – mere eller mindre vandfald eller agilt og eventuelt med brug af formaliserede metoder som fx Scrum og et rammeværk som fx TOGAF – der sagtens kan anvendes i kombination. Det er op til projektet at vælge og tilpasse egnede metoder. 
+-->
 
 FDA-dokumentet _Vejledning om arkitekturmetode_ giver – som et eksempel og til inspiration - en introduktion til anvendelse af TOGAF’s arkitekturudviklingsmetode i forhold til FDA.
 
@@ -366,19 +416,19 @@ Nedenstående figur illustrerer en række eksempler på, hvordan der i løbet af
 
 *Figur 11 Illustration af hvordan arkitekturprodukter udvikles iterativt*
 
-De blå pile viser hvordan et produkt er grundlag for et andet gennem berigelse med flere detaljer, fx fra begrebsmodel til logisk informationsmodel, til logisk datamodel til fysisk datamodel, eller gennem sammenstilling af flere elementer, fx aktør + proces eller proces + begreb.
+De blå-grønne pile viser hvordan et produkt er grundlag for et andet gennem berigelse med flere detaljer, fx fra begrebsmodel til logisk informationsmodel, til logisk datamodel til fysisk datamodel, eller gennem sammenstilling af flere elementer, fx aktør + proces eller proces + begreb.
 
-#### Idé
+#### Idé - projektfase
 
 I denne fase er fokus i forhold til arkitekturen at skabe et projektgrundlag der tydeliggør vision og mål samt scope forud for det videre forløb. Målarkitekturen er her kun beskrevet meget overordnet og typisk på konceptuelt niveau. 
 
 Til et projektgrundlag og et scopereview bør der som minimum være arkitekturprodukter i form af en vision/målbillede gerne suppleret med et systemkontekstdiagram, der giver en overordnet beskrivelse af den påtænkte tekniske løsning og det miljø, den skal indgå i. Det vil sige at der både skal være en overordnet beskrivelse af det it-system der skal (videre)udvikles og af de vigtigste integrationer til andre it-systemer. De fleste af de udvalgte arkitekturprodukter i kolonnen konceptuel kan påbegyndes og bidrage til beskrivelsen af målarkitekturen.
 
-#### Analyse
+#### Analyse - projektfase
 
 Her er fokus på at afklare, uddybe og beskrive målarkitekturen, som grundlag for udbud og leverandørens udarbejdelse af løsningsarkitekturen. 
 
-I denne fase sker der en uddybning og modning i form af den overordnede målarkitektur, på logisk niveau. Alle de udvalgte arkitekturprodukter bør overvejes i denne fase. Målarkitekturen udfoldes, men er stadig ikke konkretiseret fuldt ud. Løsningsoverblikket i kolonnen Fysisk kan omfatte de dele af den fremtidige arkitektur der allerede findes / er kendt.
+I denne fase sker der en uddybning og modning i form af den overordnede målarkitektur, på logisk niveau. Alle de udvalgte arkitekturprodukter bør overvejes i denne fase. Målarkitekturen udfoldes, men er stadig ikke konkretiseret fuldt ud. Løsningsoverblikket i kolonnen Fysisk kan omfatte de dele af den fremtidige arkitektur der allerede findes eller er kendt.
 
 Den bør så vidt muligt dokumenteres i en sammenhængende arkitekturmodel (i Archimate) suppleret med detaljerede modeller for fx processer (fx i BPMN), begreber og data (i UML/RDF) og use case (fx i UML) og som endelig udmøntes i en kravspecifikation. Detaljeringsgraden af såvel arkitekturmodeller som kravspecifikation afhænger af den valgte udviklingsmetode.
 
@@ -386,9 +436,9 @@ Afhængigt at projektet kan der være behov for at dykke særligt langt ned i en
 
 Det er i den sammenhæng væsentligt at understrege, at (mål)arkitekturen bør bringes i direkte forbindelse med business case og risikoanalyse. Det vil bidrage til at højne realismen og kvaliteten i alle tre produkter. Arkitekturen er især vigtig i forhold til at bidrage til overblik over elementer i løsningen, deres logiske sammenhæng og kan bidrage til nøjagtighed i estimering af økonomi og risici. Ligesom business casen og risikoanalysen bør (mål)arkitekturen løbende opdateres – og dette skal naturligvis ske på tværs af de tre produkter. Arkitektur bør i overbliksformat være ”allestedsnærværende” og ”tilgængeligt” som bilag til drøftelser og beslutninger. Ved rettelser / udspecificering af arkitekturen skal denne kunne give grundlag for underbygget opdatering af business case og risikoanalyse.
 
-Som udgangspunkt bør de fleste af de udvalgte arkitekturprodukter udarbejdes i denne fase. Og mange af disse bør opdateres i senere faser. Udvalgte produkter der skal anvendes i drift og videreudvikling skal eventuelt vedligeholdes løbende.
+Som udgangspunkt bør de fleste af de udvalgte arkitekturprodukter udarbejdes i denne fase. Og mange af disse bør opdateres i senere faser. Udvalgte produkter der skal anvendes i drift og videreudvikling vedligeholdes løbende.
 
-#### Gennemførelse
+#### Gennemførelse - projektfase
 
 Hvis der er tale om anskaffelse og ikke blot egenudvikling starter denne fase med en anskaffelsesfase[3](#fodnoter), hvor der udarbejdes en kravspecifikation. Denne udarbejdes med relevant detaljeringsgrad, alt afhængig af projektets kontekst. Til dette arbejde er de arkitekturprodukter, der allerede er udarbejdet et centralt input. Disse opdateres og suppleres evt. med yderligere arkitekturprodukter, hvor relevant, så de kan anvendes som bilag til kravspecifikationen. Da det typisk er i denne fase, at der kommer jurister ind over kravspecifikationen, kan der opstå behov for at arbejde med både kravformuleringer og de modsvarende arkitekturprodukter. Dvs. at der her kan være behov for en tæt dialog mellem arkitekter og jurister.
 
@@ -398,7 +448,7 @@ I denne fase er leverandøren en vigtig deltager i dokumentationsarbejdet. Igen 
 
 Desuden vil der typisk være en lang række løsningsnære arkitekturprodukter, som bør udarbejdes. I denne fase vil der typisk blive behov for at udarbejde dokumentation, der rækker ud over de udvalgte produkter. Fx løsningsnær dokumentation til brug for konfiguration, test og drift. 
 
-#### Realisering
+#### Realisering - projektfase
 
 I denne fase er der primært tale om anvendelse og vedligehold af de blivende produkter i forbindelse med drift, vedligehold og videreudvikling.
 
@@ -414,7 +464,7 @@ Nedenstående figur illustrerer (groft forenklet) fokus i disse hovedfaser i for
 
 Der er mange der spørger om hvordan man arbejder med arkitektur i forbindelse med agile udviklingsmetoder som Scrum og Scaled Agile (SAFE). 
 
-Set ud fra arkitektens synspunkt er det indlysende at bruge agile metoder i et løsningsprojekt, fordi agile værktøjer som eksempelvis Scrum netop lægger op til at skabe bro mellem teknik og forretning gennem en tæt dialog – hvilket er it-arkitektens fornemste opgave. Når man kører Scrum er man – i fællesskab i Scrum-teamet - tvunget til at forklare, hvad behovet er, hvordan man vil løse det, udvikle det og bagefter forklare, hvorfor man har gjort det på den måde, og hvad man har lært. Men koblingen til det bredere enterprise-perspektiv og de klassiske arkitekturrammeværker og metoder kan være en udfordring. Dette emne er stadig ret umodent.
+Set ud fra arkitektens synspunkt er det indlysende at bruge agile metoder i et løsningsprojekt, fordi agile værktøjer som eksempelvis Scrum netop lægger op til at skabe bro mellem teknik og forretning gennem en tæt dialog – hvilket er it-arkitektens fornemste opgave. Når man kører Scrum er man – i fællesskab i Scrum-teamet - tvunget til at forklare, hvad behovet er, hvordan man vil løse det, udvikle det og bagefter forklare, hvorfor man har gjort det på den måde, og hvad man har lært. Men koblingen til det bredere enterprise-perspektiv og de klassiske arkitekturrammeværker og metoder kan være en udfordring.
 
 Kernen i den agile tilgang er beskrivelser af funktionelle behov i form af Epics, Capabilities, Features og Stories. Disse fire artefakter er centrale for design og udviklingsarbejdet. Epics er den overordnede beskrivelse. En vision og et målbillede kan således siges at bestå af en række Epics på det mest overordnede niveau. Epics kan nedbrydes i Capabilities. Her er man stadig typisk på det konceptuelle niveau i arkitekturen. Capabilities kan igen nedbrydes til features, hvor det bliver relevant at arbejde mere logisk og stringent. Med nedbrydningen af features til Stories er man typisk på det konkrete niveau, som er styrende for den fysiske udførelse. Dette er illustreret i nedenstående figur.
 
@@ -462,7 +512,7 @@ I forhold til vægtens mellem at dokumentere den nuværende arkitektur i forhold
 
 #### Governance for arkitekturprodukter
 
-Dette afsnit beskriver forskellige forhold omkring udvikling, vedligehold og anvendelse af arkitekturdokumentation.
+Dette afsnit beskriver nogle overordnede forhold ved udvikling, vedligehold og anvendelse af arkitekturdokumentation.
 
 På udvalgte områder er det væsentligt, at der anvendes ensartede metoder. Disse uddybes i FDA retningslinjer og vejledninger, der præciserer god praksis i forhold til hvilke elementer, relationer og øvrige informationer der bør indgå i produkterne. 
 
@@ -479,9 +529,9 @@ Som eksempler på vejledninger kan nævnes _Introduktion til FDA rammearkitektur
 
 De fleste arkitekturprodukter udvikles, forfines, detaljeres og vedligeholdes løbende i det enkelte projekt, og hvor det er relevant på tværs af projekter. Derfor er det vigtigt dels at afklare forventninger til kvaliteten af et arkitekturprodukt på et givent tidspunkt dels at afklare hvilke arkitekturprodukter der primært ”bor” i det enkelte projekt og hvilke der bor andetsteds, og eventuelt på tværs af flere projekter. Fx kan der være datamodeller, som skal anvendes i et projekts løsning, men som ejes andetsteds.
 
-Det er også vigtigt at være opmærksom på, at det er god praksis at starte med at bygge et enkelt grundlag for arkitekturmodellen og for forskellige visninger, ved at opbygge områder i arkitekturen som samlinger eller grupper. Fx en samling af mål, principper, processer, forretningsobjekter eller applikationer. Når man har styr på de enkelte samlinger kan man udvikle mere sammenhængende visning på tværs af disse. Det kan fx være i form forretningsservices der anvender hvilke applikationer eller hvilke forretningsobjekter der udveksles via hvilke snitflader mellem applikationer. Man kan også lave såkaldte fodspor (”footprints”), som viser den røde tråd fra fx et mål eller princip til forretnings- og applikationsservices.
+Det er god praksis at starte med at bygge et enkelt grundlag for arkitekturmodellen og for forskellige visninger, ved at opbygge områder i arkitekturen som samlinger eller grupper. Fx en samling af mål, principper, processer, forretningsobjekter eller applikationer. Når man har styr på de enkelte samlinger kan man udvikle mere sammenhængende visning på tværs af disse. Det kan fx være i form forretningsservices der anvender hvilke applikationer eller hvilke forretningsobjekter der udveksles via hvilke snitflader mellem applikationer. Man kan også lave såkaldte fodspor (”footprints”), som viser den røde tråd fra fx et mål eller princip til forretnings- og applikationsservices.
 
-* Dokumentationen udarbejdes, så der er sammenhæng og konsistens mellem arkitektprodukter, fx således at procesmodeller bruger begreber og attributter fra begrebs- og datamodellen. På den måde kan man bedre holde styr på, hvor ændringer ét sted vil kunne have konsekvenser.
+* Dokumentationen udarbejdes, så der er sammenhæng og konsistens mellem arkitektprodukter, fx således at procesmodeller bruger begreber og attributter fra begrebs-, informations- og logiske datamodeller. På den måde kan man bedre holde styr på, hvor ændringer ét sted vil kunne have konsekvenser.
 
 Du kan læse mere om udvikling af arkitekturdokumentation i _Vejledning om arkitekturmetode_.
 
@@ -560,7 +610,7 @@ Følgende notationssprog er identificeret som kandidater til fremtidige fælleso
 
 At de er kandidater betyder, at der endnu ikke er taget en formel beslutning om at vælge dem. Der er derfor heller ikke taget stilling til om der fx skal udarbejdes fælles regler for deres anvendelse, jf. fx Regler for begrebs- og datamodellering.
 
-ArchiMate er som modelsprog interessant særligt fordi, det kan dække alle grundperspektiver i arkitekturen. ArchiMate kan fx bruges til at skabe den røde tråd fra strategi over processer til applikationer. ArchiMate er således godt til at understøtte en sporbarhed og løbende at sikre en integritet i forholdet mellem arkitekturmodellen og den konkrete løsning. ArchiMate har således et stort potentiale i forhold til styring af såvel den enkelte løsning som en samlet portefølje.
+ArchiMate er som modelsprog interessant, da det kan dække alle FDA-perspektiver i arkitekturen. ArchiMate kan fx bruges til at skabe en rød tråd fra strategi over processer til applikationer. ArchiMate kan således understøtte sporbarhed og løbende sikre integritet i forholdet mellem arkitekturmodellen og den konkrete løsning. ArchiMate har således et potentiale i forhold til styring af såvel den enkelte løsning som en samlet portefølje.
 
 ArchiMate henvender sig især til enterprise- og løsningsarkitekter, BPMN og DMN især til forretningsarkitekter og UML især til dataarkitekter og til applikations- og teknologiarkitekter og udviklere. 
 
@@ -568,7 +618,7 @@ Brug Archimate på konceptuelt og logisk niveau til overblik og de områder der 
 
 Forskellige roller skal forstå og eventuelt mestre forskellige sprog og værktøjer:
 
-* Brug ArchiMate på konceptuelt niveau til arkitekter, men giv ledelsen alternative visninger, der er ”rige” og letforståelige.
+* Brug ArchiMate på konceptuelt eller logisk niveau til arkitekter, men giv ledelsen alternative visninger, der er overskuelige, letforståelige og beslutningsrelevante.
 * Projektlederen skal forstå ArchiMate på overordnet niveau og tilsvarende de specialiserede modelsprog, hvor det er relevant, typisk særligt i forhold til processer og applikationslandskab.
 * Specialister som fx forretning-, informations- og applikationsarkitekter som skal kunne forstå og anvende de specialiserede modelsprog korrekt i forhold til de opgaver og arkitekturprodukter, som de arbejder med.
 
@@ -584,7 +634,7 @@ Bemærk at der i figuren er angivet ”rig visualisering”. Her er der stadig t
 
 I FDA regi udarbejdes supplerende retningslinjer for modeller.
 
-I første omgang er der udarbejdet regler for beskrivelse af begreber og logiske datamodeller i UML og en vejledning i brug af modelsproget ArchiMate til udarbejdelse af en række af de andre arkitekturprodukter. På sigt kan der eventuelt og efter behov udvikles yderligere vejledning, skabeloner og eksempler til de nævnte arkitekturprodukter.
+I første omgang er der udarbejdet regler for beskrivelse af begreber, informations- og logiske datamodeller i UML og en vejledning i brug af modelsproget ArchiMate til udarbejdelse af en række af de andre arkitekturprodukter. På sigt kan der eventuelt og efter behov udvikles yderligere vejledning, skabeloner og eksempler til de nævnte arkitekturprodukter.
 
 ### Modelleringsniveau
 
@@ -630,7 +680,7 @@ Vælg en tilgang, der svarer til behov og mulighed for vedligeholdelse af refere
 
 I arkitekturarbejdet er der et særligt begreb, som er centralt: Byggeblokke (forkortes BB). En byggeblok er en fælles term for et aspekt i arkitekturen, som kan afgrænses som et element, som (potentielt) kan genbruges, når man designer arkitektur/løsninger. 
 
-FDA anvender begrebet på baggrund af standarden The Open Group Architecture Framework (TOGAF) og lægger sig desuden op ad den tilgang, som er udtrykt i The European Interoperability Reference Architecture (EIRA). FDA anvender ligesom EIRA byggeblokbegrebet i en bred betydning og der findes byggeblokke inden for alle de otte grundperspektiver. Fx er et juridisk bindende instrument som en lov en væsentlig byggeblok i et juridisk perspektiv i forbindelse med digitalisering. Her kan fx lov om digital post ses som en løsningsbyggeblok, der sikrer fælles juridiske rammer for anvendelse af digital post for alle myndigheder, borgere og virksomheder.
+FDA anvender begrebet på baggrund af standarden The Open Group Architecture Framework (TOGAF) og lægger sig desuden op ad den tilgang, som er udtrykt i The European Interoperability Reference Architecture (EIRA). FDA anvender ligesom EIRA byggeblokbegrebet i en bred betydning og der findes byggeblokke inden for alle de otte FDA-perspektiver. Fx er et juridisk bindende instrument som en lov en væsentlig byggeblok i et juridisk perspektiv i forbindelse med digitalisering. Her kan fx lov om digital post ses som en løsningsbyggeblok, der sikrer fælles juridiske rammer for anvendelse af digital post for alle myndigheder, borgere og virksomheder.
 
 Som led i FDA opbygges et fællesoffentligt katalog over byggeblokke – dvs. de mest væsentlige og genbrugelige dele af arkitekturen. Kataloget udstilles dels som Archimate model dels som en taksonomi i regneark-format.
 
@@ -653,23 +703,23 @@ Når man beskriver arkitekturen, sker det på flere måder alt afhængigt af, hv
 
 Når man skal modellere kræver det et egnet værktøj. De forskellige modelsprog stiller forskellige krav til værktøjernes egenskaber. Nogle værktøjer understøtter flere modelsprog, mens andre er specialiserede. 
 
-Nærværende retningslinjer kræver ikke anvendelse af særlige værktøjer. En myndighed, leverandør eller projekt må derfor vælge det værktøj, der understøtter det konkrete behov. Man skal dog sikre sig, at det valgte værktøj understøtter de rette versioner af modelsprog og udvekslingsformater. 
+Nærværende retningslinjer stiller ikke krav om anvendelse af bestemte værktøjer. En myndighed, leverandør eller projekt kan vælge det værktøj, der understøtter det konkrete behov. Det er dog vigtigt at sikre sig, at det valgte værktøj understøtter de rette versioner af modelsprog og udvekslingsformater. 
 
 Bilag 4 _Liste over modelsprog og udvekslingsformater_ beskriver anbefalede versioner af modelsprog og udvekslingsformater.
 
-Hvis man udveksler mellem to ens værktøjer, kan man godt udveksle med proprietært format, men når man skal dele på tværs af værtøjer, herunder publicere i fællesoffentlige kataloger, bør det ske med brug af et FDA-anbefalet åbent udvekslingsformat.
+Hvis man udveksler mellem to ens værktøjer, kan man godt udveksle med et proprietært format. Når man derimod skal dele på tværs af værtøjer, herunder publicere i fællesoffentlige kataloger, bør udvekslingen ske med brug af et FDA-anbefalet åbent udvekslingsformat.
 
 Sekretariatet for FDA vil efter behov understøtte udvalgte modelsprog i enkelte værktøjer. Det kan være med skabeloner, kompetenceudvikling og lign.
 
 ### Udstilling, deling og genbrug af arkitekturmodeller
 
-I forbindelse med udveksling og deling af arkitekturprodukter kan der naturligvis være behov for og værdi i at dele fx modeller og diagrammer i originalt format. 
+I forbindelse med udveksling og deling af arkitekturprodukter kan der være behov for og værdi i at dele fx modeller og diagrammer i originalt format. 
 
 Som hovedprincip anbefales det at dele og udveksle arkitekturprodukter som minimum i pdf. Det giver en garanti for at afsender og modtager kan læse og se det samme. Modeller udført i samme modelsprog og udvekslet i fælles format kan stadig opføre sig forskelligt i forskellige værktøjer.
 
 ## Navngivning
 
-Det er hensigtsmæssigt, at arkitekturprodukter gives et meningsfyldt og anvendelsesneutralt navn, for så vidt det er intentionen, at de skal kunne læses, anvendes og genbruges af andre, og det vil lette formidling, fremsøgning og anvendelse.
+For at sikre, at arkitekturprodukter kan forstås, deles og genbruges på tværs af projekter og målgrupper, er det vigtigt at give dem et klart og anvendelsesneutralt navn. Et meningsfuldt navn understøtter både formidling, fremsøgning og praktisk anvendelse.
 
 Arkitekturprodukter bør forsynes med meningsfyldte navne, der refererer til et eller flere af disse: 
 
@@ -686,20 +736,56 @@ For at vise sammenhæng i flere arkitekturprodukter kan der fx anvendes præfix 
 
 ## Konfigurations- og versionsstyring
 
-Det er grundlæggende et lokalt ansvar at holde styr på konfiguration og versionering i forhold til arkitekturprodukter og arkitekturmodeller. Det kræver stor organisatorisk modenhed at styre versionering på tværs af domæner, og er derfor meget svært. Det bør tilstræbes, at der indenfor et domæne (organisation / fagområde) så vidt muligt er en ensartet governance og metodik omkring versionsstyring.
 
-Det anbefales, at alle arkitekturprodukter så vidt muligt forsynes med versionsnummer og dato for seneste opdatering. Dette er væsentligt både for den interne konfigurationsstyring og ikke mindst for andre brugere af et arkitekturprodukt.
+### **Formål**
 
-Ved at arkitekturprodukter forsynes med oplysninger om versionering og seneste opdateringsdato, bliver det lettere for brugeren at vurdere, om produktet eller elementer herfra kan anvendes til et bestemt formål. Brugeren kan blandt andet let afgøre, hvilken version af et specifikt arkitekturprodukt, der er den nyeste, og hvornår der sidst er sket ændringer i produktet.
+Konfigurations- og versionsstyring skal sikre, at arkitekturprodukter og -modeller er entydige, opdaterede og lette at genfinde og genbruge på tværs af organisationer og projekter. I takt med at arkitekturarbejdet bliver mere komplekst og distribueret, øges behovet for moden værktøjsunderstøttelse til håndtering af ændringer og historik. 
 
-Det anbefales at arkitekturproduktets seneste opdateringsdato og versionsnummer så vidt muligt tager udgangspunkt i følgende metode (som her er inspireret fra tilsvarende regler for begrebs- og datamodellering):
+Mange organisationer anvender fortsat simple dokumenthåndteringsløsninger, hvor versionering sker manuelt via filnavne og metadata. Det giver en grundlæggende sporbarhed, men understøtter ikke avanceret historik, parallel redigering eller effektiv styring af ændringer. Mere modne løsninger, såsom Git-baserede repositories, branches, pull requests og automatisk versionshistorik, muliggør præcis ændringskontrol, bedre samarbejde og klar dokumentation af udviklingen over tid.
 
-* Dato opbygges med formatet yyyy.mm.dd. Angiv 'seneste opdateringsdato' = fx 2017-10-25 \[[https://www.w3.org/TR/xmlschema-2/#dateTime](https://www.w3.org/TR/xmlschema-2/#dateTime)\],
-* Versionsnummer opbygges med brug af udfaldsrum med en major-version, minor-version og revision adskilt med punktum, fx:1.0.1 \[[https://semver.org/](https://semver.org/)\]
+Selv hvor Git eller lignende teknologier ikke er direkte anvendelige for alle typer arkitekturprodukter, kan principperne herfra, fx eksplicit historik, semantisk versionering og tydelig ansvarlighed, med fordel inspirere governance og arbejdsprocesser. En konsekvent og gennemsigtig versioneringspraksis øger både kvaliteten og genbrugsværdien af arkitekturprodukter.
 
-Hvor det er relevant og værktøjet understøtter det, er det godt at opmærke arkitekturprodukter og modeller med tidligere og nyere versioner. Angiv fx ”Denne version”, ”Seneste version” (kan være den samme) og ”Tidligere version”.
+### **Ansvar og organisering**
 
-For identifikation og versionering af de enkelte elementer i modeller henvises til detaljerede regler og vejledninger, hvor de findes, såsom de fællesoffentlige regler for begrebs- og datamodellering. 
+Versionering og konfigurationsstyring af arkitekturprodukter og -modeller er som udgangspunkt et lokalt ansvar i det enkelte domæne eller fagområde. Tværgående versionsstyring kræver høj organisatorisk modenhed og ensartet governance og kan være komplekst at etablere.
+
+For at skabe tydelighed anbefales følgende opdeling:
+* Lokalt ansvar: Domæner, organisationer og fagområder har ansvar for versionering og konfigurationsstyring af egne arkitekturprodukter.
+* Tværgående styring: Bør etableres, hvor organisatorisk modenhed, fælles governance og ensartet metodik kan understøtte det.
+
+
+### **Metode for versionsstyring**
+
+Det anbefales at arkitekturproduktets seneste opdateringsdato og versionsnummer så vidt muligt tager udgangspunkt i følgende metode (som her er inspireret fra tilsvarende regler for begrebs- og datamodellering). 
+
+***Dato format***
+
+* Dato opbygges med formatet yyyy-mm-dd. 
+* Angiv fx 'seneste opdateringsdato' = 2017-10-25
+
+[Læs mere om W3C dateTime format](https://www.w3.org/TR/xmlschema-2/#dateTime).
+
+***Versionsnummer - SemVer***
+
+Versionsnummer opbygges med brug af udfaldsrum major-version, minor-version og patch-version adskilt med punktum, fx:1.0.1  
+* Major: Grundlæggende ændringer eller brud
+* Minor: Nye funktioner eller udvidelser
+* Patch: Mindre rettelser
+
+Semantisk versionering giver klarhed omkring ændringers omfang og betydning. [Læs mere om semver](https://semver.org/).
+
+***Eksempel på versionsmarkering til arkitekturprodukter***
+
+Hvor det er relevant, kan man enten manuelt eller det er værktøjet understøtter, er det godt at opmærke arkitekturprodukter og modeller med følgende metadata:
+
+ 1. Versionsnummer
+ 2. Dato for seneste opdatering
+ 3. Ejer/ansvarlig (valgfrit, men anbefales; fx med angivelse af organisation/organisationsenhed)
+ 4. Status (fx ’gældende’, ’forældet’, ’drøftes’) — hvis understøttet af værktøjet
+ 5. Forrige version og dato (valgfrit, men anbefales)
+
+Disse oplysninger gør det muligt for brugere at vurdere produktets aktualitet, relevans og genbrugspotentiale. Dette forbedrer overblikket over historik og udvikling.
+
 
 ## Bilag 1: Tjekliste vedrørende arkitekturdokumentation
 
@@ -713,19 +799,19 @@ Tjeklisten kan anvendes flere gange i løbet af et projekt. Brug den initialt ti
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
 | 1.  | Lav en plan for projektet arkitekturprodukter:<br><br>*   Arkitekturproduktet **Metodeanvendelse** beskriver den anvendte fremgangsmåde med tilhørende arkitekturprodukter, som indgår i projektets leveranceplan. Omfatter tilpasning af metoder og notationer til projektets kontekst. Vedligeholdes gennem projektetslevetid.<br>*   Lav en overordnet plan for udarbejdelse af arkitekturdokumentation, som en del af projektplanlægningen. Planen bør omfatte hvilke arkitekturvisninger, der skal udarbejdes og krav til kvalitet (fx niveau af detaljer).<br>*   Planen bør overordnet tydeliggøre hvilke roller der skal udarbejde, bidrage til og anvende produkterne samt krav til timing, således at det er klart hvilke forventninger, der er til hvad der skal laves hvornår, og i hvilken kvalitet. Husk at tage højde for projektets udviklingsmetode (fx vandfald, agil) og at der læres undervejs.<br>*   Afklar formelle arkitekturleverancer med projektets styregruppe. Brug en arbejdsgruppe og arkitekt til støtte og dialog om øvrige arkitekturprodukter der er relevante for projektet. Benyt eventuelt muligheden for rådgivning fra sekretariatet for initiativ 8.1. Tag udgangspunkt i listen over udvalgte arkitekturprodukter.<br>*   Afklar hvilken dokumentation, der bør være i forbindelse med projektgrundlag og review, fx arkitekturreview i regi af styregruppen for data og arkitektur. Som minimum anbefales vision/målbillede og et systemkontekstdiagram, der giver en overordnet beskrivelse af den påtænkte tekniske løsning og det miljø, den skal indgå i.<br>*   Afklar hvilken dokumentation, der skal være blivende og derfor skal underlægges eventuelle særlige krav til kvalitetssikring og vedligehold. |      |
 | 2.  | Etabler projektets arkitekturmetode:<br><br>*   Lav på baggrund af nærværende retningslinjer - og en evt. fælles standard på organisationsniveau - en tilpasset metode og valg af notation og formater for visninger, der kan understøtte projektets plan for udarbejdelse af arkitekturdokumentation.<br>*   Dette omfatter også plan for anvendelse af værktøjer, udvekslingsformater, navngivning og versionsstyring, som bør være på plads så tidligt som muligt.<br>*   Til den overordnede arkitekturmodel (helhedsoverblik) anbefales modelsproget Archimate. Anvend FDA Vejledning om brug af ArchiMate.<br>*   Til begrebs og datamodeller anbefales UML. Anvend FDA Regler for begrebs- og datamodellering.<br>*   Til andre detaljerede modeller anvendes relevante metoder og notationssprog som fx BPMN, DMN, UML, wireframes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |      |
-| 3.  | Udarbejd arkitekturprodukter<br><br>*   Start med en overordnet skitse over den samlede arkitektur i projektet. Start gerne med en kombination af relevante abstrakte arkitekturbyggeblokke og kendte konkrete løsningsbyggeblokke.<br>*   Fokuser i første omgang på formål/forretningsbehov, forretningsopgaver og forretningsobjekter samt applikationslandskabet med integrationer – og identifikation af de væsentligste udfordringer! Fx hvor er der behov for at gå i dybden med hensyn til optimering af arbejdsgange eller standardisering af snitflader?<br>*   Udarbejd og vedligehold løbende arkitekturmodeller og andre arkitekturprodukter efter princippet ”til rette tid og i rette kvalitet”. Pas på med ikke at drukne i perfektionisme. Skitser er ofte nok til indledende afklaringer (”less is more”).<br>*   Tænk ”relevans” ifht timing, format og kvalitet ifht målgruppe og anvendelseskontekst for en arkitekturvisning. Husk at visninger i form af fx et diagram skal kunne afkodes af målgruppen og typisk skal suppleres med mundtlig eller skriftlig forklaring, der kan sikre at væsentlige problemstillinger og muligheder står tydelige for interessenterne.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |      |
+| 3.  | Udarbejd arkitekturprodukter<br><br>*   Start med en overordnet skitse over den samlede arkitektur i projektet. Start gerne med en kombination af relevante abstrakte arkitekturbyggeblokke og kendte konkrete løsningsbyggeblokke.<br>*   Fokuser i første omgang på formål/forretningsbehov, forretningsopgaver og forretningsobjekter samt applikationslandskabet med integrationer – og identifikation af de væsentligste udfordringer! Fx hvor er der behov for at gå i dybden med hensyn til optimering af arbejdsgange eller standardisering af snitflader?<br>*   Udarbejd og vedligehold løbende arkitekturmodeller og andre arkitekturprodukter efter princippet ”til rette tid og i rette kvalitet”. Pas på med ikke at drukne i perfektionisme. Enkle skitser giver som regel rigeligt grundlag for den første afklaring.<br>*   Tænk ”relevans” ifht timing, format og kvalitet ifht målgruppe og anvendelseskontekst for en arkitekturvisning. Husk at visninger i form af fx et diagram skal kunne afkodes af målgruppen og typisk skal suppleres med mundtlig eller skriftlig forklaring, der kan sikre at væsentlige problemstillinger og muligheder står tydelige for interessenterne.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |      |
 | 4.  | Brug fælles terminologi:<br><br>*   Udarbejd projektets arkitekturmodeller med brug af fælles terminologi, fx defineret i regi af FDA, fagdomæne som fx sundhed eller i egen organisation.<br>*   Hav løbende fokus på at anvende fælles terminologi og begreber på tværs af de forskellige projektleverancer. Vær bevidst om oversættelse til lægmandssprog i fx ledelsesprodukter, således at der løbende tages højde for mulige misforståelser.<br>*   FDA terminologi findes via FDA hjemmesiden i bl.a. FDA-ordbogen, FDA-byggeblokkataloget og FDA-modelkataloget. Typisk fremgår både foretrukne og tilladte termer, så man nemmere kan finde termer der matcher anvendelseskontekst og målgruppe.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |      |
 | 5.  | Genbrug arkitektur og arkitekturbyggeblokke:<br><br>*   Orienter jer i relevante referencearkitekturer, hvor I dels finder de mål og principper, begreber og byggeblokke, som I skal tage stilling til om er relevante i projektet. Gennemgå relevante tjeklisterne.<br>*   Orienter jer ligeledes i fællesoffentlige kataloger over byggeblokke, modeller o.l. via FDA hjemmesiden.<br>*   Afsøg tilsvarende indenfor egen organisation og relevant(e) domæne(r). Opsøg og brug relevant eksisterende dokumentation.<br>*   Orienter jer så vidt muligt om andre projekter har en pipeline med leverancer, der kan være relevante for jeres projekt, fx i form af nye referencearkitekturer og standarder eller forskellige former for arkitekturbyggeblokke.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |      |
 | 6.  | Genbrug løsninger og løsningsbyggeblokke:<br><br>*   Hav øje for om der i FDA regi eller i andet relevant domæne peges på konkrete løsningsbyggeblokke, som kan eller skal anvendes.<br>*   Identificer kandidater til konkrete løsningsbyggeblokke, som projektet kan genbruge og indarbejd dem i projektets arkitektur. De kan både være danske og internationale, fx fra EU.<br>*   Afsøg tilsvarende indenfor egen organisation og relevant(e) domæne(r) hvad angår løsninger, standarder, infrastrukturkomponenter mv.<br>*   Sørg også for at orientere jer i andre projekters pipeline, om der er løsningsbyggeblokke, der potentielt kan genbruges helt eller delvis af projektet.<br>*   Dokumentér valg - og fravalg. Det gælder både i forhold til muligheder for at genbruge eksisterende løsningsbyggeblokke eller at bidrage med genbrugelige løsningsbyggeblokke.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |      |
 | 7.  | Del projektets arkitekturdokumentation:<br><br>*   Tag stilling til hvordan ”det nye” bliver en del af den fremtidige helhed, dvs. hvordan kan projektets produkter fx indgå i FDA eller andet domænes fælles arkitektur og portefølje af løsningsbyggeblokke.<br>*   Sørg for at kommunikere eventuelle bidrag fra projektet til den fællesoffentlige rammearkitektur.<br>*   Sørg for at udstille relevant dokumentation på FDA hjemmesiden eller på anden relevant hjemmeside.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |      |
 
-## Bilag 2: FDA-grundperspektiver
+## Bilag 2: FDA-perspektiver
 
-Dette bilag beskriver de otte grundlæggende arkitekturperspektiver i den fællesoffentlige digitale arkitektur (FDA).
+Dette bilag beskriver de otte grundlæggende arkitekturperspektiver (FDA-perspektiver) i den fællesoffentlige digitale arkitektur (FDA).
 
 ![Figur5.svg](assets/Figur5_De_otte_grundlæggende_FDA-arkitekturperspektiver.svg)
 
-*Figur 20 De otte grundlæggende FDA-arkitekturperspektiver*
+*Figur 20 De otte grundlæggende FDA-perspektiver*
 
 For hvert perspektiv beskrives kort: 
 
@@ -785,10 +871,10 @@ Omfatter visioner, målbilleder, strategiske kapabiliteter, som skal realiseres.
 
 ##### Interessenter
 
+* Forretning - især forretningsledelse.
 * Ejer - især systemejer.
 * Arkitekt/udvikler - især enterprise-arkitekt samt forretningsarkitekt og løsningsarkitekt.
 * Governance-aktør - særligt aktører med ansvar for fælles byggeblokke i form af standarder, komponenter og infrastruktur.
-* Forretning - især forretningsledelse.
 * Leverandør - leverandør af teknisk løsning og konsulenter samt leverandør af teknisk infrastruktur.
 
 ##### Interesser
@@ -813,11 +899,11 @@ Omfatter lovgivning og kontrakter som er juridisk rammesættende for løsningens
 
 ##### Interessenter
 
+* Forretning - især ift. effektiv opgaveløsning.
 * Ejer - især systemejer.
 * Arkitekt/udvikler - især enterprise-arkitekt, løsningsarkitekt, applikationsarkitekt og teknisk arkitekt.
 * Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel samt ansvarlig for monitorering og cybersikkerhed.
 * Juraansvarlig - jurister og andre, der udarbejder og anvender kravspecifikationer.
-* Forretning - især ift. effektiv opgaveløsning.
 * Bruger - især som datasubjekt.
 * Dataejer/-behandler - især ift. roller og ansvar.
 * Leverandør - især leverandør af teknisk løsning.  Drift - især driftsansvarlig og systemoperatører.
@@ -843,11 +929,11 @@ Omfatter håndtering af trusler og sikkerhedsrisici. Krav til håndtering af sik
 
 ##### Interessenter
 
+* Forretning - især ift. krav til sikkerhed i opgaveudførsel.
+* Bruger - især som datasubjekt og ift. rettigheder.
 * Ejer - især systemejer.
 * Arkitekt/udvikler - især enterprise-arkitekt og løsningsarkitekt.
 * Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel samt ansvarlig for monitorering og cybersikkerhed.
-* Forretning - især ift. krav til sikkerhed i opgaveudførsel.
-* Bruger - især som datasubjekt og ift. rettigheder.
 * Leverandør - leverandør af teknisk løsning og af teknisk infrastruktur.
 * Drift - især driftsansvarlig og systemoperatører.
 
@@ -872,11 +958,11 @@ Omfatter aktørers og rollers håndtering af forretningsinformation i processer 
 
 ##### Interessenter
 
+* Forretning - ledelse, eksperter og medarbejdere.
 * Ejer - især opgaveansvarlig og systemejer.
 * Arkitekt/udvikler- især forretningsarkitekt, løsningsarkitekt og enterprise-arkitekt.
 * Governance-aktør - særligt aktører med ansvar for tværgående servicelevering gennem fx portaler (fx Digitaliseringsstyrelsen, Erhvervsstyrelsen, Sundhedsdatastyrelsen, EU).
 * Sikkerhedsaktør - især ansvarlig for implementering af sikkerhed i organisationen og dens forretningsprocesser.
-* Forretning - ledelse, eksperter og medarbejdere.
 * Bruger - alle der skal løse opgaver via it-løsning.
 * Leverandør - af teknisk løsning, leverandør af teknisk infrastruktur.
 
@@ -903,13 +989,13 @@ Omfatter begreber, terminologi, data og repræsentationer af data. Sikring af en
 
 ##### Interessenter
 
+* Forretning - især ift. datas forståelighed, egenskaber og kvalitet ift. opgaveløsning.
+* Bruger - især ift. semantik og forståelse (borger, virksomhed, sagsbehandler) og tryghed ved data (datasubjekt).
+* Dataejer/-behandler – især dataafgrænsning, roller og ansvar.
 * Ejer - især systemejer både som eventuel dataejer og som databehandler.
 * Arkitekt/udvikler - især informationsarkitekt og applikationsarkitekt ift. udvikling af informationsarkitekturen.
 * Governance-aktør - ejere af fælles byggeblokke i form af specifikationer (fx Digitaliseringsstyrelsen, EU med SEMIC, W3C og OASIS).
 * Sikkerhedsaktør - især DPO ift. klassifikation af data med henblik på håndtering af persondata og følsomme data.
-* Forretning - især ift. datas forståelighed, egenskaber og kvalitet ift. opgaveløsning.
-* Bruger - især ift. semantik og forståelse (borger, virksomhed, sagsbehandler) og tryghed ved data (datasubjekt).
-* Dataejer/-behandler – især dataafgrænsning, roller og ansvar.
 * Leverandør - især krav til datamodel og krav til eksterne snitflader og datastandarder.
 
 ##### Interesser
@@ -931,12 +1017,12 @@ Omfatter applikationers funktioner og brugergrænseflader. Applikationers teknis
 
 ##### Interessenter
 
-* Ejer - især systemejer ift. funktionalitet, kompleksitet, robusthed og fleksibilitet i koden i applikationer, services, snitflader og integrationer.
-* Arkitekt/udvikler - især løsningsarkitekt, applikationsarkitekt og udviklere (programmører) samt UX-ansvarlige.
-* Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel.
 * Forretning - effektiv understøttelse af opgaveløsning.
 * Bruger - især ift. brugergrænseflade (UX og tilgængelighed).
 * Dataejer/-behandler - effektiv og sikker datadeling.
+* Ejer - især systemejer ift. funktionalitet, kompleksitet, robusthed og fleksibilitet i koden i applikationer, services, snitflader og integrationer.
+* Arkitekt/udvikler - især løsningsarkitekt, applikationsarkitekt og udviklere (programmører) samt UX-ansvarlige.
+* Sikkerhedsaktør - især DPO og ansvarlig for implementering og drift af sikkerhedsmodel.
 * Leverandør - af teknisk løsning, særligt softwareleverandører og leverandører med ansvar for integrationer.
 * Drift - især driftsansvarlig og systemoperatører.
 * Governance-aktør - ejere af fælles byggeblokke i form af tekniske specifikationer og open source komponenter (fx Digitaliseringsstyrelsen, EU med CEF Digital, W3C og IHE).
@@ -993,8 +1079,6 @@ For hvert arkitekturprodukt beskrives kort: 
 * AR nr. - reference til hvidbogens arkitekturregler, som er særlig relevante ift. produktet. Kan støtte projekter i at forstå sammenhæng til hvidbogen, fx til kvalitetssikring af projektplan og til forberedelse til arkitekturreview.
 
 Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal opfattes som eksempler. Det enkelte projekt skal tage udgangspunkt i de konkrete styringsrammer for projektet og i interessenters konkrete spørgsmål og behov for beskrivelse, når de udvælger hvilke produkter der skal udarbejdes og hvornår. 
-
-Fremstillingen er udformet med brug af reolens farvekoder således, at det er nemt at orientere sig.
 
 <br>
 
@@ -1090,6 +1174,7 @@ Fremstillingen er udformet med brug af reolens farvekoder således, at det er ne
 <br>
 
 **Infrastruktur**
+
 | Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Infrastrukturkoncept og -mønstre | Beskriver tilgang til de grundlæggende teknologiservices. (Overblik) | Valg af teknologier, platforme og infrastrukturansvar, der sætter de grundlæggende tekniske rammer for løsningen. Fx om der bruges cloud computing og fælles infrastrukturservices. Et væsentligt input til målarkitektur og migrationsstrategi. | Tekst, tabel, evt diagram i ArchiMate | AR 8.1 |
@@ -1104,16 +1189,37 @@ Listen indgår som led i den fællesoffentlige digitale arkitektur (FDA), der ha
 
 Listen opdateres løbende. Listen vedligeholdes af Digitaliseringsstyrelsen.
 
-| Modelsprog | Version            | Udvekslingsformat                                                                                                                                                                                                                                                                                                             |
-| ---------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ArchiMate  | 3.0.1              | [ArchiMate Exchange File Format for ArchiMate 3.0](http://www.opengroup.org/subjectareas/enterprise/archimate/model-exchange-file-format)                                                                                                                                                                                     |
-| UML        | 2.5.1              | [XML Metadata Interchange / XMI 2.5.1](https://www.omg.org/spec/XMI/)                                                                                                                                                                                                                                                         |
-| BPMN       | 2.0                | [Object Management Group tilbyder to XML formater til udveksling af BPMN 2.0](https://www.omg.org/spec/BPMN/2.0/):<br><br>1.  Et format, der bruger XML Schema Definition (XSD)<br>2.  Et format, der bruger XML Metadata Interchange (XMI). Begge giver grundlæggende samme egenskaber, men XSD er angiveligt mest populært. |
-| DMN        | 1.5 | [Object management Group tilbyder XML formater til udvekling af DMN](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                           |
+| Modelsprog | Version            | Udvekslingsformat                                                                                                                                                                                                                                                                                                                                   |
+| ---------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ArchiMate  | 3.2                | [ArchiMate Exchange File Format for ArchiMate 3.1](http://www.opengroup.org/subjectareas/enterprise/archimate/model-exchange-file-format)                                                                                                                                                                                |
+| UML        | 2.5.1              | [XML Metadata Interchange / XMI 2.5.1](https://www.omg.org/spec/XMI/)                                                                                                                                                                                                                                                                                                                                   |
+| BPMN       | 2.0.2                | [Object Management Group tilbyder to XML formater til udveksling af BPMN 2.0.2](https://www.omg.org/spec/BPMN/):<br><br> For at sikre optimal udnyttelse af BPMN 2.0.2-udvekslingsformater anbefales det, at du orienterer dig i den officielle specifikation. Object Management Group stiller flere udvekslingsformater til rådighed, og ved at gennemgå specifikationen kan du vælge det format, der bedst understøtter dine behov i forbindelse med udveksling af BPMN-data. <br>[Link til specifikationen](https://www.omg.org/spec/BPMN/2.0.2/PDF).|
+| DMN        | 1.5                | [Link til Object management Group tilbyder XML formater der til udvekling af DMN](https://www.omg.org/spec/DMN/About-DMN/)                                                                                                                                                                                                                                                                                                                                   |
+
+
+## Bilag 5: Tabeloversigt af ændringer mellem TOGAF 10 og 9.
+
+TOGAF definerer eksempelvis en detaljeret indholds-metamodel, som er grundlag for definition af arkitekturprodukter og arkitekturleverancer. 
+
+*Bemærk om adgang til The Open Group*
+
+Nogle af de henviste materialer findes på The Open Groups hjemmeside og kræver, at du er registreret bruger. Registrering er gratis.
+
+Med en konto får du adgang til omfattende og veldokumenteret reference­materiale, herunder TOGAF-standarder og tilhørende understøttende dokumentation, som kan anvendes direkte i arkitekturarbejdet.
+
+|     | TOGAF 10  | TOGAF 9 |
+| --- | ---		|---		|
+| Content metamodel| [indholds-metamodel](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap02.html) | [indholds-metamodel](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap34.html) |
+| Architectural Artifacts | [arkitekturprodukter](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap03.html) | [arkitekturprodukter](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap31.html) |
+| Architecture Deliverables | [arkitekturleverancer](https://digital-portfolio.opengroup.org/togaf-standard-architecture-content/latest/01-doc/chap04.html) | [arkitekturleverancer](http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap36.html) |
+
 
 ## Fodnoter
 
-1 Dokumentet Standard for beskrivelse af it-systemer forventes publiceret i anden halvdel af 2019.  
-2 ISO/IEC 15288 (Systems and software engineering -- System life cycle processes)  
-3 I en tidligere version af statens it-projektmodel var dette en selvstændig fase mellem analyse- og gennemførelsesfasen.  
+[1]() Dokumentet Standard for beskrivelse af it-systemer er publiceret i december 2019, og patch opdateret i januar 2021. 
+* [Intro: It-System | FDA](https://arkitektur.digst.dk/specifikationer/it-system)
+* [Standard for beskrivelse af it-systemer - Basisprofil](https://digst.github.io/IT-System-AP/SYS-AP/docs/)
+ 
+[2]() ISO/IEC 15288 (Systems and software engineering -- System life cycle processes)  
+[3]() I en tidligere version af statens it-projektmodel var dette en selvstændig fase mellem analyse- og gennemførelsesfasen.  
 

@@ -1084,7 +1084,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Styring**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Governancemodel | Beskriver de overordnede organisatoriske rammer for at udøve governance. | Skal sikre, at der etableres en ramme for governance, der kan sikre, at målarkitekturen realiseres ved at arkitekturarbejdets produkter udvikles, vedligeholdes og bringes i anvendelse. Kan fx omfatte aktører/fora og beslutningsprocesser i forhold til arkitektur og løsning. Vil helt eller delvist kunne være dækket af projektgrundlag eller PID. | RACI matrice eller Archimate diagram. | AR 1.1 |
 | Interessentanalyse | Beskriver de vigtigste interessenter og interesser i forhold til løsningen og dens arkitektur (stakeholder concerns).(Resumé) | Her er fokus på styring af arkitekturegenskaber og ikke proces- og projektstyring. Skal sikre, at der tages højde for relevante forhold ift. at realisere de givne mål og kan danne grundlag for plan for inddragelse og kommunikation i forhold arkitekturarbejdet. Vil helt eller delvist kunne være dækket af den klassiske interessentanalyse, jf. afsnit projektgrundlag eller PID. | Tabel eller Archimate diagram | AR 1.2 |
@@ -1100,7 +1100,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Strategi**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Vision / målbillede | Beskriver den kommende løsnings hovedegenskaber. | Giver et klart billede af forretningens strategiske vision og målbillede for løsningen. Hovedegenskaber kan fx være udtrykt som eller relateres til strategiske kapabiliteter. Vil helt eller delvist kunne være dækket af afsnit projektgrundlag eller PID. Nedbrydes i strategiske kapabiliteter og videreudvikles til målarkitektur og løsningsarkitektur. | Tekst og visualisering, evt. ArchiMate | AR 1.2<br><br>AR 2.1 |
 | Strategiske kapabiliteter | Beskriver de strategiske kapabiliteter, der skal realiseres. | En kapabilitet er en formåen en organisation, person, eller et system har. Udtrykkes typisk i generelle termer og består typisk af en kombination af organisation, mennesker, processer og teknologi. Kan være indenfor forretning, teknik eller arkitektur. Beskriver en forretningsværdi og gerne modenheds / kvalitetsniveauer for denne. Kan fx være i form af en operating model, der oversætter strategiske mål til strategiske arkitektur-, forretnings-, og it-kapabiliteter. Kan fx mappes til gevinstmodel, strategier og projekter. | Tekst og fx ArchiMate diagram | AR 1.2<br><br>AR 2.1 |
@@ -1116,7 +1116,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Jura**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Juridiske bindinger | Beskriver juridiske bindinger, som har væsentlig betydning for mandat og begrænsninger for løsningens arkitektur og anvendelse. (Overblik) | Bindinger findes typisk i love, fordringer, direktiver, udbudsbekendtgørelser, kontrakter o.l. | Tekst evt. suppleret med ArchiMate diagram | AR 2.5<br><br>AR 3.1<br><br>AR 3.2 |
 | Krav(sam- ling) | Beskriver forhold, der kræves eller ønskes overholdt i løsningen. | De enkelte krav kan referere til specifikationer andre arkitekturprodukter. Kan både omfatte tværgående krav (EA/virksomhedskontekst) og specifikke krav til den enkelte løsning. Kan omfatte forhold og opgaver af materiel og ikke materiel karakter og omfatter ikke kun den tekniske løsning. Et overblik over væsentlige krav og temaer for krav kan anvendes til arkitekturstyring. Krav indarbejdes i forskellige kontrakter og aftaler. | Tekst, tabel, evt. overordnet i ArchiMate. Kan udfoldes via user stories, jf agile metoder. Skal kunne indarbejdes i kravspecifikation efter evt. skabelon. | AR 2.1<br><br>AR 2.2<br><br>AR 2.3<br><br>AR 3.1 |
@@ -1127,7 +1127,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Sikkerhed**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Sikkerheds- strategi / mønstre | Beskriver på overordnet niveau tilgang til sikkerhed, der skal styre løsningen fra start til slut og end to end. | Omfatter metoder til sikring af adgang til data. Fx tofaktor, ”lokal” brugerstyring, føderering. | Tekst | AR 4.1<br><br>AR 4.2 |
 | Trussels- og risikokatalog | Beskriver væsentlige identificerede sikkerhedsmæssige risici og krav til mitigering. | Områder, hvor der skal indgå risikovurdering og sikkerhedsforanstaltninger, omfatter fx processer, aktører, data, snitflader og driftmiljø. | Tekst, tabel | AR 4.1<br><br>AR 4.2 |
@@ -1138,7 +1138,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Opgaver**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Opgave- /servicekatalog | Beskriver de forvaltnings- og forretningsopgaver (eller services), der indgår i projektets løsning. (Overblik) | Dokumentation, der beskriver forretningsservices og modtagere af disse. Termen ”opgaver” anvendes her som samlebegreb for termer, som forretningsservices, forretningstjenester eller (hovedforretnings)funktioner. Oversigten kan relateres til aktører i form af, hvem der udfører og modtager. | Liste, tabel eller ArchiMatediagram | AR 5.1<br><br>AR 5.2 |
 | Domænemodel | Beskriver de faglige eller organisatoriske domæner. | Forretningsoverblik der kan omfatte aktører og evt. systemer. Fx et organisationsdiagram med en opdeling i sundhed/social, region/kommune eller organisatoriske enheder. | Diagram og tekst | AR 5.1<br><br>AR 5.2 |
@@ -1154,7 +1154,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Information**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Centrale forretningsobjekter | Beskriver de væsentligste forretningsobjekter, som løsningen skal håndtere. (Overblik) | Anvendes fx til scope projektet og udpege områder for semantisk standardisering samt identificere afhængigheder til andre løsninger. Især vigtig hvor veldefinerede data skal kunne udveksles mellem systemer / komponenter. Også værdifuld som grundlag for sikkerhedsvurdering. | Archimate diagram | AR 2.1<br><br>AR 6.1 |
 | Begrebsliste/-model | Beskriver begreber med definitioner (liste) og eventuelt relationer (model). | I praksis er det en uddybning af forretningsobjektmodellen. Kan udformes som en UML model eller en liste. | Liste eller UML diagram | AR 6.1<br><br>AR 6.2 |
@@ -1167,7 +1167,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Applikation**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Systemlandskab / kontekstdiagram | Beskriver konteksten for de applikationskomponenter, der er i spil i løsningen. (Overblik) | Et væsentligt input til målarkitektur med fokus på løsningens eksterne snitflader og datadeling. Kan fx også sætte applikationskomponenter i relation til de vigtigste aktører og anvendelser. | Diagram, fx ArchiMate | AR 2.1<br><br>AR 7.1 |
 | Applikationslandskab +/- integration | Beskriver applikationskomponenter og integrationer. (Overblik) | Skal omfatte integrationer til både andre interne og eksterne løsninger. | ArchiMate diagram | AR 2.1<br><br>AR 7.1 |
@@ -1182,7 +1182,7 @@ Det bemærkes, at de nævnte produkter er udtryk for et generelt udvalg og skal 
 
 **Infrastruktur**
 
-| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
+| Arkitekturproduktnavn | Beskrivelse (kort) | Kommentarer | Forslag til format | AR nr. |
 | --- | --- | --- | --- | --- |
 | Infrastrukturkoncept og -mønstre | Beskriver tilgang til de grundlæggende teknologiservices. (Overblik) | Valg af teknologier, platforme og infrastrukturansvar, der sætter de grundlæggende tekniske rammer for løsningen. Fx om der bruges cloud computing og fælles infrastrukturservices. Et væsentligt input til målarkitektur og migrationsstrategi. | Tekst, tabel, evt diagram i ArchiMate | AR 8.1 |
 | Infrastrukturlandskab | Beskriver de vigtigste teknologiservices og infrastrukturkomponenter. (Overblik) | Omfatter fx platform og komponenter til drift, integrationer, brugerrettighedsstyring og sikkerhed. Fokus på delte (infrastruktur)applikationer de applikationer der drives internt og evt. snævert knyttet til den enkelte løsning. | ArchiMate diagram | AR 8.1 |

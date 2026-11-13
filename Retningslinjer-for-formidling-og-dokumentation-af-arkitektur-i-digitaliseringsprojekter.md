@@ -163,7 +163,7 @@ Følgende interessenter er generelt relevante at tænke ind ift. afklaringen af 
 * Ejer - herunder topledelse, opgaveansvarlig, produktejer, dataejer, it-systemejer, it-serviceejer. Interessent med ansvar for business case.
 * Forretning – herunder ledere, specialister og medarbejdere, som er udførende i opgavevaretagelse og produktleverance.
 * Bruger - herunder brugertyper og målgrupper blandt borgere, virksomheder og medarbejdere samt andre brugere af systemet. Kan også optræde som datasubjekt i forhold til ”mine data”.
-* Projektleder - herunder også projektmedarbejdere med ansvar for anskaffelse.
+* Projektleder - herunder også projektmedarbejdere med ansvar for .
 * Arkitekt/udvikler - herunder arkitekter med interesse på vegne af de ansvarlige for strategi og målsætning og et helhedssyn på arkitekturen som fx enterprise arkitekt og løsningsarkitekt. Specialiserede interessenter på kundesiden såsom forretningsarkitekter, dataarkitekter, applikationsarkitekter, udviklere, UX’ere og servicedesignere, testansvarlige samt teknologiarkitekter.
 * Juraansvarlig – herunder jurister knyttet til et givent projekt, men også politikere, lovgivere og lovfortolkere samt rettighedshavere.
 * Sikkerhedsansvarlig – særligt Data Protection Officer (DPO), men også andre roller med ansvar for håndtering af sikkerhed på forskellige områder (data, løsning, infrastruktur, drift), jf. ISO 27000x-serien.
@@ -337,7 +337,7 @@ Disse forhold er det strategiske udgangspunkt for at definere den overordnede m�
 
 ## Arkitekturprodukter
 
-I dette kapitel beskrives en række arkitekturprodukter, som offentlige digitaliseringsprojekter bør som led i projektplanlægningen. De udvalgte produkter indgår typisk i arbejdet med at udarbejde mål- og løsningsarkitekturen i digitaliserings- og anskaffelsesprojekter. De beskrevne arkitekturprodukter er udvalgt fordi, de 
+I dette kapitel beskrives en række arkitekturprodukter, som offentlige digitaliseringsprojekter bør som led i projektplanlægningen. De udvalgte produkter indgår typisk i arbejdet med at udarbejde mål- og løsningsarkitekturen i digitaliserings- og sprojekter. De beskrevne arkitekturprodukter er udvalgt fordi, de 
 
 * Understøtter de to primære arkitekturleverancer i et projekt: Målarkitektur og løsningsarkitektur
 * Understøtter overordnet design, styring, koordinering, review og kvalitetssikring.
@@ -351,7 +351,7 @@ Bemærk, at det ikke er en udtømmende liste. I et projekt kan der være andre d
 
 *Figur 8 Nogle arkitekturprodukter går på tværs af FDA-perspektiverne*
 
-Det skal også bemærkes, at et digitaliserings- eller anskaffelsesprojekts egen forretningskontekst og proces sætter rammer for arkitekturen og denne er derfor taget med i form af en række proces- og ledelsesdokumenter, der fx hører under en projektmodel, fx interessentanalyse og forretningsmål, eller hører under porteføljestyring og sikkerhedshåndtering på virksomhedsniveau, fx arkitekturprincipper og sikkerhedsstrategi/mønster. 
+Det skal også bemærkes, at et digitaliserings- eller sprojekts egen forretningskontekst og proces sætter rammer for arkitekturen og denne er derfor taget med i form af en række proces- og ledelsesdokumenter, der fx hører under en projektmodel, fx interessentanalyse og forretningsmål, eller hører under porteføljestyring og sikkerhedshåndtering på virksomhedsniveau, fx arkitekturprincipper og sikkerhedsstrategi/mønster. 
 
 Et arkitekturprodukt kan dække et eller flere perspektiver og omfatte flere visninger. I denne sammenhæng er de enkelte produkter for overblikkets skyld placeret ind på én enkelt hylde. Figur 8 viser at nogle arkitekturprodukter går på tværs af FDA-perspektiverne: Opgaver, Information, Applikation og Infrastruktur. Det gælder fx målarkitektur og sikkerhedsmodel, der repræsenterer forskellige helhedsbilleder på de væsentligste egenskaber ved arkitekturen. En række arkitekturprodukter indenfor de tværgående FDA-perspektiver kan dog først dannes og udfoldes i takt med, at der udvikles arkitekturprodukter inden for de øvrige FDA-perspektiver. I praksis udarbejdes de fleste arkitekturprodukter rent procesmæssigt typisk med forskellige grader af iterationer og parallelitet. En række af produkterne udarbejdes som et udgangspunkt/grundlag for andre. Produkterne i de fire tværgående FDA-perspektiver er rammesættende i forhold til produkterne i de øvrige FDA-perspektiver.
 
@@ -1224,9 +1224,9 @@ Med en konto får du adgang til omfattende og veldokumenteret reference­materia
 ## Fodnoter
 
 [1]() Dokumentet Standard for beskrivelse af it-systemer er publiceret i december 2019, og patch opdateret i januar 2021. 
-* [Intro: It-System | FDA](https://arkitektur.digst.dk/specifikationer/it-system)
-* [Standard for beskrivelse af it-systemer - Basisprofil](https://digst.github.io/IT-System-AP/SYS-AP/docs/)
+* Intro: It-System | FDA
+* Standard for beskrivelse af it-systemer - Basisprofil
  
-[2]() ISO/IEC 15288 (Systems and software engineering -- System life cycle processes)  
+[2]() ISO/IEC 15288 (Systems and software engineering - System life cycle processes)  
 [3]() I en tidligere version af statens it-projektmodel var dette en selvstændig fase mellem analyse- og gennemførelsesfasen.  
 
